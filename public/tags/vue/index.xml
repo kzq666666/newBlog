@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vue on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/tags/vue/</link>
+    <description>Recent content in vue on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Tue, 04 Dec 2018 18:21:14 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vue</title>
+      <link>https://kangzhiqing.com/post/vue/</link>
+      <pubDate>Tue, 04 Dec 2018 18:21:14 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/vue/</guid>
+      <description>坑 在使用axios拦截器的时候，在vue-router的钩子函数created是不会触发的 scroll 在写websocket网页版聊天时，有个需求时每</description>
+    </item>
+    
+  </channel>
+</rss>

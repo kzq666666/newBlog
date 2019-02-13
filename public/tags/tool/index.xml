@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tool on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/tags/tool/</link>
+    <description>Recent content in tool on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Tue, 30 Oct 2018 09:11:33 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://kangzhiqing.com/post/hugo/</link>
+      <pubDate>Tue, 30 Oct 2018 09:11:33 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/hugo/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。我的博客网站就是通过Hugo来进行部署的,感谢Hugo,让我不</description>
+    </item>
+    
+  </channel>
+</rss>

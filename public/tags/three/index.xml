@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>three on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/tags/three/</link>
+    <description>Recent content in three on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Fri, 16 Nov 2018 23:43:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/tags/three/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Three.js</title>
+      <link>https://kangzhiqing.com/post/threejs/</link>
+      <pubDate>Fri, 16 Nov 2018 23:43:52 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/threejs/</guid>
+      <description>1.scene 场景 scene就是一个可以放置物体、灯光的3D空间，和现实中的一个空间相似，可大可小 //创建一个场景 var scene = new THREE.Scene(); 2.camera 相机 camera决定看一个</description>
+    </item>
+    
+  </channel>
+</rss>

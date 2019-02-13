@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Life on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/life/</link>
+    <description>Recent content in Life on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Fri, 14 Dec 2018 09:46:57 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>林语堂《苏东坡传》读后感</title>
+      <link>https://kangzhiqing.com/life/dongpo/</link>
+      <pubDate>Fri, 14 Dec 2018 09:46:57 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/life/dongpo/</guid>
+      <description>和林语堂先生在《苏东坡传》开篇写的那样，我写这篇读后感并没有什么特别的理由，只是以此为乐而已，且此篇读后感和以往写的不同，算是一篇读书笔记吧</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en-zh">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.3.0">
+  <meta name="generator" content="Hugo 0.53" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="SquareRootTwo">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="1. return !1 和 return false 以及 return 0! 和 return true写法有什么区别 tween.min.js的源码 update: function(c) { if (0 === a.length) return !1; for ( var b = 0, d = a.length, c = void 0 !== c ? c : Date.now(); b &lt; d; )">
+
+  
+  <link rel="alternate" hreflang="en-zh" href="https://kangzhiqing.com/post/questions/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-128390257-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="https://kangzhiqing.com/index.xml" type="application/rss+xml" title="呼啦呼啦的根号二">
+  <link rel="feed" href="https://kangzhiqing.com/index.xml" type="application/rss+xml" title="呼啦呼啦的根号二">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://kangzhiqing.com/post/questions/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="呼啦呼啦的根号二">
+  <meta property="og:url" content="https://kangzhiqing.com/post/questions/">
+  <meta property="og:title" content="Q &amp;&amp; A | 呼啦呼啦的根号二">
+  <meta property="og:description" content="1. return !1 和 return false 以及 return 0! 和 return true写法有什么区别 tween.min.js的源码 update: function(c) { if (0 === a.length) return !1; for ( var b = 0, d = a.length, c = void 0 !== c ? c : Date.now(); b &lt; d; )"><meta property="og:image" content="https://kangzhiqing.com/img/icon-192.png">
+  <meta property="og:locale" content="en-zh">
+  
+  <meta property="article:published_time" content="2018-11-16T10:01:19&#43;08:00">
+  
+  <meta property="article:modified_time" content="2018-11-16T10:01:19&#43;08:00">
+  
+
+  
+
+  
+
+  <title>Q &amp;&amp; A | 呼啦呼啦的根号二</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1></h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">呼啦呼啦的根号二</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#study">
+            
+            <span>Study</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#life">
+            
+            <span>Life</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#tags">
+            
+            <span>Tags</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Q &amp;&amp; A</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2018-11-16 10:01:19 &#43;0800 CST" itemprop="datePublished">
+<meta content="2018-11-16 10:01:19 &#43;0800 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>2018-11-16</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+      3398 words
+    
+  </span>
+  
+
+  
+  
+
+  
+
+  
+    
+
+  
+  <div class="article-tags">
+      
+      <a class="badge badge-light" href="/tags/question/">Question</a>
+      
+    </div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h3 id="1-return-1-和-return-false-以及-return-0-和-return-true写法有什么区别">1. return !1 和 return false 以及 return 0! 和 return true写法有什么区别</h3>
+
+<pre><code class="language-js">tween.min.js的源码
+update: function(c) {
+        if (0 === a.length) return !1;
+        for (
+          var b = 0, d = a.length, c = void 0 !== c ? c : Date.now();
+          b &lt; d;
+
+        )
+          a[b].update(c) ? b++ : (a.splice(b, 1), d--);
+        return !0;
+      }
+</code></pre>
+
+<h3 id="2-void-和-undefined-有什么区别-详细请看-这里-https-segmentfault-com-a-1190000000474941">2. void 和 undefined 有什么区别(详细请看<a href="https://segmentfault.com/a/1190000000474941" target="_blank">这里</a>)</h3>
+
+<p>A : void是一种操作符,无论void后的表达式是什么，void操作符都会返回undefined.但undefined不是<a href="https://baike.baidu.com/item/%E4%BF%9D%E7%95%99%E5%AD%97" target="_blank"><code>保留字</code></a>,undefined可以作为变量使用,所以在使用undefined作为变量名的时候容易出错,因此使用void可以确保取到undefined值</p>
+
+<pre><code class="language-js">function x() {
+   var undefined = 'hello world',
+       f = {},
+       window = {
+           'undefined': 'joke'
+       };
+   console.log(undefined);// hello world
+   console.log(window.undefined); //joke
+   console.log(f.a === undefined); //false
+   console.log(f.a === void 0); //true
+}
+</code></pre>
+
+<ul>
+<li>void还有一个经常使用到的作用,就是在a标签的href中使用,填充href,使它不跳转而是进行一些交互,比如在许多网站中的收藏,快转功能.</li>
+</ul>
+
+<pre><code class="language-html">&lt;a href=&quot;javascript:void(0)&quot;&gt;
+</code></pre>
+
+<ul>
+<li>生成一个空的src的img标签的最好的方式似乎是使用<code>src=&quot;javascript:void(0)&quot;</code>
+<br>详情请看<a href="https://stackoverflow.com/questions/5775469/whats-the-valid-way-to-include-an-image-with-no-src" target="_blank">What&rsquo;s the valid way to include an image with no src?</a></li>
+</ul>
+
+<p><br> Tip : 关于此问题更加详细请看<a href="https://segmentfault.com/a/1190000000474941" target="_blank">这里</a></p>
+
+<h3 id="3-null-a-和-a-null的区别">3.null!=a 和 a!=null的区别</h3>
+
+<h3 id="4-常见的获取元素宽高的方式及其区别">4.常见的获取元素宽高的方式及其区别</h3>
+
+<ul>
+<li>dom.style.width/height
+<br>这种方式只能获取dom元素<code>内联样式</code>的宽高，而style标签的样式和外联样式使获取不到的。修改样式用这个还是可以的</li>
+<li>dom.currentStyle.width/height
+<br>无论哪种样式都可以获得，不过只有IE浏览器支持(我亲测了chrome和firefox都是不兼容的)。只读</li>
+<li>window.getComputedStyle(element,[preudoElt]).width/height
+<br>首先getComputedStyle(element,[preudoElt])返回的是一个实时的css属性对象preudoElt是伪元素(可选),对于普通元素就是设置为null即可。兼容性更好(IE、firefox、chrome都可以)。只读</li>
+<li>dom.offsetWidth/offsetHeight
+<br>兼容性很好，常用，且返回值是数字，不带单位。只读</li>
+<li>dom.getBoundingClientRect().width/height
+<br>getBoundingClientRect()返回的是一个元素的绝对位置的DomRect对象，里面有top、bottom、left、right、width、height,IE不兼容getBoundingClientRect(),IE兼容getClientRects(),其他浏览器都兼容，返回值是数值，不带单位。只读</li>
+</ul>
+
+<p><br>以上，个人觉得offsetWidth比较方便一些</p>
+
+<h3 id="5-window-onload和-document-ready-方法的区别">5.window.onload和$(document).ready()方法的区别</h3>
+
+<p>A：window.onload事件会在页面所有元素加载完成后立即发生。而$(document).ready()是在DOM树加载完毕之后对其进行操作</p>
+
+<h3 id="6-v-if和v-else使用应该注意什么">6.v-if和v-else使用应该注意什么？</h3>
+
+<ul>
+<li>他们必须是兄弟节点！！！</li>
+<li>v-else上一个节点必须是v-if！！！
+<br /></li>
+</ul>
+
+<h3 id="7-常见的水平居中的方法">7. 常见的水平居中的方法？</h3>
+
+<ul>
+<li>text-align:center;  (具有文本特性的元素水平居中,display为inline或者为inline-block)</li>
+<li>margin:0 auto (块级元素，且自身要有宽度)</li>
+<li>position:left;left:50%;margin-left:-元素高度/2;     (元素高度已知)</li>
+<li>position:left;left:50%;transform:translateX(-50%); (元素高度未知)</li>
+<li>display:flex;justify-content:center;<br /></li>
+</ul>
+
+<h3 id="8-常见的垂直居中的方法">8. 常见的垂直居中的方法？</h3>
+
+<h3 id="9-常见的水平垂直居中的方法">9. 常见的水平垂直居中的方法？</h3>
+
+<h3 id="10-calc使用注意事项">10. calc使用注意事项</h3>
+
+<p>运算符前后必须要有空格，如calc(100% - 20px);</p>
+
+<h3 id="11-background-size中cover和contain有什么区别">11. background-size中cover和contain有什么区别</h3>
+
+<p>两者都是等比例缩放。
+<br>cover：如果容器的宽高比和照片的宽高比不同，那么图片就会等比例缩放到塞满整个容器，图片多余的部分就会被裁剪
+<br>contain：图片等比列缩放至全部都展示出来，所以可能会有留白</p>
+
+<h3 id="12-js中关系运算符中大于和小于是怎么比较的">12. js中关系运算符中大于和小于是怎么比较的？</h3>
+
+<ul>
+<li>字符串和字符串比较，比较第一个不同的字符的ASCII码</li>
+<li>数字和纯数字字符串比较，将纯数字字符串转换为数字比较</li>
+<li>数字和非纯数字字符串比较，返回false</li>
+<li>特殊字符 null 和 undefined 进行比较的时候，null == undefined，undefined和除了null的其他所有值进行比较都是false</li>
+</ul>
+
+<pre><code class="language-js">// 关系运算符 和 相等运算符 并不是一个类别的.
+// 关系运算符,在设计上,总是需要运算元尝试转为一个number . 而相等运算符在设计上,则没有这方面的考虑.
+// 最重要的一点, 不要把 拿 a &gt; b , a == b 的结果 想当然的去和 a &gt;= b 建立联系. 正确的符合最初设计思想的关系是 a &gt; b 与 a &gt;= b是一组 . a == b 和其他相等运算符才是一组. 比如 a === b , a != b, a !== b .
+null &gt; 0 // null尝试转型为number，则为0，所以结果是false
+null &gt;=0 // null尝试转型为number，则为0，所以结果是true
+null == 0 // null在设计上不尝试转型，所以结果是false
+</code></pre>
+
+<p>关于null的问题，参考了关于这个问题的回答=&gt;<a href="https://www.jb51.net/article/106370.htm" target="_blank">传送门</a></p>
+
+<h3 id="13-js引擎中对变量的查询方式lhs和rhs有什么区别">13.JS引擎中对变量的查询方式LHS和RHS有什么区别？</h3>
+
+<p>LHS和RHS是JS引擎的两种查找方式，赋值操作的左侧和右侧
+<br>LHS：找到目标，对其赋值，赋值操作的目标
+<br>RHS：找到源头，得到ta的原值，赋值操作的源头
+<br>不同的查找方式结果不一样，如果查找到最顶层的全局作用域下也没有找到变量的话，RHS查找就会抛出异常，而LHS查找方式在非严格模式会在全局作用域隐式的创建该变量，而严格模式则一样会抛出ReferenceError（ES5推出的严格模式不允许自动或者隐式的创建变量）
+<br>简单的说就是，如果查找的目的是对变量进行赋值，那么就会使用LHS查询，如果目的是获取变量的值，就会使用RHS查询。</p>
+
+<h3 id="14-什么是闭包">14.什么是闭包？</h3>
+
+<p>当函数可以记住并访问所在的词法作用域，即使函数是在当前词法作用域之外执行，这时就产生了闭包。函数的执行期上下文没有被销毁</p>
+
+<h3 id="15-object-create-null-和-创建空对象的方式有什么区别">15.Object.create(null)和{}创建空对象的方式有什么区别？</h3>
+
+<p>Object.create(null)创建的对象比{}更‘空’，因为前者是没有创建Object.prototype原型的，而{}则会创建这个原型。</p>
+
+<h3 id="16-如何判断this指向">16.如何判断this指向？</h3>
+
+<p>1.由new调用？绑定到新创建的对象
+2.由call或者apply或者bind调用？绑定到指定的对象
+3.由上下文对象调用？绑定到那个上下文对象
+4.默认：在严格模式下绑定到undefined，非严格模式绑定到全局对象</p>
+
+<h3 id="17-什么是事件冒泡和捕获-一个事件的执行顺序是怎样的">17.什么是事件冒泡和捕获？一个事件的执行顺序是怎样的？</h3>
+
+<p>事件冒泡和捕获都是事件的执行顺序，事件捕获是从上到下依次执行，而事件冒泡是从下到上执行。DOM事件流分三个阶段：捕获阶段=&gt; 目标阶段（真正的目标节点正在处理事件的阶段） =&gt; 冒泡阶段，就好比猛地将一个瓶子扔到水里，它会下沉一段距离，然后再浮上来。</p>
+
+<h3 id="18-什么是事件委托-有什么用">18.什么是事件委托？有什么用？</h3>
+
+<p>事件委托是利用事件冒泡的原理，避免过多的操作DOM元素，利用其父级元素完成相应的事件操作。优化页面。</p>
+
+<h3 id="19-addeventlistener-和-onclick一类-绑定事件有什么区别">19.addEventListener 和 onclick一类 绑定事件有什么区别？</h3>
+
+<ul>
+<li>addEventListener可以给一个事件绑定不同的监听器，而onclick一类只能一个事件只能绑定一个，同时绑定多个会覆盖。</li>
+<li>addEventListener更加灵活，可以选择事件执行顺序是冒泡（第三个参数为false）还是捕获（第三个参数为true）</li>
+</ul>
+
+<h3 id="20-proto-和-prototype有什么区别">20. <strong>proto</strong> 和 prototype有什么区别？</h3>
+
+<h3 id="21-instanceof的用法">21. instanceof的用法？</h3>
+
+<h3 id="22-常见js迭代器">22. 常见js迭代器？</h3>
+
+<ul>
+<li>forEach</li>
+<li>some</li>
+<li>every</li>
+<li>for&hellip;in
+遍历索引</li>
+<li>for&hellip;of
+遍历元素</li>
+</ul>
+
+<h3 id="23-lf-和-crlf-换行符有什么不同">23.LF 和 CRLF 换行符有什么不同?</h3>
+
+<h4 id="一些题目">一些题目</h4>
+
+<p>1 关于this指向</p>
+
+<pre><code class="language-js">// this指向的是调用它的对象，如果没有直接调用对象，会指向undefined或者window，一般都会指向window，在严格模式下才会指向undefined
+function a(xx){
+  this.x = xx;
+  return this;
+};
+var x = a(5);  // window.x = 5 , return this,  x = window
+var y = a(6);  // window.x = 6 , return this,  y = window
+console.log(x.x); // x = 6 , x.x =&gt; undefined
+console.log(y.x); // y = window , widow.x = 6
+
+// -----------------分割线-----------------------
+var name = '222';
+var a = {
+  name:'111',
+  say:function(){
+    console.log(this.name);  //谁调用this就指向谁
+  }
+}
+var fun = a.say;   
+fun();   // this指向window, this.name = '222'
+a.say(); // this指向a, this.name = '111'
+var b = {
+  name:'333',
+  say:function(fun){
+    fun();
+  }
+}
+b.say(a.say);  
+// say:function(fun){
+//    this;这里的this指向b
+//    fun();  fun里面的this是在预编译过程中指向window的
+//}
+// 所以这里的this.name = '222'
+fun()   // this指向window, this.name = '222'
+b.say = a.say;  
+b.say();   // this.name = '333'
+
+// -------------------分割线--------------------
+function Point(x, y){
+  this.x = x;
+  this.y = y;
+  this.moveTo = function(x, y){
+    this.x = x;
+    this.y = y;
+    console.log(this.x + &quot;,&quot; + this.y);
+  }
+}
+var p1 = new Point(0,0);
+var p2 = {x:0,y:0};
+p1.moveTo(1,1); // 1,1
+p1.moveTo.apply(p2,[10,10]); // 10,10
+
+// -------------------分割线---------------
+var num = 10;
+var obj = {
+  num:0,
+  inner:{
+    num:6,
+    print:function(){
+      console.log(this.num);
+    }
+  }
+}
+num = 88; // 全局num变为88
+obj.inner.print() // 6
+var fn = obj.inner.print;
+fn(); // 88
+(obj.inner.print)(); // 6
+(obj.inner.print = obj.inner.print)(); // 0
+</code></pre>
+
+    </div>
+
+    
+
+
+    
+      
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "搜索...",
+        'results': "搜索结果",
+        'no_results': "没有找到结果"
+      };
+      const content_type = {
+        'post': "文章",
+        'project': "项目",
+        'publication' : "出版物",
+        'talk' : "演讲"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.07fbebbbf71b021c8836e1d7ecffa489.js"></script>
+
+  </body>
+</html>
+

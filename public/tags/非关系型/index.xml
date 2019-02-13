@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>非关系型 on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/tags/%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B/</link>
+    <description>Recent content in 非关系型 on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Tue, 11 Dec 2018 16:06:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/tags/%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mongodb</title>
+      <link>https://kangzhiqing.com/post/mongodb/</link>
+      <pubDate>Tue, 11 Dec 2018 16:06:49 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/mongodb/</guid>
+      <description>在学习node的时候，进行连接数据库相关操作，于是就学习了一下mongodb非关系型数据库。 mongodb操作的都是对象 基本命令汇总 show dbs 显示</description>
+    </item>
+    
+  </channel>
+</rss>

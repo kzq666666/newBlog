@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en-zh">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.3.0">
+  <meta name="generator" content="Hugo 0.53" />
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="SquareRootTwo">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Canvas 是 HTML5 新增加的一个元素,它又称为&rdquo;画布&rdquo;,主要有以下四种功能 绘制图形 绘制图表 动画效果 游戏开发 在 chrome 浏览器中,canva">
+
+  
+  <link rel="alternate" hreflang="en-zh" href="https://kangzhiqing.com/post/canvas/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-128390257-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="https://kangzhiqing.com/index.xml" type="application/rss+xml" title="呼啦呼啦的根号二">
+  <link rel="feed" href="https://kangzhiqing.com/index.xml" type="application/rss+xml" title="呼啦呼啦的根号二">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://kangzhiqing.com/post/canvas/">
+
+  
+  
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="呼啦呼啦的根号二">
+  <meta property="og:url" content="https://kangzhiqing.com/post/canvas/">
+  <meta property="og:title" content="CSS3 Canvas | 呼啦呼啦的根号二">
+  <meta property="og:description" content="Canvas 是 HTML5 新增加的一个元素,它又称为&rdquo;画布&rdquo;,主要有以下四种功能 绘制图形 绘制图表 动画效果 游戏开发 在 chrome 浏览器中,canva"><meta property="og:image" content="https://kangzhiqing.com/img/icon-192.png">
+  <meta property="og:locale" content="en-zh">
+  
+  <meta property="article:published_time" content="2018-10-31T18:52:17&#43;08:00">
+  
+  <meta property="article:modified_time" content="2018-10-31T18:52:17&#43;08:00">
+  
+
+  
+
+  
+
+  <title>CSS3 Canvas | 呼啦呼啦的根号二</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1></h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">呼啦呼啦的根号二</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#study">
+            
+            <span>Study</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#life">
+            
+            <span>Life</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#tags">
+            
+            <span>Tags</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">CSS3 Canvas</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2018-10-31 18:52:17 &#43;0800 CST" itemprop="datePublished">
+<meta content="2018-10-31 18:52:17 &#43;0800 CST" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>2018-10-31</time>
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+      1436 words
+    
+  </span>
+  
+
+  
+  
+
+  
+
+  
+    
+
+  
+  <div class="article-tags">
+      
+      <a class="badge badge-light" href="/tags/css/">CSS</a>
+      
+      <a class="badge badge-light" href="/tags/canvas/">Canvas</a>
+      
+    </div>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>Canvas 是 HTML5 新增加的一个元素,它又称为&rdquo;画布&rdquo;,主要有以下四种功能</p>
+
+<ul>
+<li>绘制图形</li>
+<li>绘制图表</li>
+<li>动画效果</li>
+<li>游戏开发</li>
+</ul>
+
+<p>在 chrome 浏览器中,canvas 的默认宽高是 300px 和 150px,写宽高的样式的时候最好写在 HTML 页面的属性值里面</p>
+
+<pre><code class="language-html">&lt;canvas width=&quot;150&quot; height=&quot;100&quot; style=&quot;border: 1px black dashed&quot;&gt;&lt;/canvas&gt;
+</code></pre>
+
+<p>一般的操作
+<br>1.获取 canvas 对象
+<br>2.获取上下文环境对象 context</p>
+
+<pre><code class="language-js">cxt = canvas.getContext(&quot;2d&quot;);
+</code></pre>
+
+<p>3.开始绘制图形</p>
+
+<h3 id="1-直线">1.直线</h3>
+
+<pre><code class="language-js">cxt.moveTo(x1,y1)   画笔移到(x1,y1)处
+cxt.LineTo(x2,y2)   画笔从起点(x1,y1)开始画线,一直到终点(x2,y2)处
+cxt.strokeStyle = &quot;red&quot;     设置线的颜色
+cxt.stroke()        用笔划线
+(tip:cxt.strokeStyle要在cxt.stroke()之前执行,否则是看不到效果的,和画画是一样的,在动笔之前把要画的东西,颜色,样式确定好
+</code></pre>
+
+<h3 id="2-描边矩形-填充矩形-清空矩形">2.描边矩形 填充矩形 清空矩形</h3>
+
+<ul>
+<li>描边矩形</li>
+</ul>
+
+<pre><code class="language-js">cxt.strokeRect(x1,y1,x2,y2)     (x1,y1)为矩形左上角坐标,(x2,y2)为矩形右下角坐标
+等价于==&gt;
+cxt.rect(x1,y1,x2,y2);
+cxt.stroke();
+</code></pre>
+
+<ul>
+<li>填充矩形</li>
+</ul>
+
+<pre><code class="language-js">cxt.fillStyle = &quot;属性值&quot;
+cxt.fillRect(x1,y1,width,height) (x1,y1)是矩形左上角坐标,width是矩形的宽度,height是矩形的高度
+等价于==&gt;
+cxt.rect(x1,y1,x2,y2);
+cxt.fill()
+</code></pre>
+
+<ul>
+<li>清空矩形</li>
+</ul>
+
+<pre><code class="language-js">cxt.clearRect(x1, y1, x2, y2);
+</code></pre>
+
+<ul>
+<li>绘制一个正 n 多边形</li>
+</ul>
+
+<pre><code class="language-html">  &lt;canvas width=&quot;100&quot; height=&quot;50&quot; style=&quot;border: 1px black dashed&quot;&gt;&lt;/canvas&gt;
+    &lt;script&gt;
+        var canvas = document.getElementsByTagName('canvas')[0]
+        var cxt = canvas.getContext('2d');      //获取上下文环境对象
+        var cvs_width = parseFloat(getComputedStyle(canvas, null).width);   //获取画布的宽
+        var cvs_height = parseFloat(getComputedStyle(canvas, null).height); //获取画布的高
+        var distanceR = distanceD = 0 
+        function createPolygon(n) {
+            var r = Math.min(cvs_width, cvs_height)/2;  //正多边形外接圆半径
+            if(Math.min(cvs_width,cvs_height)==cvs_height){
+                distanceR = (cvs_width/2) - r
+            }else{
+                distanceD = (cvs_height/2) - r
+            }
+            var degree = (2 * Math.PI) / n;     //每个角的度数
+            cxt.moveTo(0+distanceR, r+distanceD);   //初始化起点
+            for (let i = 1; i &lt; n; i++) {
+                cxt.lineTo(r - r * Math.cos(i * degree)+distanceR, r + r * Math.sin(i * degree)+distanceD);
+            }
+            cxt.closePath();
+            cxt.fillStyle = &quot;#f40&quot;;
+            cxt.fill()
+        }
+    &lt;/script&gt;
+</code></pre>
+
+<h3 id="2-曲线">2.曲线</h3>
+
+<ul>
+<li>圆形</li>
+</ul>
+
+<pre><code class="language-js">cxt.beginPath() 开始一个路径
+cxt.arc(x,y,半径,开始角度,结束角度,anticlockwise)
+// (x,y)时圆心的坐标,开始角度和结束角度都是弧度制,anticlockwise(逆时针地)为true时,逆时针绘制图形,为false时,顺时针绘制图形
+cxt.closePath() 结束一个路径
+// 描边
+cxt.strokeStyle = &quot;颜色值&quot; 
+cxt.stroke()  画线
+// 或者填充
+cxt.fillStyle()
+cxt.fill()
+</code></pre>
+
+<ul>
+<li>弧形</li>
+</ul>
+
+<pre><code class="language-js">1.arc() 
+// 和画圆基本语法一样,就是把cxt.closePath()去掉就好了
+2.arcTo(cx,cy,x2,y2,radius)
+// 控制点坐标(cx,cy) 终点坐标(x2,y2) radius是圆弧半径 起点坐标(x1,y1)由一般由moveTo()或lineTo()提供
+</code></pre>
+
+<ul>
+<li>二次贝塞尔曲线</li>
+</ul>
+
+<pre><code class="language-js">cxt.quadraticCurveTo(cx,cy,x2,y2)
+// (cx,cy)控制点坐标,(x2,y2)终点坐标,起点坐标由moveTo()或lineTo()提供
+</code></pre>
+
+<ul>
+<li>三次贝塞尔曲线</li>
+</ul>
+
+<pre><code class="language-js">cxt.bezierCurveTo(cx1,cy1,cx2,cy2,x,y)
+//(cx1,cy1)控制点1的坐标,(cx2,cy2)控制点2的坐标,(x,y)表示结束点坐标,起点坐标由moveTo()或lineTo()提供
+</code></pre>
+
+<h3 id="3-线条操作">3.线条操作</h3>
+
+<pre><code class="language-js">lineWidth   
+//线条宽度(px)
+lineCap     
+//线帽样式 Butt默认值无键帽,Round圆形键帽,Square正方形键帽
+lineJoin    
+//线条交接处样式 miter默认值尖角,round圆角,bevel斜角
+</code></pre>
+
+<h3 id="canvas应用实例">canvas应用实例</h3>
+
+<h4 id="1-星光闪闪">（1）星光闪闪</h4>
+
+<p>先上效果
+<img src="/starBG.png" style="box-shadow:1px 1px 15px grey"></p>
+
+<pre><code class="language-html">  &lt;canvas id=&quot;myCanvas&quot;&gt;&lt;/canvas&gt;
+  &lt;script&gt;
+    // 获取画布
+    var myCanvas = document.getElementById('myCanvas');
+    // 画笔
+    var ctx = myCanvas.getContext('2d');
+    // 创建一个列表存放位置信息
+    var list = [];
+    // 初始化画布
+    function init(){
+      myCanvas.width = window.innerWidth;
+      myCanvas.height = window.innerHeight;
+    }
+    init();
+    // 每当窗口大小变化的时候重新初始化
+    window.onresize = init;
+    // 初始化位置
+    for(let i=0; i&lt;777; i++){
+      // 圆点的位置
+      var x = Math.random() * myCanvas.width;
+      var y = Math.random() * myCanvas.height;
+      // 圆的半径
+      var r = Math.random() * 5;
+      // 圆的偏移量,发散的移动，以中间为界限，左上的向左上角移动，右上的向右上角移动，左下向左下角移动，右下向右下角移动
+      var disX = x - myCanvas.width / 2;
+      var disY = y - myCanvas.height / 2;
+      list.push({
+        x:x,
+        y:y,
+        r:r,
+        disX:disX,
+        disY:disY
+      });
+    }
+    // 绘制函数
+   function render(){
+     // 每次都把画布更新
+     ctx.clearRect(0,0,myCanvas.width,myCanvas.height);
+     for(var i=0;i&lt;list.length;i++){
+       var item = list[i];
+       // 圆点移动
+       item.x += item.disX / 50;
+       item.y += item.disY / 50
+       // 判断小圆点消失
+       if(item.x &lt; 0 || item.y&lt;0 ||item.x&gt;myCanvas.width || item.y &gt; myCanvas.height){
+         // 每次消失重新生成圆点
+         item.x = Math.random() * myCanvas.width;
+         item.y = Math.random() * myCanvas.height;
+         item.disX = item.x - myCanvas.width/2;
+         item.disY = item.y - myCanvas.height/2;
+       }
+       // 开始绘制
+       ctx.beginPath();
+       // 填充颜色
+       ctx.fillStyle = &quot;rgb(&quot;+random(0,255)+','+random(0,255)+','+random(0,255)+')';
+       // 绘制圆
+       ctx.arc(item.x,item.y,item.r,0,Math.PI*2,false);
+       ctx.fill();
+     }
+     // 每40毫秒重新绘制
+     setTimeout(render,40);
+   }
+   render();
+   function random(left,right){
+     return Math.random() * (right-left+1) + left
+   }
+  &lt;/script&gt;
+</code></pre>
+
+    </div>
+
+    
+
+
+    
+      
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+      
+      
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "搜索...",
+        'results': "搜索结果",
+        'no_results': "没有找到结果"
+      };
+      const content_type = {
+        'post': "文章",
+        'project': "项目",
+        'publication' : "出版物",
+        'talk' : "演讲"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.07fbebbbf71b021c8836e1d7ecffa489.js"></script>
+
+  </body>
+</html>
+

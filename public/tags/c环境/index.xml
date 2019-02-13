@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C环境 on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/tags/c%E7%8E%AF%E5%A2%83/</link>
+    <description>Recent content in C环境 on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Tue, 27 Nov 2018 18:39:26 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/tags/c%E7%8E%AF%E5%A2%83/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VScode配置C环境</title>
+      <link>https://kangzhiqing.com/post/vscode_c/</link>
+      <pubDate>Tue, 27 Nov 2018 18:39:26 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/vscode_c/</guid>
+      <description>需要写一些关于C的实验报告，老师给的VC++6.0感觉很难用(字体小而且难看)，于是乎就想用我经常用的vscode编辑器来写C，上网百度了一</description>
+    </item>
+    
+  </channel>
+</rss>

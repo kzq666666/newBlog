@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>posts on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/post/</link>
+    <description>Recent content in posts on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Wed, 23 Jan 2019 17:51:53 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RegExp</title>
+      <link>https://kangzhiqing.com/post/regexp/</link>
+      <pubDate>Wed, 23 Jan 2019 17:51:53 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/regexp/</guid>
+      <description>Regular Expression 正则表达式：匹配特殊字符或有特殊搭配原则的字符的最佳选择 创建方式 直接量 new RegExp(); // 直接量 var reg = /abc/ ; // new RegExp(); var reg = new RegExp(pattern. attribute); var reg = new RegExp(&amp;quot;abc&amp;quot;,&amp;quot;i&amp;quot;) var reg = new RegExp(/abc/i); 修饰符</description>
+    </item>
+    
+    <item>
+      <title>ES6</title>
+      <link>https://kangzhiqing.com/post/es6/</link>
+      <pubDate>Fri, 04 Jan 2019 11:03:38 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/es6/</guid>
+      <description>let 和 const ES6 新加了两种声明变量的方式，一个是 let，一个是 const。 let 和 const 声明变量有自己的块级作用域（在 for 循环中用 let 声明的变量不会泄露到外部）</description>
+    </item>
+    
+    <item>
+      <title>数据结构</title>
+      <link>https://kangzhiqing.com/post/datastructure/</link>
+      <pubDate>Wed, 26 Dec 2018 09:20:11 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/datastructure/</guid>
+      <description>感谢邱老师这一个学期的数据结构课的教导，让我了解到什么是数据结构和其重要性，以及相关的算法和实现。 这是一篇关于数据结构的复习。 基本概念 1.程</description>
+    </item>
+    
+    <item>
+      <title>Mongodb</title>
+      <link>https://kangzhiqing.com/post/mongodb/</link>
+      <pubDate>Tue, 11 Dec 2018 16:06:49 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/mongodb/</guid>
+      <description>在学习node的时候，进行连接数据库相关操作，于是就学习了一下mongodb非关系型数据库。 mongodb操作的都是对象 基本命令汇总 show dbs 显示</description>
+    </item>
+    
+    <item>
+      <title>Element Ui</title>
+      <link>https://kangzhiqing.com/post/element-ui/</link>
+      <pubDate>Tue, 04 Dec 2018 21:47:47 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/element-ui/</guid>
+      <description>之所以用别人造好的轮子，就是觉得自己的设计水平很差，脑子也没有很多的样式储备，写出来的样式有点丑，于是乎就想用一用类似BootStrap、u</description>
+    </item>
+    
+    <item>
+      <title>Vue</title>
+      <link>https://kangzhiqing.com/post/vue/</link>
+      <pubDate>Tue, 04 Dec 2018 18:21:14 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/vue/</guid>
+      <description>坑 在使用axios拦截器的时候，在vue-router的钩子函数created是不会触发的 scroll 在写websocket网页版聊天时，有个需求时每</description>
+    </item>
+    
+    <item>
+      <title>SomeStyle</title>
+      <link>https://kangzhiqing.com/post/somestyle/</link>
+      <pubDate>Tue, 04 Dec 2018 17:08:26 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/somestyle/</guid>
+      <description>Header Header #fbfbfb Table 偶数行：#ddd; 单行: #fff; Font Border Border 很淡的那种 #f4f4f4 a #42b983 box-shadow rgba(0, 0, 0, 0.12/0.24) Button rgb(233,104,107)</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://kangzhiqing.com/post/docker/</link>
+      <pubDate>Thu, 29 Nov 2018 16:25:34 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/docker/</guid>
+      <description>记录学习docker的过程 特性 标准化 加速开发和构建流程，方便测试。容器可以在开发环境构建，轻松的提交到测试环境，并最终进入生产环境 docke</description>
+    </item>
+    
+    <item>
+      <title>VScode配置C环境</title>
+      <link>https://kangzhiqing.com/post/vscode_c/</link>
+      <pubDate>Tue, 27 Nov 2018 18:39:26 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/vscode_c/</guid>
+      <description>需要写一些关于C的实验报告，老师给的VC++6.0感觉很难用(字体小而且难看)，于是乎就想用我经常用的vscode编辑器来写C，上网百度了一</description>
+    </item>
+    
+    <item>
+      <title>Node</title>
+      <link>https://kangzhiqing.com/post/node/</link>
+      <pubDate>Tue, 27 Nov 2018 17:04:59 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/node/</guid>
+      <description>开此篇记录下学习node的过程和一些笔记 事件驱动、非堵塞、单线程 Node.js是一个非阻塞的系统，当调用一些需要阻塞的等待或者事件，node</description>
+    </item>
+    
+    <item>
+      <title>Tween.js</title>
+      <link>https://kangzhiqing.com/post/tweenjs/</link>
+      <pubDate>Sun, 18 Nov 2018 11:22:48 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/tweenjs/</guid>
+      <description>tween.js - http://github.com/sole/tween.js JavaScript tweening engine for easy animations, incorporating optimised Robert Penner&amp;rsquo;s equations. JavaScript补间引擎，可轻松制作动画，并采用优化的Robert Penner方程。 1.基本用法(Usage</description>
+    </item>
+    
+    <item>
+      <title>Command</title>
+      <link>https://kangzhiqing.com/post/command/</link>
+      <pubDate>Sat, 17 Nov 2018 13:49:47 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/command/</guid>
+      <description>Linux基本操作 ls -ah 查看所有文件,包括隐藏文件 pwd print working directory 打印当前路径 mv oldname.js newname.js 重命名 cat 查看当前文件 cp: cp &amp;lt;file&amp;gt; &amp;lt;path&amp;gt; 复制file到path路径 cp &amp;lt;file&amp;gt; &amp;lt;copy_name&amp;gt; 复制f</description>
+    </item>
+    
+    <item>
+      <title>Three.js</title>
+      <link>https://kangzhiqing.com/post/threejs/</link>
+      <pubDate>Fri, 16 Nov 2018 23:43:52 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/threejs/</guid>
+      <description>1.scene 场景 scene就是一个可以放置物体、灯光的3D空间，和现实中的一个空间相似，可大可小 //创建一个场景 var scene = new THREE.Scene(); 2.camera 相机 camera决定看一个</description>
+    </item>
+    
+    <item>
+      <title>Q &amp;&amp; A</title>
+      <link>https://kangzhiqing.com/post/questions/</link>
+      <pubDate>Fri, 16 Nov 2018 10:01:19 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/questions/</guid>
+      <description>1. return !1 和 return false 以及 return 0! 和 return true写法有什么区别 tween.min.js的源码 update: function(c) { if (0 === a.length) return !1; for ( var b = 0, d = a.length, c = void 0 !== c ? c : Date.now(); b &amp;lt; d; )</description>
+    </item>
+    
+    <item>
+      <title>Css3Property</title>
+      <link>https://kangzhiqing.com/post/css3property/</link>
+      <pubDate>Thu, 01 Nov 2018 21:22:22 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/css3property/</guid>
+      <description>perspective 设置元素被查看位置的视图 div{ perspective:500px; }</description>
+    </item>
+    
+    <item>
+      <title>Typeof</title>
+      <link>https://kangzhiqing.com/post/typeof/</link>
+      <pubDate>Thu, 01 Nov 2018 17:52:19 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/typeof/</guid>
+      <description>typeof返回一个字符串,表示为经计算的操作数的类型 typeof(操作数)/typeof 操作数 ()是可以省略的 返回有五种基本类型:stri</description>
+    </item>
+    
+    <item>
+      <title>CSS3 Canvas</title>
+      <link>https://kangzhiqing.com/post/canvas/</link>
+      <pubDate>Wed, 31 Oct 2018 18:52:17 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/canvas/</guid>
+      <description>Canvas 是 HTML5 新增加的一个元素,它又称为&amp;rdquo;画布&amp;rdquo;,主要有以下四种功能 绘制图形 绘制图表 动画效果 游戏开发 在 chrome 浏览器中,canva</description>
+    </item>
+    
+    <item>
+      <title>Hugo主题sam</title>
+      <link>https://kangzhiqing.com/post/sam/</link>
+      <pubDate>Tue, 30 Oct 2018 22:22:27 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/sam/</guid>
+      <description>sam ├─archetypes ├─exampleSite │ ├─content │ │ ├─gallery │ │ │ └─images │ │ │ └─small │ │</description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://kangzhiqing.com/post/mysql/</link>
+      <pubDate>Tue, 30 Oct 2018 17:06:30 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/mysql/</guid>
+      <description>mysql数据库是我今年暑假在家学习，当时学习的时候写了一些笔记，现在把笔记整理到博客上。 事务(ACID规则) 原子性(Atomicity)：</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://kangzhiqing.com/post/hugo/</link>
+      <pubDate>Tue, 30 Oct 2018 09:11:33 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/hugo/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。我的博客网站就是通过Hugo来进行部署的,感谢Hugo,让我不</description>
+    </item>
+    
+    <item>
+      <title>HelloWorld</title>
+      <link>https://kangzhiqing.com/post/helloworld/</link>
+      <pubDate>Mon, 29 Oct 2018 21:59:40 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/helloworld/</guid>
+      <description>Hello World. This is my first blog.</description>
+    </item>
+    
+  </channel>
+</rss>

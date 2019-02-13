@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dataStructure on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/tags/datastructure/</link>
+    <description>Recent content in dataStructure on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Wed, 26 Dec 2018 09:20:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/tags/datastructure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>数据结构</title>
+      <link>https://kangzhiqing.com/post/datastructure/</link>
+      <pubDate>Wed, 26 Dec 2018 09:20:11 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/datastructure/</guid>
+      <description>感谢邱老师这一个学期的数据结构课的教导，让我了解到什么是数据结构和其重要性，以及相关的算法和实现。 这是一篇关于数据结构的复习。 基本概念 1.程</description>
+    </item>
+    
+  </channel>
+</rss>

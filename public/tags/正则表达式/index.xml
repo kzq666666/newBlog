@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>正则表达式 on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</link>
+    <description>Recent content in 正则表达式 on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Wed, 23 Jan 2019 17:51:53 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RegExp</title>
+      <link>https://kangzhiqing.com/post/regexp/</link>
+      <pubDate>Wed, 23 Jan 2019 17:51:53 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/regexp/</guid>
+      <description>Regular Expression 正则表达式：匹配特殊字符或有特殊搭配原则的字符的最佳选择 创建方式 直接量 new RegExp(); // 直接量 var reg = /abc/ ; // new RegExp(); var reg = new RegExp(pattern. attribute); var reg = new RegExp(&amp;quot;abc&amp;quot;,&amp;quot;i&amp;quot;) var reg = new RegExp(/abc/i); 修饰符</description>
+    </item>
+    
+  </channel>
+</rss>

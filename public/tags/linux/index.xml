@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/tags/linux/</link>
+    <description>Recent content in linux on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Sat, 17 Nov 2018 13:49:47 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Command</title>
+      <link>https://kangzhiqing.com/post/command/</link>
+      <pubDate>Sat, 17 Nov 2018 13:49:47 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/command/</guid>
+      <description>Linux基本操作 ls -ah 查看所有文件,包括隐藏文件 pwd print working directory 打印当前路径 mv oldname.js newname.js 重命名 cat 查看当前文件 cp: cp &amp;lt;file&amp;gt; &amp;lt;path&amp;gt; 复制file到path路径 cp &amp;lt;file&amp;gt; &amp;lt;copy_name&amp;gt; 复制f</description>
+    </item>
+    
+  </channel>
+</rss>
