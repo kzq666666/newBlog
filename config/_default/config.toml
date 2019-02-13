@@ -5,35 +5,42 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Academic"
+# 网站标题
+title = "呼啦呼啦的根号二"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = ""
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`.
+# 网页最下方的版权
 copyright = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+# 谷歌分析ID
+googleAnalytics = "UA-128390257-1"
 
 # Enable comments by entering your Disqus shortname
+# 评论功能Disqus  
+# https://disqus.com/
 disqusShortname = ""
 
 ############################
 ## Advanced options below ##
 ############################
+# 高级选项
 
 # Name of Academic theme folder in `themes/`.
+# 选择主题
 theme = "academic"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+defaultContentLanguage = "zh"
+hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 paginate = 10  # Number of items per page in paginated lists.
@@ -60,3 +67,6 @@ preserveTaxonomyNames = true
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+[permalinks]
+  study = '/study/:slug'

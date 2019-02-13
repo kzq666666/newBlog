@@ -16,21 +16,26 @@ weight = 7
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
+  icon = "html5"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
+  name = "HTML"
+  description = "70%"
   
 [[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  icon = "css3-alt"
+  icon_pack = "fab"
+  name = "CSS"
+  description = "60%"  
   
 [[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  icon = "js"
+  icon_pack = "fab"
+  name = "JavaScript"
+  description = "50%"
 
+[[feature]]
+  icon = "vuejs"
+  icon_pack = "fab"
+  name = "Vue"
+  description = "35%"
 +++

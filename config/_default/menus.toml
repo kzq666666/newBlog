@@ -8,24 +8,26 @@
   url = "#about"
   weight = 1
 
+
 [[main]]
-  name = "Publications"
-  url = "#publications_featured"
+  name = "Blog"
+  url = "#posts"
   weight = 2
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Study"
+  url = "#study"
   weight = 3
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Life"
+  url = "#life"
   weight = 4
 
+
 [[main]]
-  name = "Tutorials"
-  url = "/tutorial/"
+  name = "Tags"
+  url = "#tags"
   weight = 5
 
 [[main]]
