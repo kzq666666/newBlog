@@ -6,8 +6,289 @@
     <description>Recent content in 呼啦呼啦的根号二 on 呼啦呼啦的根号二</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
-    <lastBuildDate>Wed, 23 Jan 2019 17:51:53 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 15 Feb 2019 14:29:05 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Webpack</title>
+      <link>https://kangzhiqing.com/post/webpack/</link>
+      <pubDate>Fri, 15 Feb 2019 14:29:05 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/webpack/</guid>
+      <description>
+
+&lt;p&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 600 600&#34; style=&#34;width:2rem;height:2rem&#34;&gt;&lt;path fill=&#34;#FFF&#34; d=&#34;M300 .1L565 150v299.9L300 599.8 35 449.9V150z&#34;/&gt;&lt;path fill=&#34;#8ED6FB&#34; d=&#34;M517.7 439.5L308.8 557.8v-92L439 394.1l78.7 45.4zm14.3-12.9V179.4l-76.4 44.1v159l76.4 44.1zM81.5 439.5l208.9 118.2v-92l-130.2-71.6-78.7 45.4zm-14.3-12.9V179.4l76.4 44.1v159l-76.4 44.1zm8.9-263.2L290.4 42.2v89l-137.3 75.5-1.1.6-75.9-43.9zm446.9 0L308.8 42.2v89L446 206.8l1.1.6 75.9-44z&#34;/&gt;&lt;path fill=&#34;#1C78C0&#34; d=&#34;M290.4 444.8L162 374.1V234.2l128.4 74.1v136.5zm18.4 0l128.4-70.6v-140l-128.4 74.1v136.5zM299.6 303zm-129-85l129-70.9L428.5 218l-128.9 74.4-129-74.4z&#34;/&gt;&lt;/svg&gt;
+&lt;a href=&#34;https://webpack.js.org/&#34; target=&#34;_blank&#34;&gt;官网&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;a href=&#34;https://webpack.js.org/concepts&#34; target=&#34;_blank&#34;&gt;文档&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;entry&#34;&gt;Entry&lt;/h3&gt;
+
+&lt;p&gt;Webpack的入口，通过入口文件，webpack开始搭建内部依赖网&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// webpack.config.js
+module.exports = {
+  entry: &#39;./path/to/my/entry/file.js&#39;
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;output&#34;&gt;Output&lt;/h3&gt;
+
+&lt;p&gt;输出配置&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.exports = {
+  output: {
+    filename: &#39;bundle.js&#39;,
+  }
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;mode&#34;&gt;Mode&lt;/h3&gt;
+
+&lt;p&gt;主要是两种环境，开发环境（development）和生产环境（production），相应的环境，webpack会做出具体的优化方案。
+&lt;br&gt;（default：production）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.exports = {
+  mode: &#39;production&#39; // &#39;development&#39;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;loaders-https-webpack-js-org-loaders&#34;&gt;&lt;a href=&#34;https://webpack.js.org/loaders/&#34; target=&#34;_blank&#34;&gt;Loaders&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;加载器，用于加载资源，如scss文件或者将一些拓展语言（TypeScript,Scss）转换成合适的格式。
+&lt;br&gt;webpack内置可以处理的文件类型：&lt;code&gt;JSON&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.exports = {
+  module: {
+    rules: [
+      { test: /\.css$/, use: &#39;css-loader&#39; },
+      { test: /\.ts$/, use: &#39;ts-loader&#39; }
+    ]
+  }
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;css-loader&lt;/code&gt; =&amp;gt; 处理.css文件&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;style-loader&lt;/code&gt; =&amp;gt; 通过&amp;lt;style&amp;gt;标签将css-loader内部样式注入到html中&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Less-loader&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Sass-loader&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;post-css-loader&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;plugins-https-webpack-js-org-plugins&#34;&gt;&lt;a href=&#34;https://webpack.js.org/plugins/&#34; target=&#34;_blank&#34;&gt;Plugins&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;插件，webpack的支柱，webpack本身就是建立在类似的插件系统上的。
+* banner-pulgin:&lt;/p&gt;
+
+&lt;h3 id=&#34;webpack-dev-server&#34;&gt;Webpack-dev-server&lt;/h3&gt;
+
+&lt;h5 id=&#34;安装依赖&#34;&gt;安装依赖&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-npm&#34;&gt;npm install --save-dev webpack-dev-server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;配置&#34;&gt;配置&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.export = {
+  plugin:[
+    new webpack.HotModuleReplacementPlugin()  // HMR功能插件
+  ]
+  devServe:{
+    contentBase:&#39;./public&#39;, // 本地服务器加载的页面所在目录
+    historyApiFallback:true, // true为不跳转，所有的跳转都会指向index.html
+    inline:true // 为入口页面添加&amp;quot;热加载&amp;quot;功能
+    hot:true // 开启&amp;quot;热替换&amp;quot;（Hot Module Replacement HMR）功能
+  },
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;开启服务&#34;&gt;开启服务&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;直接在terminal中输入&lt;code&gt;node_modules/.bin/webpack-dev-server&lt;/code&gt;,node_modeules下的.bin目录有许多执行文件可以直接运行&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;在package.json中的script对象中添加&lt;code&gt;&amp;quot;server&amp;quot;:&amp;quot;webpack-dev-server&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;在terminal中输入&lt;code&gt;npm run server&lt;/code&gt;就可以了~&lt;/p&gt;
+
+&lt;h3 id=&#34;babel&#34;&gt;Babel&lt;/h3&gt;
+
+&lt;p&gt;编译Javascript的工具，使代码变得风骚，使用最新的javascript代码（ES6，ES7）并使用像react的JSX的扩展语言。
+&lt;br&gt;babel核心包 =&amp;gt; &lt;code&gt;babel-core&lt;/code&gt;
+&lt;br&gt;解析ES6的包 =&amp;gt; &lt;code&gt;babel-env-preset&lt;/code&gt;
+&lt;br&gt;解析JSX的包 =&amp;gt; &lt;code&gt;babel-preset-react&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;css模块化&#34;&gt;CSS模块化&lt;/h3&gt;
+
+&lt;p&gt;利用css-loader和style-loader容易使全局样式遭到污染，css模块化通过将css的class名传递到具体的组件中，就可以有效的避免全局样式被污染&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;modules.export = {
+  loader:{
+    rules:[
+      {
+        test:/\.css$/,
+        use:[
+          {
+            loader:&amp;quot;style-loader&amp;quot;
+          },
+          {
+            loader:&amp;quot;css-loader&amp;quot;,
+            options:{
+            modules:true,
+            localIdentName:&#39;[name]__[local]--[hash:base64:5]&#39; // css的类名格式
+          }
+        ]
+      }
+    ]
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ECharts</title>
+      <link>https://kangzhiqing.com/post/echarts/</link>
+      <pubDate>Thu, 14 Feb 2019 09:42:36 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/echarts/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://echarts.baidu.com&#34; target=&#34;_blank&#34;&gt;官网&lt;/a&gt;&amp;nbsp;&amp;nbsp;
+&lt;a href=&#34;https://echarts.baidu.com/tutorial.html&#34; target=&#34;_blank&#34;&gt;教程&lt;/a&gt;&amp;nbsp;&amp;nbsp;
+&lt;a href=&#34;https://echarts.baidu.com/api.html&#34; target=&#34;_blank&#34;&gt;API&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;script src=&#34;https://kangzhiqing.com/src/echarts.min.js&#34;&gt;&lt;/script&gt;
+&lt;div style=&#34;width:100%;height:15em;margin: 0 auto&#34; id=&#34;bar&#34;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div style=&#34;width:100%;height:15em;margin: 0 auto&#34; id=&#34;pie&#34;&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div style=&#34;width:100%;height:15em;margin: 0 auto&#34; id=&#34;line&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;!-- &lt;div style=&#34;width:100%;height:15em;margin: 0 auto&#34; id=&#34;pie&#34;&gt;&lt;/div&gt; --&gt;
+
+&lt;script&gt;
+    echarts.init(document.getElementById(&#39;bar&#39;)).setOption({
+            title:{
+              text:&#39;柱状图&#39;
+            },
+            tooltip:{},
+            legend:{
+              data:[&#39;销量&#39;]
+            },
+            xAxis:{
+              data:[&#34;衬衫&#34;,&#34;羊毛衫&#34;,&#34;雪纺衫&#34;,&#34;裤子&#34;,&#34;高跟鞋&#34;,&#34;袜子&#34;]
+            },
+            yAxis:{},
+            series: [{
+                type: &#39;bar&#39;,
+                name: &#39;销量&#39;,
+                data: [5, 20, 36, 10, 10, 20]
+            }]
+    });
+   echarts.init(document.getElementById(&#39;pie&#39;)).setOption({
+            title:{
+              text:&#39;饼状图&#39;
+            },
+            series: {
+                name: &#39;访问来源&#39;,
+                type: &#39;pie&#39;,
+                radius:&#39;60%&#39;,
+                data: [
+                    {value:235, name:&#39;视频广告&#39;},
+                    {value:274, name:&#39;联盟广告&#39;},
+                    {value:310, name:&#39;邮件营销&#39;},
+                    {value:335, name:&#39;直接访问&#39;},
+                    {value:400, name:&#39;搜索引擎&#39;}
+                ]
+            }
+    });
+    echarts.init(document.getElementById(&#39;line&#39;)).setOption({
+    title: {text: &#39;直线图&#39;},
+    tooltip: {},
+    toolbox: {
+        // feature: {
+        //     dataView: {},
+        //     saveAsImage: {
+        //         pixelRatio: 2
+        //     },
+        //     restore: {}
+        // }
+    },
+    xAxis: {},
+    yAxis: {},
+    series: [{
+        type: &#39;line&#39;,
+        smooth: true,
+        data: [[12, 5], [24, 20], [36, 36], [48, 10], [60, 10], [72, 20]]
+    }]
+});
+&lt;/script&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 柱状图
+echarts.init(document.getElementById(&#39;bar&#39;)).setOption({
+        title:{
+          text:&#39;柱状图&#39;
+        },
+        tooltip:{},
+        legend:{
+          data:[&#39;销量&#39;]
+        },
+        xAxis:{
+          data:[&amp;quot;衬衫&amp;quot;,&amp;quot;羊毛衫&amp;quot;,&amp;quot;雪纺衫&amp;quot;,&amp;quot;裤子&amp;quot;,&amp;quot;高跟鞋&amp;quot;,&amp;quot;袜子&amp;quot;]
+        },
+        yAxis:{},
+        series: [{
+            type: &#39;bar&#39;,
+            name: &#39;销量&#39;,
+            data: [5, 20, 36, 10, 10, 20]
+        }]
+});
+
+// 饼状图
+echarts.init(document.getElementById(&#39;pie&#39;)).setOption({
+        title:{
+          text:&#39;饼状图&#39;
+        },
+        series: {
+            name: &#39;访问来源&#39;,
+            type: &#39;pie&#39;,
+            radius:&#39;60%&#39;,
+            data: [
+                {value:235, name:&#39;视频广告&#39;},
+                {value:274, name:&#39;联盟广告&#39;},
+                {value:310, name:&#39;邮件营销&#39;},
+                {value:335, name:&#39;直接访问&#39;},
+                {value:400, name:&#39;搜索引擎&#39;}
+            ]
+        }
+});
+
+// 直线图
+echarts.init(document.getElementById(&#39;line&#39;)).setOption({
+        title: {text: &#39;直线图&#39;},
+        tooltip: {},
+        toolbox: {
+            // feature: {
+            //     dataView: {},
+            //     saveAsImage: {
+            //         pixelRatio: 2
+            //     },
+            //     restore: {}
+            // }
+        },
+        xAxis: {},
+        yAxis: {},
+        series: [{
+            type: &#39;line&#39;,
+            smooth: true,
+            data: [[12, 5], [24, 20], [36, 36], [48, 10], [60, 10], [72, 20]]
+        }]
+});
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>RegExp</title>
@@ -1619,94 +1900,6 @@ app.listen(3000, function(err){
     }else{
         console.log(&#39;express搭建的服务器已开启，端口号是3000&#39;)
     }
-})
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>学习过程记录</title>
-      <link>https://kangzhiqing.com/study/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</link>
-      <pubDate>Wed, 21 Nov 2018 08:20:03 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/study/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</guid>
-      <description>
-
-&lt;h3 id=&#34;2018年7月之前&#34;&gt;2018年7月之前&lt;/h3&gt;
-
-&lt;p&gt;暑假之前我就一直陆陆续续的接触后端的python语言，爬虫相关的知识&lt;/p&gt;
-
-&lt;h3 id=&#34;2018年7月&#34;&gt;2018年7月&lt;/h3&gt;
-
-&lt;p&gt;mysql数据库，scrapy爬虫&lt;/p&gt;
-
-&lt;h3 id=&#34;2018年8月&#34;&gt;2018年8月&lt;/h3&gt;
-
-&lt;p&gt;正式进入前端的学习。从基础的HTML，CSS，JavaScript出发，在8月月底模仿京东和淘宝写了两个没有数据交互的页面，只能说有些僵硬，没有后台的数据，那些二级菜单的商品数据都是自己写的，挺多的。&lt;/p&gt;
-
-&lt;h3 id=&#34;2018年9月&#34;&gt;2018年9月&lt;/h3&gt;
-
-&lt;p&gt;开始学习使用vue框架，用vue框架和室友一起合作写了一个监控系统。&lt;/p&gt;
-
-&lt;h3 id=&#34;2018年10月&#34;&gt;2018年10月&lt;/h3&gt;
-
-&lt;p&gt;主要都在看一些书，巩固一些JavaScript的知识&lt;/p&gt;
-
-&lt;h3 id=&#34;2018年11月&#34;&gt;2018年11月&lt;/h3&gt;
-
-&lt;p&gt;要做一个我们寝室的照片墙，学习了three.js
-学three.js的时候，遇到一个坑就是一定要注意camera的位置，因为所有屏幕的图像都是从camrea中看到的，如果camera的位置设置的不好，物体就很难看到，屏幕就会是一团黑色的，我刚开始以为是哪里出了问题，找了半天没找出问题，后面一看camera的position有问题，导致图像看不到了。包括controls的minDistance也要注意不要太大，太大会导致图像只能到一小点，误以为没有，其实是该参数设置太大了&lt;/p&gt;
-
-&lt;h3 id=&#34;2018年12月&#34;&gt;2018年12月&lt;/h3&gt;
-
-&lt;p&gt;这个月呢，本专业的考试提前考了，所以前半个月都在准备期末考试，后面用vue写了一个圣诞活动的手机端页面，天使和国王，实现愿望的一个简单的活动页面，挺开心的，班上有一半多都参加了，嘻嘻，第一次自己写的页面有这么多人看，还是比较开心的，不过写这个页面也发现自己对手机端的适配的问题还不是很了解，后期还是要好好学习一下。
-&lt;br&gt;
-&lt;br&gt;tips:2018年度总结我单独写了一篇 =&amp;gt; &lt;a href=&#34;../2018年末总结//&#34;&gt;2018年度总结&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Tween.js</title>
-      <link>https://kangzhiqing.com/post/tweenjs/</link>
-      <pubDate>Sun, 18 Nov 2018 11:22:48 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/tweenjs/</guid>
-      <description>
-
-&lt;h4 id=&#34;tween-js-http-github-com-sole-tween-js&#34;&gt;tween.js - &lt;a href=&#34;http://github.com/sole/tween.js&#34; target=&#34;_blank&#34;&gt;http://github.com/sole/tween.js&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;JavaScript tweening engine for easy animations, incorporating optimised Robert Penner&amp;rsquo;s equations.
-&lt;br&gt;JavaScript补间引擎，可轻松制作动画，并采用优化的Robert Penner方程。&lt;/p&gt;
-
-&lt;h3 id=&#34;1-基本用法-usage&#34;&gt;1.基本用法(Usage)&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 开始位置
-var InitPosition = {x:100,y:0};
-
-// 目标位置
-var targetPosition = {x:200,y:0};
-
-// 创建一个开始位置的tween
-var tween = new TWEEN.Tween(Initposition);
-
-// 告诉tween需要变换到的位置和时间
-tween.to({targetPositon},time);
-
-// 开始这个动画
-tween.start();
-
-// 为了使动画尽可能平滑,可以在每次循环的时候更新tween
-animate();
-function animate() {
-    requestAnimationFrame(animate);
-    //...
-    TWEEN.update();
-    //...
-}
-
-// 整个变换过程中是不能看到位置的变换的,如果需要可以执行以下代码
-tween.onUpdate(function() {
-    console.log(this)    
 })
 &lt;/code&gt;&lt;/pre&gt;
 </description>

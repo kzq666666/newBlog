@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数据 on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/tags/%E6%95%B0%E6%8D%AE/</link>
+    <description>Recent content in 数据 on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Thu, 14 Feb 2019 09:42:36 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/tags/%E6%95%B0%E6%8D%AE/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ECharts</title>
+      <link>https://kangzhiqing.com/post/echarts/</link>
+      <pubDate>Thu, 14 Feb 2019 09:42:36 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/echarts/</guid>
+      <description>官网&amp;nbsp;&amp;nbsp; 教程&amp;nbsp;&amp;nbsp; API -- echarts.init(document.getElementById(&#39;bar&#39;)).setOption({ title:{ text:&#39;柱状图&#39; }, tooltip:{}, legend:{ data:[&#39;销量&#39;] }, xAxis:{ data:[&#34;衬衫&#34;,&#34;</description>
+    </item>
+    
+  </channel>
+</rss>

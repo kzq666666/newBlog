@@ -4,6 +4,22 @@
     
     <url>
     
+      <loc>https://kangzhiqing.com/post/webpack/</loc>
+      <lastmod>2019-02-15T14:29:05+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://kangzhiqing.com/post/echarts/</loc>
+      <lastmod>2019-02-14T09:42:36+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://kangzhiqing.com/post/regexp/</loc>
       <lastmod>2019-01-23T17:51:53+08:00</lastmod>
     </url>
@@ -280,6 +296,15 @@
     
     <url>
     
+      <loc>https://kangzhiqing.com/tags/echarts/</loc>
+      <lastmod>2019-02-14T09:42:36+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://kangzhiqing.com/tags/js/</loc>
       <lastmod>2018-11-01T17:52:19+08:00</lastmod>
       <priority>0</priority>
@@ -445,7 +470,7 @@
     <url>
     
       <loc>https://kangzhiqing.com/post/</loc>
-      <lastmod>2019-01-23T17:51:53+08:00</lastmod>
+      <lastmod>2019-02-15T14:29:05+08:00</lastmod>
     </url>
     
   
@@ -551,6 +576,15 @@
     
     <url>
     
+      <loc>https://kangzhiqing.com/tags/webpack/</loc>
+      <lastmod>2019-02-15T14:29:05+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://kangzhiqing.com/tags/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
       <lastmod>2018-10-30T17:06:30+08:00</lastmod>
       <priority>0</priority>
@@ -570,7 +604,25 @@
     <url>
     
       <loc>https://kangzhiqing.com/</loc>
-      <lastmod>2019-01-23T17:51:53+08:00</lastmod>
+      <lastmod>2019-02-15T14:29:05+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://kangzhiqing.com/tags/%E5%9B%BE%E8%A1%A8/</loc>
+      <lastmod>2019-02-14T09:42:36+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://kangzhiqing.com/tags/%E6%95%B0%E6%8D%AE/</loc>
+      <lastmod>2019-02-14T09:42:36+08:00</lastmod>
       <priority>0</priority>
     </url>
     
