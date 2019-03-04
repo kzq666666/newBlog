@@ -1,13 +1,169 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>呼啦呼啦的根号二 on 呼啦呼啦的根号二</title>
+    <title>呼啦呼啦的根号二</title>
     <link>https://kangzhiqing.com/</link>
-    <description>Recent content in 呼啦呼啦的根号二 on 呼啦呼啦的根号二</description>
+    <description>Recent content on 呼啦呼啦的根号二</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
     <lastBuildDate>Fri, 15 Feb 2019 14:29:05 +0800</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://kangzhiqing.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://kangzhiqing.com/home/hero_carousel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/hero_carousel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>https://kangzhiqing.com/home/hero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/hero/</guid>
+      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   Star</description>
+    </item>
+    
+    <item>
+      <title>Biography</title>
+      <link>https://kangzhiqing.com/home/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://kangzhiqing.com/home/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/skills/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://kangzhiqing.com/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学习过程</title>
+      <link>https://kangzhiqing.com/home/accomplishments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/accomplishments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Featured Publications</title>
+      <link>https://kangzhiqing.com/home/publications_featured/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/publications_featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://kangzhiqing.com/home/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Featured Talks</title>
+      <link>https://kangzhiqing.com/home/talks_featured/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/talks_featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://kangzhiqing.com/home/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://kangzhiqing.com/home/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://kangzhiqing.com/home/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study</title>
+      <link>https://kangzhiqing.com/home/study/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/study/</guid>
+      <description>学习计划和一些总结</description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://kangzhiqing.com/home/life/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/life/</guid>
+      <description>生活的感想和一些读后感</description>
+    </item>
+    
+    <item>
+      <title>Custom Section</title>
+      <link>https://kangzhiqing.com/home/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/teaching/</guid>
+      <description>This is an example of using the custom widget to create your own homepage section.
+To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://kangzhiqing.com/home/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://kangzhiqing.com/home/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/home/contact/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Webpack</title>
@@ -15,135 +171,7 @@
       <pubDate>Fri, 15 Feb 2019 14:29:05 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/webpack/</guid>
-      <description>
-
-&lt;p&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 600 600&#34; style=&#34;width:2rem;height:2rem&#34;&gt;&lt;path fill=&#34;#FFF&#34; d=&#34;M300 .1L565 150v299.9L300 599.8 35 449.9V150z&#34;/&gt;&lt;path fill=&#34;#8ED6FB&#34; d=&#34;M517.7 439.5L308.8 557.8v-92L439 394.1l78.7 45.4zm14.3-12.9V179.4l-76.4 44.1v159l76.4 44.1zM81.5 439.5l208.9 118.2v-92l-130.2-71.6-78.7 45.4zm-14.3-12.9V179.4l76.4 44.1v159l-76.4 44.1zm8.9-263.2L290.4 42.2v89l-137.3 75.5-1.1.6-75.9-43.9zm446.9 0L308.8 42.2v89L446 206.8l1.1.6 75.9-44z&#34;/&gt;&lt;path fill=&#34;#1C78C0&#34; d=&#34;M290.4 444.8L162 374.1V234.2l128.4 74.1v136.5zm18.4 0l128.4-70.6v-140l-128.4 74.1v136.5zM299.6 303zm-129-85l129-70.9L428.5 218l-128.9 74.4-129-74.4z&#34;/&gt;&lt;/svg&gt;
-&lt;a href=&#34;https://webpack.js.org/&#34; target=&#34;_blank&#34;&gt;官网&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;a href=&#34;https://webpack.js.org/concepts&#34; target=&#34;_blank&#34;&gt;文档&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;entry&#34;&gt;Entry&lt;/h3&gt;
-
-&lt;p&gt;Webpack的入口，通过入口文件，webpack开始搭建内部依赖网&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// webpack.config.js
-module.exports = {
-  entry: &#39;./path/to/my/entry/file.js&#39;
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;output&#34;&gt;Output&lt;/h3&gt;
-
-&lt;p&gt;输出配置&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.exports = {
-  output: {
-    filename: &#39;bundle.js&#39;,
-  }
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;mode&#34;&gt;Mode&lt;/h3&gt;
-
-&lt;p&gt;主要是两种环境，开发环境（development）和生产环境（production），相应的环境，webpack会做出具体的优化方案。
-&lt;br&gt;（default：production）&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.exports = {
-  mode: &#39;production&#39; // &#39;development&#39;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;loaders-https-webpack-js-org-loaders&#34;&gt;&lt;a href=&#34;https://webpack.js.org/loaders/&#34; target=&#34;_blank&#34;&gt;Loaders&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;加载器，用于加载资源，如scss文件或者将一些拓展语言（TypeScript,Scss）转换成合适的格式。
-&lt;br&gt;webpack内置可以处理的文件类型：&lt;code&gt;JSON&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.exports = {
-  module: {
-    rules: [
-      { test: /\.css$/, use: &#39;css-loader&#39; },
-      { test: /\.ts$/, use: &#39;ts-loader&#39; }
-    ]
-  }
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;css-loader&lt;/code&gt; =&amp;gt; 处理.css文件&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;style-loader&lt;/code&gt; =&amp;gt; 通过&amp;lt;style&amp;gt;标签将css-loader内部样式注入到html中&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Less-loader&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Sass-loader&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;post-css-loader&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;plugins-https-webpack-js-org-plugins&#34;&gt;&lt;a href=&#34;https://webpack.js.org/plugins/&#34; target=&#34;_blank&#34;&gt;Plugins&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;插件，webpack的支柱，webpack本身就是建立在类似的插件系统上的。
-* banner-pulgin:&lt;/p&gt;
-
-&lt;h3 id=&#34;webpack-dev-server&#34;&gt;Webpack-dev-server&lt;/h3&gt;
-
-&lt;h5 id=&#34;安装依赖&#34;&gt;安装依赖&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-npm&#34;&gt;npm install --save-dev webpack-dev-server
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&#34;配置&#34;&gt;配置&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.export = {
-  plugin:[
-    new webpack.HotModuleReplacementPlugin()  // HMR功能插件
-  ]
-  devServe:{
-    contentBase:&#39;./public&#39;, // 本地服务器加载的页面所在目录
-    historyApiFallback:true, // true为不跳转，所有的跳转都会指向index.html
-    inline:true // 为入口页面添加&amp;quot;热加载&amp;quot;功能
-    hot:true // 开启&amp;quot;热替换&amp;quot;（Hot Module Replacement HMR）功能
-  },
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&#34;开启服务&#34;&gt;开启服务&lt;/h5&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;直接在terminal中输入&lt;code&gt;node_modules/.bin/webpack-dev-server&lt;/code&gt;,node_modeules下的.bin目录有许多执行文件可以直接运行&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;在package.json中的script对象中添加&lt;code&gt;&amp;quot;server&amp;quot;:&amp;quot;webpack-dev-server&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br&gt;在terminal中输入&lt;code&gt;npm run server&lt;/code&gt;就可以了~&lt;/p&gt;
-
-&lt;h3 id=&#34;babel&#34;&gt;Babel&lt;/h3&gt;
-
-&lt;p&gt;编译Javascript的工具，使代码变得风骚，使用最新的javascript代码（ES6，ES7）并使用像react的JSX的扩展语言。
-&lt;br&gt;babel核心包 =&amp;gt; &lt;code&gt;babel-core&lt;/code&gt;
-&lt;br&gt;解析ES6的包 =&amp;gt; &lt;code&gt;babel-env-preset&lt;/code&gt;
-&lt;br&gt;解析JSX的包 =&amp;gt; &lt;code&gt;babel-preset-react&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;css模块化&#34;&gt;CSS模块化&lt;/h3&gt;
-
-&lt;p&gt;利用css-loader和style-loader容易使全局样式遭到污染，css模块化通过将css的class名传递到具体的组件中，就可以有效的避免全局样式被污染&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;modules.export = {
-  loader:{
-    rules:[
-      {
-        test:/\.css$/,
-        use:[
-          {
-            loader:&amp;quot;style-loader&amp;quot;
-          },
-          {
-            loader:&amp;quot;css-loader&amp;quot;,
-            options:{
-            modules:true,
-            localIdentName:&#39;[name]__[local]--[hash:base64:5]&#39; // css的类名格式
-          }
-        ]
-      }
-    ]
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>官网&amp;nbsp;&amp;nbsp;文档 Entry Webpack的入口，通过入口文件，webpack开始搭建内部依赖网 // webpack.config.js module.exports = { entry: &#39;./path/to/my/entry/file.js&#39; }; Output 输出配置 module.exports = { output: { filename:</description>
     </item>
     
     <item>
@@ -152,142 +180,7 @@ module.exports = {
       <pubDate>Thu, 14 Feb 2019 09:42:36 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/echarts/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://echarts.baidu.com&#34; target=&#34;_blank&#34;&gt;官网&lt;/a&gt;&amp;nbsp;&amp;nbsp;
-&lt;a href=&#34;https://echarts.baidu.com/tutorial.html&#34; target=&#34;_blank&#34;&gt;教程&lt;/a&gt;&amp;nbsp;&amp;nbsp;
-&lt;a href=&#34;https://echarts.baidu.com/api.html&#34; target=&#34;_blank&#34;&gt;API&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;script src=&#34;https://kangzhiqing.com/src/echarts.min.js&#34;&gt;&lt;/script&gt;
-&lt;div style=&#34;width:100%;height:15em;margin: 0 auto&#34; id=&#34;bar&#34;&gt;&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;div style=&#34;width:100%;height:15em;margin: 0 auto&#34; id=&#34;pie&#34;&gt;&lt;/div&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;div style=&#34;width:100%;height:15em;margin: 0 auto&#34; id=&#34;line&#34;&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;!-- &lt;div style=&#34;width:100%;height:15em;margin: 0 auto&#34; id=&#34;pie&#34;&gt;&lt;/div&gt; --&gt;
-
-&lt;script&gt;
-    echarts.init(document.getElementById(&#39;bar&#39;)).setOption({
-            title:{
-              text:&#39;柱状图&#39;
-            },
-            tooltip:{},
-            legend:{
-              data:[&#39;销量&#39;]
-            },
-            xAxis:{
-              data:[&#34;衬衫&#34;,&#34;羊毛衫&#34;,&#34;雪纺衫&#34;,&#34;裤子&#34;,&#34;高跟鞋&#34;,&#34;袜子&#34;]
-            },
-            yAxis:{},
-            series: [{
-                type: &#39;bar&#39;,
-                name: &#39;销量&#39;,
-                data: [5, 20, 36, 10, 10, 20]
-            }]
-    });
-   echarts.init(document.getElementById(&#39;pie&#39;)).setOption({
-            title:{
-              text:&#39;饼状图&#39;
-            },
-            series: {
-                name: &#39;访问来源&#39;,
-                type: &#39;pie&#39;,
-                radius:&#39;60%&#39;,
-                data: [
-                    {value:235, name:&#39;视频广告&#39;},
-                    {value:274, name:&#39;联盟广告&#39;},
-                    {value:310, name:&#39;邮件营销&#39;},
-                    {value:335, name:&#39;直接访问&#39;},
-                    {value:400, name:&#39;搜索引擎&#39;}
-                ]
-            }
-    });
-    echarts.init(document.getElementById(&#39;line&#39;)).setOption({
-    title: {text: &#39;直线图&#39;},
-    tooltip: {},
-    toolbox: {
-        // feature: {
-        //     dataView: {},
-        //     saveAsImage: {
-        //         pixelRatio: 2
-        //     },
-        //     restore: {}
-        // }
-    },
-    xAxis: {},
-    yAxis: {},
-    series: [{
-        type: &#39;line&#39;,
-        smooth: true,
-        data: [[12, 5], [24, 20], [36, 36], [48, 10], [60, 10], [72, 20]]
-    }]
-});
-&lt;/script&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 柱状图
-echarts.init(document.getElementById(&#39;bar&#39;)).setOption({
-        title:{
-          text:&#39;柱状图&#39;
-        },
-        tooltip:{},
-        legend:{
-          data:[&#39;销量&#39;]
-        },
-        xAxis:{
-          data:[&amp;quot;衬衫&amp;quot;,&amp;quot;羊毛衫&amp;quot;,&amp;quot;雪纺衫&amp;quot;,&amp;quot;裤子&amp;quot;,&amp;quot;高跟鞋&amp;quot;,&amp;quot;袜子&amp;quot;]
-        },
-        yAxis:{},
-        series: [{
-            type: &#39;bar&#39;,
-            name: &#39;销量&#39;,
-            data: [5, 20, 36, 10, 10, 20]
-        }]
-});
-
-// 饼状图
-echarts.init(document.getElementById(&#39;pie&#39;)).setOption({
-        title:{
-          text:&#39;饼状图&#39;
-        },
-        series: {
-            name: &#39;访问来源&#39;,
-            type: &#39;pie&#39;,
-            radius:&#39;60%&#39;,
-            data: [
-                {value:235, name:&#39;视频广告&#39;},
-                {value:274, name:&#39;联盟广告&#39;},
-                {value:310, name:&#39;邮件营销&#39;},
-                {value:335, name:&#39;直接访问&#39;},
-                {value:400, name:&#39;搜索引擎&#39;}
-            ]
-        }
-});
-
-// 直线图
-echarts.init(document.getElementById(&#39;line&#39;)).setOption({
-        title: {text: &#39;直线图&#39;},
-        tooltip: {},
-        toolbox: {
-            // feature: {
-            //     dataView: {},
-            //     saveAsImage: {
-            //         pixelRatio: 2
-            //     },
-            //     restore: {}
-            // }
-        },
-        xAxis: {},
-        yAxis: {},
-        series: [{
-            type: &#39;line&#39;,
-            smooth: true,
-            data: [[12, 5], [24, 20], [36, 36], [48, 10], [60, 10], [72, 20]]
-        }]
-});
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>官网&amp;nbsp;&amp;nbsp; 教程&amp;nbsp;&amp;nbsp; API -- echarts.init(document.getElementById(&#39;bar&#39;)).setOption({ title:{ text:&#39;柱状图&#39; }, tooltip:{}, legend:{ data:[&#39;销量&#39;] }, xAxis:{ data:[&#34;衬衫&#34;,&#34;</description>
     </item>
     
     <item>
@@ -296,115 +189,7 @@ echarts.init(document.getElementById(&#39;line&#39;)).setOption({
       <pubDate>Wed, 23 Jan 2019 17:51:53 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/regexp/</guid>
-      <description>
-
-&lt;p&gt;Regular Expression&lt;/p&gt;
-
-&lt;h3 id=&#34;正则表达式-匹配特殊字符或有特殊搭配原则的字符的最佳选择&#34;&gt;正则表达式：匹配特殊字符或有特殊搭配原则的字符的最佳选择&lt;/h3&gt;
-
-&lt;h3 id=&#34;创建方式&#34;&gt;创建方式&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;直接量&lt;/li&gt;
-&lt;li&gt;new RegExp();&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 直接量
-var reg = /abc/ ;
-// new RegExp();
-var reg = new RegExp(pattern. attribute);
-var reg = new RegExp(&amp;quot;abc&amp;quot;,&amp;quot;i&amp;quot;)
-var reg = new RegExp(/abc/i);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;修饰符&#34;&gt;修饰符&lt;/h3&gt;
-
-&lt;p&gt;/i  ignoreCase 忽视大小写
-&lt;br&gt;
-/g  global   全局匹配
-&lt;br&gt;
-/m  multiline   多行匹配&lt;/p&gt;
-
-&lt;h3 id=&#34;常用方法&#34;&gt;常用方法&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;str.match(reg)  // 返回匹配成功的结果数组
-str.search(reg) // 返回匹配到的位置，匹配不到返回-1
-str.split(reg)
-str.replace(reg, newStr/function(){})
-reg.test(str)   // 匹配返回true，不匹配则返回false
-reg.exec()      // 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;常用规则&#34;&gt;常用规则&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;\w ==&amp;gt; [0-9A-z_]
-\W ==&amp;gt; [^\w]
-\d ==&amp;gt; [0-9]
-\D ==&amp;gt; [^\d]
-\s ==&amp;gt; [\n\f\r\t\v] 空白字符
-\S ==&amp;gt; [^\s]
-\b ==&amp;gt; 单词边界     /\bc/  以c开头的单词
-\B ==&amp;gt; 非单词边界
-.  ==&amp;gt; [^\r\n]
-+  ==&amp;gt; 匹配一次到无数次 {1, infinity}
-*  ==&amp;gt; 匹配0次到无数次  {0, infinity}
-?  ==&amp;gt; 匹配0到1次   {0,1}
-^  ==&amp;gt; 开头
-$  ==&amp;gt; 结尾
-|  ==&amp;gt; 或
-() ==&amp;gt; 子表达式
-\1 ==&amp;gt; 反向引用第一个子表达式一次
-()\1 ==&amp;gt; 反向引用第一个子表达式一次
-()\1\1\1 ==&amp;gt; 反向引用第一个子表达式两次
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;匹配原则-贪婪匹配原则-能匹配最多的&#34;&gt;匹配原则：贪婪匹配原则（能匹配最多的）&lt;/h3&gt;
-
-&lt;p&gt;如果要打破贪婪匹配就在量词后面加上？，则是非贪婪匹配&lt;/p&gt;
-
-&lt;h3 id=&#34;正则表达式的属性&#34;&gt;正则表达式的属性&lt;/h3&gt;
-
-&lt;p&gt;reg.global      ==&amp;gt; 是否全局匹配
-&lt;br&gt;
-reg.ignoreCase  ==&amp;gt; 是否忽略大小写
-&lt;br&gt;
-reg.multiline   ==&amp;gt; 是否有换行匹配
-&lt;br&gt;
-reg.source      ==&amp;gt; 返回正则表达式的文本
-&lt;br&gt;
-reg.lastIndex ==&amp;gt; 返回游标位置&lt;/p&gt;
-
-&lt;h3 id=&#34;正向预查-正向断言&#34;&gt;正向预查 正向断言&lt;/h3&gt;
-
-&lt;p&gt;?=/!=   ==&amp;gt;断言表达式
-&lt;br&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var reg = /a(?=b)/g      // 选择后面是b的a
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;practice&#34;&gt;Practice&lt;/h3&gt;
-
-&lt;h4 id=&#34;1-检验一个字符串首尾是否含有数字&#34;&gt;1. 检验一个字符串首尾是否含有数字&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var reg = /^\d | \d$/;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;2-将一个字符转换成小驼峰式写法&#34;&gt;2. 将一个字符转换成小驼峰式写法&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var str = &amp;quot;the-first-name&amp;quot;;
-var reg = /-(\w)/g;
-str.replace(reg,function($,$1){
-    return $1.toUpperCase();
-})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;3-字符串去重&#34;&gt;3. 字符串去重&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var str = &amp;quot;aaaaaaaaaabbbbbbbbbbbbcccccccccc&amp;quot;
-var reg = /(\w)\1*/g;
-str.replace(reg,&amp;quot;$1&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>Regular Expression 正则表达式：匹配特殊字符或有特殊搭配原则的字符的最佳选择 创建方式 直接量 new RegExp(); // 直接量 var reg = /abc/ ; // new RegExp(); var reg = new RegExp(pattern. attribute); var reg = new RegExp(&amp;quot;abc&amp;quot;,&amp;quot;i&amp;quot;) var reg = new RegExp(/abc/i); 修饰符</description>
     </item>
     
     <item>
@@ -413,63 +198,7 @@ str.replace(reg,&amp;quot;$1&amp;quot;);
       <pubDate>Sat, 19 Jan 2019 16:56:01 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/study/%E5%AF%92%E5%81%87%E8%AE%A1%E5%88%92/</guid>
-      <description>
-
-&lt;p&gt;大致的一些计划&lt;/p&gt;
-
-&lt;h3 id=&#34;非周日&#34;&gt;非周日&lt;/h3&gt;
-
-&lt;table&gt;
-    &lt;tr&gt;
-        &lt;th&gt;Time&lt;/th&gt;
-        &lt;th&gt;Detail&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;7：00-7：30&lt;/td&gt;
-        &lt;td&gt;起床、吃早饭&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;7：30-8：00&lt;/td&gt;
-        &lt;td&gt;背英语单词&lt;/td&gt;
-    &lt;/tr&gt;
-        &lt;td&gt;日常&lt;/td&gt;
-        &lt;td&gt;刷一到两题LeetCode&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;其他时间&lt;/td&gt;
-        &lt;td&gt;学习&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;17:00&lt;/td&gt;
-        &lt;td&gt;运动（打羽毛球）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;20：00&lt;/td&gt;
-        &lt;td&gt;看有没有适合的课程学习，看看直播&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;22：30-23：00&lt;/td&gt;
-        &lt;td&gt;读英文资料（不限）&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;23：00&lt;/td&gt;
-        &lt;td&gt;洗漱、睡觉&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;周日&#34;&gt;周日&lt;/h3&gt;
-
-&lt;table&gt;
-    &lt;tr&gt;
-        &lt;th&gt;Time&lt;/th&gt;
-        &lt;th&gt;Detail&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;All&lt;/td&gt;
-        &lt;td&gt;FREE!!!&lt;/td&gt;
-    &lt;/tr&gt;
-&lt;/table&gt;
-</description>
+      <description>大致的一些计划 非周日 Time Detail 7：00-7：30 起床、吃早饭 7：30-8：00 背英语单词 日常 刷一到两题LeetCode 其他时间 学习 17:00 运动（打羽毛球</description>
     </item>
     
     <item>
@@ -478,162 +207,7 @@ str.replace(reg,&amp;quot;$1&amp;quot;);
       <pubDate>Fri, 04 Jan 2019 11:03:38 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/es6/</guid>
-      <description>
-
-&lt;h3 id=&#34;let-和-const&#34;&gt;let 和 const&lt;/h3&gt;
-
-&lt;p&gt;ES6 新加了两种声明变量的方式，一个是 let，一个是 const。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;let 和 const 声明变量有自己的块级作用域（在 for 循环中用 let 声明的变量不会泄露到外部）&lt;/li&gt;
-&lt;li&gt;let 和 const 声明变量在预编译的过程都不会进行变量提升&lt;/li&gt;
-&lt;li&gt;let 和 const 声明的变量不能再次声明，而 const 声明变量的时候必须同时赋值，并且不能再次赋值&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;{
-    console.log(a); // ReferenceError:a is not undefined
-    let a;
-}
-{
-    let a = 1;
-    let a = 2; // SyntaxError: Identifier &#39;a&#39; has already been declared
-}
-{
-    const a; // SyntaxError:Missing initializer in const declaration
-}
-
-{
-    const a = 1;
-    a = 2 // TypeError:Assignment to constant variable
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;模板字面量&#34;&gt;模板字面量&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;创建字符串不必再拼接了~&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;let a = {
-  str: &amp;quot;模板字面量&amp;quot;
-};
-console.log(&amp;quot;ES6&amp;quot; + a.str);
-// ES6
-console.log(`ES6${a.str}`);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;换行直接按下键盘的 Enter 就可以了&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;console.log(&amp;quot;ES6\n模板字面量&amp;quot;);
-// ES6
-console.log(`ES6
-模板字面量`);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;默认参数&#34;&gt;默认参数&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function defalutPerson(person = &amp;quot;kzq&amp;quot;) {
-  console.log(`The person is ${person}`);
-}
-defalutPerson();
-defalutPerson(&amp;quot;HH&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;箭头函数&#34;&gt;箭头函数&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;ES6 的箭头函数简化了函数的语法&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var plus = function(a, b) {
-  return a + b;
-};
-// ES6箭头函数
-var plus = (a, b) =&amp;gt; {
-  return a + b;
-};
-// 或者这样
-var plus = (a, b) =&amp;gt; a + b;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;箭头函数的 this 指向是固定的，即在箭头函数声明的时候就定义好了，继承来自外部最近的 this 指向&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var x = 7;
-var obj = {
-  x: 77,
-  print: function() {
-    console.log(this.x);
-  }
-};
-obj.print(); // obj调用的，则this指向obj，77
-
-var obj = {
-  x: 77,
-  print: () =&amp;gt; {
-    console.log(this.x);
-  }
-};
-obj.print(); // print是箭头函数，在声明的时候this就指向obj内部的this指向window，7
-
-function test() {
-  this.x = 7777;
-  let print = function() {
-    console.log(this);
-  };
-  print();
-}
-test(); // 全局调用this指向window，7
-
-function test() {
-  this.x = 7777;
-  let print = () =&amp;gt; {
-    console.log(this);
-  };
-  print();
-}
-test(); // 箭头函数print，print在定义的时候this就指向test，7777
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;解构赋值&#34;&gt;解构赋值&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var info = {
-  name: &amp;quot;kzq&amp;quot;,
-  age: 20,
-  sex: &amp;quot;male&amp;quot;
-};
-var { name, age } = info;
-console.log(name, age);
-
-var [, , lastNum] = [1, 2, 3];
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;扩展运算符&#34;&gt;扩展运算符(&amp;hellip;)&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 合并数组
-var person1 = [&amp;quot;kzq&amp;quot;, &amp;quot;lzj&amp;quot;, &amp;quot;hmy&amp;quot;, &amp;quot;dcb&amp;quot;];
-var person2 = [&amp;quot;hh&amp;quot;, &amp;quot;hqy&amp;quot;, &amp;quot;xxbb&amp;quot;, &amp;quot;xx&amp;quot;];
-var person = [...person1, ...person2]; // person2.push(...person)
-
-// 复制
-var a = [1, 2, 3];
-var oppA = [...a].reverse();
-
-// 解构赋值
-let { name1, name2, ...remainName } = { name1: &amp;quot;kzq&amp;quot;, name2: &amp;quot;hh&amp;quot;, name3: &amp;quot;wq&amp;quot;, name4: &amp;quot;xx&amp;quot; };
-console.log(name1); // &amp;quot;kzq&amp;quot;
-console.log(name2); // &amp;quot;hh&amp;quot;
-console.log(remainName); // {name3:&amp;quot;wq&amp;quot;, name4:&amp;quot;xx&amp;quot;}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;object-assign-实现浅复制&#34;&gt;Object.assign 实现浅复制&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var newObj = Object.assign(targetObj, sourceObj); // 把sourceObj复制给targetObj并返回targetObj
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>let 和 const ES6 新加了两种声明变量的方式，一个是 let，一个是 const。 let 和 const 声明变量有自己的块级作用域（在 for 循环中用 let 声明的变量不会泄露到外部）</description>
     </item>
     
     <item>
@@ -642,37 +216,7 @@ console.log(remainName); // {name3:&amp;quot;wq&amp;quot;, name4:&amp;quot;xx&am
       <pubDate>Mon, 31 Dec 2018 16:29:49 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/study/2018%E5%B9%B4%E6%9C%AB%E6%80%BB%E7%BB%93/</guid>
-      <description>&lt;div style=&#34;text-indent:2em&#34;&gt;
-年末总结的开头就不感叹时光荏苒了（不过我还是要说一下时间过的是真的快呀！！！）
-&lt;/div&gt;
-&lt;div style=&#34;text-indent:2em&#34;&gt;
-2018年的主要事迹如下=&gt;
-&lt;li&gt;报名计算机双学位
-&lt;li&gt;决定以后从事前端这个方向
-&lt;li&gt;学习
-&lt;/div&gt;
-&lt;div style=&#34;text-indent:2em&#34;&gt;
-人呢，没有目标的时候是真的不知道自己在干嘛，我大二一年都是这样，平常正常上课，下课之后就基本没去碰生物方面的知识和技术，我认识到自己并不想从事生物方面的工作和研究，当初报考填写志愿也是比较匆忙，很随便。自己想想当初真的是很草率，高中的时候就没去了解相应的专业的信息，填写志愿的时候就瞎填。人呢，总是要做出选择，既然做出了选择就要面对相对应的事情。大二呢，也陆陆续续接触计算机语言python、爬虫方面的知识，发现自己对编程很感兴趣，给我的反馈也很多，也愿意花很多的时间去研究ta，所以到大二下看到信工学院的计算机科学与技术的双学位招新的消息，我就报了，打算以后从事互联网方面的工作。
-&lt;/div&gt;
-&lt;div style=&#34;text-indent:2em&#34;&gt;
-暑假有两个月的时间，我没有选择去打暑假工，因为我太需要时间去学习，这两个月我基本都是在家里学习，7月份我学习了一种关系型数据库mysql还有scrapy爬虫，主要是想自己能够把一些信息爬下来并且存起来，但总感觉学习还是没有啥方向。到8月初，我室友叫我去学前端，暑假回来一起写写项目，我那时候正没有啥方向，刚好对前端也不是很了解，就去具体研究了一哈，我刚开始还以为JavaScript和Java有关系呢，我还问我室友要不要先学Java再学JavaScript，哈哈哈哈，现在想起来还是比较好笑的。那一个月就学习html，css，JavaScript，看网课还有一些文档，也决定以后就从事前端方向，月末模仿京东还有淘宝写了两个页面。
-&lt;/div&gt;
-&lt;div style=&#34;text-indent:2em&#34;&gt;
-后面几个月就是陆陆续续进行前端的学习还有双学位的学习，虽然基本每个星期都比较忙，但感觉还是比较充实的。
-&lt;/div&gt;
-&lt;div style=&#34;text-indent:2em&#34;&gt;
-关于学习上，这半年的学习，我发现原理是真的很重要，仅仅知道怎么用是远远不够，知其然也要知其所以然，还有就是不要为了解决问题而解决问题，很多东西容易忘，知道问题关键所在才能在后面遇到类似的问题也能解决。
-&lt;/div&gt;
-&lt;div style=&#34;text-indent:2em&#34;&gt;
-关于游戏，还是和以前一样，英雄联盟和炉石传说，其他游戏基本没玩，很庆幸今年中国队终于夺冠了，大满贯耶，S8冠军，IG牛逼。今年没有去现场看比赛比较遗憾，现场的氛围是真的很high。联盟也打了5年了，真的久耶，从S4赛季到S8,今年打上钻石了，哈哈哈哈哈。炉石传说，别问，问就是蓝天白云，暴雪爸爸今年不怎么眷顾我，没怎么开出几张橙卡来。
-&lt;/div&gt;
-&lt;div style=&#34;text-indent:2em&#34;&gt;
-最后，2018就要过去了，无论如何，感谢很多人，感谢自己，感谢2018。
-&lt;/div&gt;
-&lt;div style=&#34;text-indent:2em&#34;&gt;
-再见，2018。你好，2019，加油~
-&lt;/div&gt;
-</description>
+      <description>年末总结的开头就不感叹时光荏苒了（不过我还是要说一下时间过的是真的快呀！！！） 2018年的主要事迹如下= 报名计算机双学位 决定以后从事前端这个</description>
     </item>
     
     <item>
@@ -681,660 +225,7 @@ console.log(remainName); // {name3:&amp;quot;wq&amp;quot;, name4:&amp;quot;xx&am
       <pubDate>Wed, 26 Dec 2018 09:20:11 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/datastructure/</guid>
-      <description>
-
-&lt;p&gt;感谢邱老师这一个学期的数据结构课的教导，让我了解到什么是数据结构和其重要性，以及相关的算法和实现。
-&lt;br&gt;这是一篇关于数据结构的复习。&lt;/p&gt;
-
-&lt;h3 id=&#34;基本概念&#34;&gt;基本概念&lt;/h3&gt;
-
-&lt;p&gt;1.程序 = 算法 + 数据结构 &amp;emsp; &amp;mdash;&amp;mdash; Nicklaus Wirth
-&lt;br&gt;一个程序就是通过具体的某种计算机语言将算法进行实现&lt;/p&gt;
-
-&lt;p&gt;2.数据结构：相互之间存在一种或多种特定关系的数据元素的集合
-具体什么是数据结构，包含下面三个部分=&amp;gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;逻辑关系：线性关系、非线性关系&lt;/li&gt;
-&lt;li&gt;存储方式：顺序存储、链接存储、散列存储
-&lt;br&gt;（存储存的除了要存数据，还要存它们之间的关系，这一点是邱老师在刚上数据结构讲这些基本概念的时候特别强调的，我印象挺深的）&lt;/li&gt;
-&lt;li&gt;运算集合：查找和排序（插入=&amp;gt;直接法，二分法、交换=&amp;gt;冒泡排序，快速排序、选择=&amp;gt;堆排序）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;3.算法：对特定问题求解步骤的一种描述。
-  &lt;br&gt;一个算法还具有下列 5 个重要特性&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;有穷性&amp;emsp;一个算法必须在执行有穷步之后结束，但一个程序则可以无穷，比如说无限死循环&lt;/li&gt;
-&lt;li&gt;确定性&amp;emsp;算法的每一条指令必须有确切的含义&lt;/li&gt;
-&lt;li&gt;可行性&amp;emsp;一个算法是能行的&lt;/li&gt;
-&lt;li&gt;输入&amp;emsp;一个算法有零个或多个输入&lt;/li&gt;
-&lt;li&gt;输出&amp;emsp;一个算法有一个或多个输出&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br&gt;一个好的算法需要达到的目标&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;正确性&lt;/li&gt;
-&lt;li&gt;可读性&lt;/li&gt;
-&lt;li&gt;健壮性&amp;emsp;当输入数据非法时，算法也能做出反应或进行处理，即要可以处理一些特殊和极端情况&lt;/li&gt;
-&lt;li&gt;效率和低存储量需求&amp;emsp;时间复杂度低，算法执行时间短。满足需求的同时尽可能使用低的存储量消耗&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;4.时间复杂度：&amp;nbsp;算法中基本操作重复执行的次数是问题规模 n 的某个函数 f(n)，即
-  T(n) = O(f(n))
-  &lt;br&gt;5.空间复杂度：&amp;nbsp;算法所需存储空间的量度，即 S(n)=O(f(n))&lt;/p&gt;
-
-&lt;h3 id=&#34;线性表&#34;&gt;线性表&lt;/h3&gt;
-
-&lt;p&gt;1.逻辑关系：线性关系/结构&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;存在唯一一个被称作&amp;rdquo;第一个&amp;rdquo;的数据元素&lt;/li&gt;
-&lt;li&gt;存在唯一一个被称作&amp;rdquo;最后一个&amp;rdquo;的数据元素&lt;/li&gt;
-&lt;li&gt;除第一个之外，集合中每个数据元素均只有一个前驱&lt;/li&gt;
-&lt;li&gt;除最后一个之外，集合中每个数据元素均只有一个后继&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;总的来说就是只有第一个元素有直接后继，没有前驱，只有最后一个元素有直接前驱，没有后继，在这两个元素之间的元素既有一个直接前驱也有一个直接后继&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;2.存储方式和运算
-&lt;br&gt;（1）顺序存储：用一组地址连续的存储单元依此存储线性表中的数据元素&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 在JavaScript中，数组就是一种隐式的存储关系
-
-// 初始化数组
-function listInit() {
-  return new Array();
-}
-
-// 插入=&amp;gt;第i-1个位置和第i个位置之间插入元素,i从1开始
-function listInsert(list, i, data) {
-  let len = list.length;
-  if (i &amp;lt; 1 || i &amp;gt;= len + 1) {
-    throw new Error(&amp;quot;i的位置有误&amp;quot;);
-  }
-  for (let j = len - 1; j &amp;gt;= i - 1; j--) {
-    list[j + 1] = list[j];
-  }
-  list[i - 1] = data;
-}
-
-// 删除=&amp;gt;删除第i个位置的元素
-function listDelete(list, i) {
-  let len = list.length;
-  if (i &amp;lt; 1 || i &amp;gt; len) {
-    throw new Error(&amp;quot;i的位置有误&amp;quot;);
-  }
-  for (let j = i - 1; j &amp;lt;= len - 1; j++) {
-    list[j] = list[j + 1];
-  }
-  // 切记不能用len--，因为是原始值，len改变并不会改变list.length
-  list.length--;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;（2）链式存储：用一组任意的存储单元存储线性表的数据元素（这组存储单元可以是连续的，也可以是不连续的）&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;一个结点包含两个域，一个是数据域，一个是指针域，此链表的每个结点中只包含一个指针域，故又称为线性链表或单链表&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 单链表
-function LinkListNode(data) {
-  this.data = data;
-  this.next = null;
-}
-
-var headNode = new LinkListNode(null);
-var len = 0;
-// 获取第i个元素
-function getElem(i) {
-  var p = headNode.next;
-  var j = 1;
-  while (p &amp;amp;&amp;amp; j &amp;lt; i) {
-    p = p.next;
-    j++;
-  }
-  return p ? p.data : null;
-}
-
-// 插入，在第i个位置之前插入元素e
-function linkListInsert(LinkListNode, i, e) {
-  let newNode = new LinkListNode(e);
-  var j = 1;
-  p = headNode;
-  if (i &amp;lt; 1 || i &amp;gt; len + 1) {
-    return new Error(&amp;quot;i的范围有误&amp;quot;);
-  }
-  while (j &amp;lt;= i - 1 &amp;amp;&amp;amp; p.next) {
-    p = p.next;
-    j++;
-  }
-  newNode.next = p.next;
-  p.next = newNode;
-  len++;
-}
-// 删除，删除第i个位置的结点
-function linkListDelete(i) {
-  var j = 1;
-  pre = headNode;
-  p = pre.next;
-  while (j &amp;lt; i &amp;amp;&amp;amp; p.next) {
-    pre = p;
-    p = pre.next;
-    j++;
-  }
-  if (j == i) {
-    return new Error(&amp;quot;超出链表范围&amp;quot;);
-  }
-  pre.next = p.next;
-  len--;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;双向链表：结点有两个指针域，其一指向直接后继，另一指向直接前驱&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 双链表
-function DuListNode(data, prior, next) {
-  this.data = data || null;
-  this.prior = prior || null;
-  this.next = next || null;
-}
-var headNode = new DuListNode();
-
-// 获取第i个位置的结点（i从1开始）
-function getDuList(i) {
-  var p = headNode;
-  var j = 1;
-  while (j &amp;lt;= i &amp;amp;&amp;amp; p.next) {
-    p = p.next;
-    j++;
-  }
-  return p.data ? p.data : null;
-}
-
-// 获取表长
-function getDuListLen() {
-  var j = 0;
-  var p = headNode;
-  while (p.next) {
-    p = p.next;
-    j++;
-  }
-  return j;
-}
-
-// 在带头结点的双链表的第i个位置之前插入元素e
-function insertDuList(i, e) {
-  if (i &amp;lt; 1 || i &amp;gt; getDuListLen() + 1) {
-    return new Error(
-      &amp;quot;i的范围应该不小于1且不大于表长加1,即len&amp;gt;=1 &amp;amp;&amp;amp; len&amp;lt;=&amp;quot; +
-        (getDuListLen() + 1)
-    );
-  }
-  var j = 1;
-  var p = headNode;
-  var newNode = new DuListNode(e);
-  while (p.next &amp;amp;&amp;amp; j &amp;lt; i) {
-    p = p.next;
-    j++;
-  }
-  if (p.next) {
-    newNode.next = p.next;
-    p.next.prior = newNode;
-    p.next = newNode;
-    newNode.prior = p;
-  } else {
-    p.next = newNode;
-    newNode.prior = p;
-  }
-}
-
-// 删除第i个位置的结点
-function delDuListNode(i) {
-  var j = 1;
-  var p = headNode;
-  if (getDuList(i) !== null) {
-    while (j &amp;lt;= i) {
-      p = p.next;
-      j++;
-    }
-  } else {
-    return new Error(&amp;quot;不存在第&amp;quot; + i + &amp;quot;个结点&amp;quot;);
-  }
-  p.prior.next = p.next;
-}
-
-// 打印每个结点(包含头结点)
-function printDuList() {
-  p = headNode;
-  while (p || (p &amp;amp;&amp;amp; !p.prior &amp;amp;&amp;amp; !p.next)) {
-    console.log(p);
-    p = p.next;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;循环链表：表中最后一个结点的指针域指向头结点，整个链表形成一个环，从表中任一结点出发均可找到表中其他结点
-&lt;br&gt;其操作和单链表和双链表的操作差不多，只不过算法的循环条件变成了 p.next 是否为头指针或者 p 是否为头指针&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;栈和队列&#34;&gt;栈和队列&lt;/h3&gt;
-
-&lt;h4 id=&#34;栈&#34;&gt;栈&lt;/h4&gt;
-
-&lt;p&gt;1.&amp;nbsp;逻辑结构：运算受限的线性表（限定仅在表尾进行插入或删除操作的线性表）&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;FILO（First In Last Out）先进后出&lt;/li&gt;
-&lt;li&gt;LIFO（Last In First Out）后进先出&lt;/li&gt;
-&lt;li&gt;栈顶：表尾端&lt;/li&gt;
-&lt;li&gt;栈底：表头端&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2.&amp;nbsp;存储和运算:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;顺序栈&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 栈
-function Stack() {
-  // 数据
-  this.data = [];
-  // 栈顶
-  this.top = 0;
-  // 栈底
-  this.base = 0;
-  // 入栈
-  this.entryStack = entryStack;
-  // 出栈
-  this.exitStack = exitStack;
-  // 返回栈顶元素
-  this.getTop = getTop;
-  // 长度
-  this.length = getLength;
-}
-
-function entryStack(e) {
-  this.data[this.top++] = e;
-}
-
-function exitStack() {
-  return this.data[--this.top];
-}
-
-function getTop() {
-  return this.data[top - 1];
-}
-
-function getLength() {
-  return this.top - this.base;
-}
-
-// 利用栈进行数制转换
-var s = new Stack();
-var n = prompt(&amp;quot;请输入数字&amp;quot;);
-var d = prompt(&amp;quot;请输入要转换的进制&amp;quot;);
-console.log(n, d);
-while (n) {
-  s.entryStack(n % d);
-  n = parseInt(n / d);
-}
-while (s.length()) {
-  console.log(s.exitStack());
-}
-
-// 利用栈计算一个数的阶乘
-var s = new Stack();
-var n = prompt(&amp;quot;请输入你要计算的数：&amp;quot;);
-var result = 1;
-while (n &amp;gt; 1) {
-  s.entryStack(n--);
-}
-while (s.length()) {
-  result *= s.exitStack();
-}
-console.log(result);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;链栈&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br&gt;栈的链式表示
-&lt;img src=&#34;https://kangzhiqing.com/linkStack.png&#34; style=&#34;height:60%&#34;&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;队列&#34;&gt;队列&lt;/h4&gt;
-
-&lt;p&gt;1.逻辑结构&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;FIFO（first in first out）&lt;/li&gt;
-&lt;li&gt;LILO（last in last out）&lt;/li&gt;
-&lt;li&gt;一端进行插入，另一端删除元素&lt;/li&gt;
-&lt;li&gt;允许插入的一端叫做队尾（rear）&lt;/li&gt;
-&lt;li&gt;允许删除的一端叫做队头 （front）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2.存储和运算&lt;/p&gt;
-
-&lt;p&gt;（1） 顺序存储&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 队列
-function Queue() {
-  // 数据
-  this.data = [];
-  // 队头
-  this.front = 0;
-  // 队尾
-  this.rear = 0;
-  // 获取队头
-  this.getFront = getFront;
-  // 获取队尾元素
-  this.getRear = getRear;
-  // 入队
-  this.entryQueue = entryQueue;
-  // 出队
-  this.exitQueue = exitQueue;
-  // 获取队列长度
-  this.length = getLength;
-  // 队列是否为空
-  this.isQueueEmpty = isQueueEmpty;
-}
-
-function getFront() {
-  return this.data[this.front];
-}
-
-function getRear() {
-  return this.data[this.rear - 1];
-}
-
-function entryQueue(e) {
-  this.data[this.rear++] = e;
-}
-
-function exitQueue() {
-  return this.data[this.front++];
-}
-
-function getLength() {
-  return this.rear - this.front;
-}
-
-function isQueueEmpty() {
-  return this.front == this.rear ? true : false;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;（2） 链式存储&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 单链队列（不引入头结点）
-function linkQueue() {
-  this.front = null;
-  this.rear = null;
-  this.length = 0;
-}
-
-linkQueue.prototype.qNode = function(e) {
-  this.data = e;
-  this.next = null;
-};
-
-// 判断队是否为空
-linkQueue.prototype.isQueueEmpty = function() {
-  return this.front == this.rear &amp;amp;&amp;amp; this.front == null ? true : false;
-};
-
-// 入队
-linkQueue.prototype.entryQueue = function(e) {
-  var newNode = new this.qNode(e);
-  if (this.length == 0) {
-    this.front = this.rear = newNode;
-  } else {
-    this.rear.next = newNode;
-    this.rear = newNode;
-  }
-  this.length++;
-  return true;
-};
-
-// 出队
-linkQueue.prototype.exitQueue = function() {
-  if (!this.isQueueEmpty()) {
-    var p = this.front;
-    this.front = this.front.next;
-    // 当队列最后一个元素出队后，队列的尾指针也丢失，则需要从新复制
-    if (this.rear == p) {
-      this.rear = this.front;
-    }
-    this.length--;
-    return p;
-  } else {
-    return new Error(&amp;quot;当前队列为空&amp;quot;);
-  }
-};
-
-// 打印当前队列
-linkQueue.prototype.printQueue = function() {
-  var str = &amp;quot;&amp;quot;;
-  var p = this.front;
-  while (p) {
-    str += p.data + &amp;quot; &amp;quot;;
-    p = p.next;
-  }
-  console.log(&amp;quot;当前队列为：&amp;quot; + str);
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;（3）循环存储
-设顺序存储队列用一维数组 q[m]表示，其中 m 为队列中元素个数，队列中元素在向量中的下标从 0 到 m-1。
-&lt;br&gt;
-在出队的时候，front 头指针向右移动，如果队尾指针指向 m-1，队列中仍有空闲单元，所以队列不是真的满了，
-这时候入队操作，就会出现假溢现象。为了避免多余的空闲单元浪费（假溢出现），则引入循环队列，仅仅用 front==rear 无法判断队列空间是空还是满，有两种处理方法，一种是另外设置一个标志位来区别队空和队满的区别，另一种是少用一个元素空间，约定以“头指针在队尾指针的下一位置上”作为队列呈“满”状态的标志，这里是第二种&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 循环队列
-function CQueue(maxLength) {
-  this.maxLength = maxLength;
-  this.data = new Array(maxLength);
-  // 初始化的时候头指针和尾指针都为0，每入队，rear指针加一，指向下一个位置
-  this.front = 0;
-  this.rear = 0;
-  this.length = 0;
-
-  // 获取队列长度
-  this.getLength = function() {
-    return (this.rear - this.front + this.maxLength) % this.maxLength;
-  };
-
-  // 入队
-  this.entryQueue = function(e) {
-    if ((this.rear + 1) % this.maxLength == this.front) {
-      return new Error(&amp;quot;队列已满&amp;quot;);
-    }
-    this.data[this.rear] = e;
-    this.rear = (this.rear + 1) % this.maxLength;
-    this.length++;
-  };
-
-  // 出队
-  this.exitQueue = function() {
-    if (this.front == this.rear) {
-      return new Error(&amp;quot;队列为空&amp;quot;);
-    }
-    var p = this.data[this.front];
-    this.front = (this.front + 1) % this.maxLength;
-    return p;
-  };
-
-  // 打印当前队列元素
-  this.printQueue = function() {
-    var str = &amp;quot;&amp;quot;;
-    var p = this.front;
-    while (p % this.maxLength &amp;lt; this.rear) {
-      str += this.data[p] + &amp;quot; &amp;quot;;
-      p = (p + 1) % this.maxLength;
-    }
-    console.log(str);
-  };
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;树和二叉树&#34;&gt;树和二叉树&lt;/h3&gt;
-
-&lt;p&gt;1.逻辑结构：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;树：n（n &amp;gt; 0）个节点的有限集&lt;/li&gt;
-&lt;li&gt;二叉数：每个结点的度最多为二（最多有两个子树）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2.存储和运算（二叉树）&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;顺序存储：用一组地址连续的存储单元依次自上而下，自左向右存储完全二叉数的结点元素，以‘0’表示不存在此结点。&lt;/li&gt;
-&lt;li&gt;链式存储&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 创建二叉树（这里实现二叉排序树）
-// 二叉排序树（Binary Sort Tree）BST：左子树上结点的值小于ta的根结点的值，而右子树上结点的值大于ta的根结点的值，没有键值相等的节点
-function BinaryTree() {
-  // 根节点
-  this.root = null;
-
-  // 节点
-  this.Node = function(data) {
-    this.data = data;
-    // 左指针
-    this.left = null;
-    // 右指针
-    this.right = null;
-  };
-
-  // 插入
-  this.insert = function(data) {
-    let newNode = new this.Node(data);
-    if (this.root === null) {
-      this.root = newNode;
-    } else {
-      this.insertNode(this.root, newNode);
-    }
-  };
-  this.insertNode = function(root, newNode) {
-    if (newNode.data &amp;lt; root.data) {
-      if (root.left === null) {
-        root.left = newNode;
-      } else {
-        this.insertNode(root.left, newNode);
-      }
-    } else {
-      if (root.right === null) {
-        root.right = newNode;
-      } else {
-        this.insertNode(root.right, newNode);
-      }
-    }
-  };
-
-  // 先序遍历
-  this.preOrderTraversal = function(callback) {
-    this.preOrderTraversalNode(this.root, callback);
-  };
-  this.preOrderTraversalNode = function(node, callback) {
-    if (node !== null) {
-      callback(node.data);
-      this.preOrderTraversalNode(node.left, callback);
-      this.preOrderTraversalNode(node.right, callback);
-    }
-  };
-
-  // 中序遍历（中序遍历二叉排序树得到的就是按从小到大的顺序访问所有节点）
-  this.inOrderTraversal = function(callback) {
-    this.inOrderTraversalNode(this.root, callback);
-  };
-  this.inOrderTraversalNode = function(node, callback) {
-    if (node !== null) {
-      this.inOrderTraversalNode(node.left, callback);
-      callback(node.data);
-      this.inOrderTraversalNode(node.right, callback);
-    }
-  };
-
-  // 后序遍历
-  this.postOrderTraversal = function(callback) {
-    this.postOrderTraversalNode(this.root, callback);
-  };
-  this.postOrderTraversalNode = function(node, callback) {
-    if (node !== null) {
-      this.postOrderTraversalNode(node.left, callback);
-      this.postOrderTraversalNode(node.right, callback);
-      callback(node.data);
-    }
-  };
-  this.printNode = function(value) {
-    console.log(value);
-  };
-
-  // 获取BST中的最小值
-  this.minData = function(){
-    let p = this.root;
-    while(p &amp;amp;&amp;amp; p.left){
-      p = p.left;
-    }
-    return p.data;
-  }
-
-  // 获取BST中的最大值
-  this.maxData = function(){
-    let p = this.root;
-    while(p &amp;amp;&amp;amp; p.right){
-      p = p.right;
-    }
-    return p.data;
-  }
-
-  // 查询一个节点
-  this.findNode = function(key,node=this.root){
-    if(node !== null){
-      if(key &amp;lt; node.key){
-        this.findNode(key,node.left);
-      }else if(key &amp;gt; node.key){
-        this.findNode(key, node.right);
-      }else{
-        return node;
-      }
-    }else{
-      return null;
-    }
-  }
-  // 移除一个节点
-  this.removeNode = function(key){
-    let p = root;
-    while(p.data)
-    if(node==null){
-      return null;
-    }
-
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;3.二叉树的性质&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;在二叉数的第 i 层上至多有 2^(i-1)个结点（i&amp;gt;=1）&lt;/li&gt;
-&lt;li&gt;深度（树中结点 最大的层次）为 k 的二叉树至多有 2^k-1 个结点
-&lt;br&gt;2^0+2^1+&amp;hellip;+2^k-1 = 2^0(1-2^k)/1-2 = 2^k - 1&lt;/li&gt;
-&lt;li&gt;对任何一颗二叉数 T，如果度为 0 的结点树为 n0，度为 2 的结点数为 n2，则 n2 = n0 + 1&lt;/li&gt;
-&lt;li&gt;满二叉树：一颗深度为 k 且有 2^k-1 个结点的二叉数称为满二叉树&lt;/li&gt;
-&lt;li&gt;完全二叉树：深度为 k，有 n 个结点的二叉树，当且仅当其每一个结点都与深度为 k 的满二叉树中编号从 1 至 n 的结点一一对应&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>感谢邱老师这一个学期的数据结构课的教导，让我了解到什么是数据结构和其重要性，以及相关的算法和实现。 这是一篇关于数据结构的复习。 基本概念 1.程</description>
     </item>
     
     <item>
@@ -1343,11 +234,7 @@ function BinaryTree() {
       <pubDate>Fri, 14 Dec 2018 09:46:57 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/life/dongpo/</guid>
-      <description>&lt;div style=&#34;text-indent:2rem&#34;&gt;和林语堂先生在《苏东坡传》开篇写的那样，我写这篇读后感并没有什么特别的理由，只是以此为乐而已，且此篇读后感和以往写的不同，算是一篇读书笔记吧，边读边写，有所感悟便写下来。也是希望自己能在这个忙碌和大多数事情追求快的时代偶尔能够慢下来~&lt;/div&gt;
-&lt;div style=&#34;text-indent:2rem&#34;&gt;故乡飘已远，往意浩无边。这句诗描绘的东坡二十左右一家进京任职的时候他的心境，故乡虽已远去，但去意浩瀚无边，此时的他满腹才华、自信以及对于仕途的向往和憧憬。在二十岁出头这个年纪，东坡可以说是文名日胜。&lt;/div&gt;
-&lt;div style=&#34;text-indent:2rem&#34;&gt;在描写苏夫人警惕东坡要提防那些过于坦白直率的泛泛之交，提放丈夫认为“天下无坏人”的大前提之下所照顾的那些朋友。林语堂先生觉得苏夫人的智慧是自“君子之交淡如水”得来的，水没有刺激的味道，但是人永远不会对之生厌。真诚的友谊永远不会特别表白的，真正的好朋友彼此不必通信，因为既是对彼此的友情信而不疑，谁也不需要写什么。一年分别后，再度相遇，友情如故。我觉得很多我和我高中的两个朋友之间就是如此，高中之后，大家各自分别，去了不同的学校上学，虽然在学校这些时间我们之间聊的天不多，但每每寒暑假回家，我们都会有聚一聚，友情如故，大家一起聊聊大学的一些事和感受,我觉得这样挺好的。&lt;/div&gt;
-&lt;div style=&#34;text-indent:2rem&#34;&gt;讲真，王安石变法那一段关于政治和经济局势的部分，看不太懂....&lt;/div&gt;
-</description>
+      <description>和林语堂先生在《苏东坡传》开篇写的那样，我写这篇读后感并没有什么特别的理由，只是以此为乐而已，且此篇读后感和以往写的不同，算是一篇读书笔记吧</description>
     </item>
     
     <item>
@@ -1356,24 +243,7 @@ function BinaryTree() {
       <pubDate>Tue, 11 Dec 2018 16:06:49 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/mongodb/</guid>
-      <description>
-
-&lt;p&gt;在学习node的时候，进行连接数据库相关操作，于是就学习了一下mongodb非关系型数据库。
-&lt;br&gt;mongodb操作的都是对象&lt;/p&gt;
-
-&lt;h3 id=&#34;基本命令汇总&#34;&gt;基本命令汇总&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;show dbs    显示所有的数据库
-show tables 显示当前数据库下的所有表
-db          显示当前数据库
-use mydb    切换到mydb数据库，如果没有则创建mydb数据库
-db.stu.insert({})   向stu表中插入数据，如果没有stu则创建一个stu表
-db.stu.find()   显示stu表下的所有数据
-db.stu.find({条件1},{条件2})  查找满足条件1且条件2的数据
-db.stu.find({$or:[{条件1},{条件2}]})  查找满足条件1或条件2的数据
-db.stu.find({age:{$gte:10,$lte:20}})    查询stu表中age大于等于10并且小于等于20的数据
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>在学习node的时候，进行连接数据库相关操作，于是就学习了一下mongodb非关系型数据库。 mongodb操作的都是对象 基本命令汇总 show dbs 显示</description>
     </item>
     
     <item>
@@ -1382,48 +252,7 @@ db.stu.find({age:{$gte:10,$lte:20}})    查询stu表中age大于等于10并且�
       <pubDate>Tue, 04 Dec 2018 21:47:47 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/element-ui/</guid>
-      <description>
-
-&lt;p&gt;之所以用别人造好的轮子，就是觉得自己的设计水平很差，脑子也没有很多的样式储备，写出来的样式有点丑，于是乎就想用一用类似BootStrap、uiket等轮子库，借鉴一下。这里就先学习了一下element-ui，，看！别人的轮子又大圆~&lt;/p&gt;
-
-&lt;h3 id=&#34;基本介绍&#34;&gt;基本介绍&lt;/h3&gt;
-
-&lt;p&gt;Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库
-现在是vue3.0，估计一段时间之后就会变成3.0了，相应的改动也会更新&lt;/p&gt;
-
-&lt;h3 id=&#34;vue-cli-3-0使用element-ui&#34;&gt;Vue-cli@3.0使用element-ui&lt;/h3&gt;
-
-&lt;p&gt;作为一个插件添加到vue-cli中&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vue create el
-cd el
-vue add element
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;安装element插件过程中会有交互，是全部导入，还是按需求导入，我是选择按需求导入，这样比较方便，也比较轻。
-&lt;br&gt;成功之后就可以看到你的vue-cli初始页面就会有一个element-button&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-vue&#34;&gt;element.js
-import Vue from &#39;vue&#39;
-import { Button } from &#39;element-ui&#39;
-import &#39;element-ui/lib/theme-chalk/index.css&#39;
-Vue.use(Button)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div style=&#34;color:red;font-size:16px&#34;&gt;tip：一定要导入对应你需要的css样式，这样才有用,index.css是theme-chalk下所有的css入口文件，如果只想单独使用某个css，找到那个css导入就好了&lt;/div&gt;
-
-&lt;h3 id=&#34;选择你需要的轮子&#34;&gt;选择你需要的轮子&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://element.eleme.io/#/zh-CN/component/installation&#34; target=&#34;_blank&#34;&gt;官网&lt;/a&gt;有很详细的介绍和样式预览，选择需要的，然后使用就好了，对于很好的样式可以看一看具体css怎么实现的，增加一些自己写css的能力&lt;/p&gt;
-
-&lt;h3 id=&#34;faq&#34;&gt;FAQ&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;vue使用element-ui的el-input监听不了回车事件解决
-&lt;br&gt;在后面加个native
-&lt;br&gt;@keydown.enter.native&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>之所以用别人造好的轮子，就是觉得自己的设计水平很差，脑子也没有很多的样式储备，写出来的样式有点丑，于是乎就想用一用类似BootStrap、u</description>
     </item>
     
     <item>
@@ -1432,21 +261,7 @@ Vue.use(Button)
       <pubDate>Tue, 04 Dec 2018 18:21:14 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/vue/</guid>
-      <description>
-
-&lt;h3 id=&#34;坑&#34;&gt;坑&lt;/h3&gt;
-
-&lt;p&gt;在使用axios拦截器的时候，在vue-router的钩子函数created是不会触发的&lt;/p&gt;
-
-&lt;h3 id=&#34;scroll&#34;&gt;scroll&lt;/h3&gt;
-
-&lt;p&gt;在写websocket网页版聊天时，有个需求时每次发消息，scroll都要定位在最下面，刚开始我是监听一个data里message数据的变化，每次有消息的时候，元素的scrollTop=元素的scrollHeight，但每次都是滚动条都定位在最底下的上一条消息上，因为每有一个消息，我就push到message的数组里面，然后页面自动渲染，也就是在最后一条消息渲染完成前就完成了滚动条的移动，所以导致每次都差一条消息的位置。解决办法就是监听dom的变化，
-使用this.$nextTick()，dom变化后再进行滚动条的移动&lt;/p&gt;
-
-&lt;h3 id=&#34;只能点击一次事件&#34;&gt;只能点击一次事件&lt;/h3&gt;
-
-&lt;p&gt;v-click.once=&amp;ldquo;clickOnce&amp;rdquo;&lt;/p&gt;
-</description>
+      <description>坑 在使用axios拦截器的时候，在vue-router的钩子函数created是不会触发的 scroll 在写websocket网页版聊天时，有个需求时每</description>
     </item>
     
     <item>
@@ -1455,35 +270,7 @@ Vue.use(Button)
       <pubDate>Tue, 04 Dec 2018 17:08:26 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/somestyle/</guid>
-      <description>
-
-&lt;h3 id=&#34;header&#34;&gt;Header&lt;/h3&gt;
-
-&lt;div style=&#34;height:40px;background:#fbfbfb;color:black;font-size:16px;line-height:40px;text-align:center&#34;&gt;Header #fbfbfb&lt;/div&gt;
-
-&lt;h3 id=&#34;table&#34;&gt;Table&lt;/h3&gt;
-
-&lt;div style=&#34;height:40px;background:#ddd;color:black;font-size:16px;line-height:40px;text-align:center&#34;&gt;偶数行：#ddd;&lt;/div&gt;
-&lt;div style=&#34;height:40px;background:#fff;color:black;font-size:16px;line-height:40px;text-align:center&#34;&gt;单行: #fff;&lt;/div&gt;
-
-&lt;h3 id=&#34;font&#34;&gt;Font&lt;/h3&gt;
-
-&lt;h3 id=&#34;border&#34;&gt;Border&lt;/h3&gt;
-
-&lt;div style=&#34;height:40px;color:black;font-size:16px;border:2px solid #f4f4f4;line-height:40px;text-align:center&#34;&gt;Border 很淡的那种 #f4f4f4&lt;/div&gt;
-
-&lt;h3 id=&#34;a&#34;&gt;a&lt;/h3&gt;
-
-&lt;p&gt;&lt;a style=&#34;border:none;color:#42b983;cursor:pointer&#34;&gt;#42b983&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;box-shadow&#34;&gt;box-shadow&lt;/h3&gt;
-
-&lt;div style=&#34;box-shadow:rgba(0, 0, 0, 0.12) 0px 2px 6px, rgba(0, 0, 0, 0.24) 0px 1px 2px;width:200px;padding:2px&#34;&gt;rgba(0, 0, 0, 0.12/0.24)&lt;/div&gt;
-
-&lt;h3 id=&#34;button&#34;&gt;Button&lt;/h3&gt;
-
-&lt;p&gt;&lt;button style=&#34;background:rgb(233,104,107)&#34;&gt;rgb(233,104,107)&lt;/button&gt;&lt;/p&gt;
-</description>
+      <description>Header Header #fbfbfb Table 偶数行：#ddd; 单行: #fff; Font Border Border 很淡的那种 #f4f4f4 a #42b983 box-shadow rgba(0, 0, 0, 0.12/0.24) Button rgb(233,104,107)</description>
     </item>
     
     <item>
@@ -1492,222 +279,7 @@ Vue.use(Button)
       <pubDate>Thu, 29 Nov 2018 16:25:34 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/docker/</guid>
-      <description>
-
-&lt;p&gt;记录学习docker的过程&lt;/p&gt;
-
-&lt;h3 id=&#34;特性&#34;&gt;特性&lt;/h3&gt;
-
-&lt;p&gt;标准化
-加速开发和构建流程，方便测试。容器可以在开发环境构建，轻松的提交到测试环境，并最终进入生产环境&lt;/p&gt;
-
-&lt;h3 id=&#34;docker核心组件&#34;&gt;docker核心组件&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;docker客户端和服务器（C/S）：docker引擎&lt;/li&gt;
-&lt;li&gt;docker镜像&lt;/li&gt;
-&lt;li&gt;仓库Registry&lt;/li&gt;
-&lt;li&gt;docker容器&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;安装&#34;&gt;安装&lt;/h3&gt;
-
-&lt;p&gt;按照官网给的步骤一步一步来就好了
-&lt;br&gt;&lt;a href=&#34;https://docs.docker.com/install/&#34; target=&#34;_blank&#34;&gt;https://docs.docker.com/install/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;启动&#34;&gt;启动&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ systemctl start docker
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;运行一个容器&#34;&gt;运行一个容器&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker run -i -t centos /bin/bash
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;-i 开启标准输入(STDIN)
-&lt;br&gt;-t 分配伪tty终端
-设置了这两个参数就创建了一个我们可以交互的容器&lt;/p&gt;
-
-&lt;h3 id=&#34;附着到正在运行的容器&#34;&gt;附着到正在运行的容器&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker attach containerId/Name
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;删除容器&#34;&gt;删除容器&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;删除一个容器
-$ docker rm containerId/Name
-
-删除所有容器(-q是只显示容器id)
-$ docker rm `docker ps -a -q`
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;镜像&#34;&gt;镜像&lt;/h3&gt;
-
-&lt;p&gt;拉取镜像&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker pull imageName:version
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;删除镜像&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker rmi imageName:version/id
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;查看镜像详细信息&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker inspect repositoryName/imageId
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;将镜像推送到docker-hub&#34;&gt;将镜像推送到Docker Hub&lt;/h3&gt;
-
-&lt;p&gt;登录&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker login
-Username:~
-Password:~
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;推送&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker push Username/~:tag
-push到远程仓库的镜像名必须是用户名开头的镜像，如果不是会被拒绝，改下镜像名字就好了
-$ docker tag imageId Username/~:tag 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;创建镜像&#34;&gt;创建镜像&lt;/h3&gt;
-
-&lt;p&gt;commit命令创建镜像&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker commit containerId/Name respositoryPath
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Dockerfile创建镜像&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ mkdir buildEnv
-$ cd buildEnv
-$ touch Dockerfile
-$ vim Dockerfile
-# Dockerfile
-# 指定基础镜像(base image)
-FROM ubuntu:latest
-# 申明作者以及邮箱
-MAINTAINER Name &amp;quot;Email&amp;quot;
-# 执行RUN指令
-RUN apt-get update &amp;amp;&amp;amp; apt-get install -y nginx 
-RUN echo &#39;hello world&#39; &amp;gt;/usr/share/nginx/html/index.html
-# 暴露端口
-EXPOSE 80
-
-$ docker build -t=&amp;quot;kzq/nginx&amp;quot; .
-
-启动镜像
-$ docker run -d -p 80 &amp;quot;kzq/nginx&amp;quot; nginx -g &amp;quot;daemon off;&amp;quot;
-// -d以分离（detached）的方式在后台运行 -p公开端口给宿主机
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;自动化工具docker-compose&#34;&gt;自动化工具docker-compose&lt;/h3&gt;
-
-&lt;p&gt;Compose is a tool for defining and running multi-container Docker applications
-&lt;br&gt;Compose是一个用于定义和运行多容器Docker应用程序的工具&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;安装
-&lt;br&gt;话不多说，官网文档大法好
-&lt;br&gt;&lt;a href=&#34;https://docs.docker.com/compose/install/&#34; target=&#34;_blank&#34;&gt;https://docs.docker.com/compose/install/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;三步走
-&lt;br&gt;(1)创建Dockerfile搭建环境
-&lt;br&gt;(2)创建docker-compose.yml配置服务
-&lt;br&gt;(3)运行&lt;code&gt;docker-compose up&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;docker-compose.yml格式(注意空格)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;  version: &#39;3&#39;
-    services:
-        web:
-            ports:
-            - &amp;quot;5000:5000&amp;quot;
-            volumes:
-            - .:/code
-            - logvolume01:/var/log
-            links:
-            - redis
-        redis:
-            image: redis
-    
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;nginx配置&#34;&gt;nginx配置&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# 用户名
-user nginx;
-# 工作进程数
-worker_processes auto;
-# 错误日志
-error_log /var/log/nginx/error.log;
-# 进程管理
-pid /run/nginx.pid;
-
-# Load dynamic modules. 加载动态模块
-include /usr/share/nginx/modules/*.conf;
-
-# events模块，处理连接的设置
-events {
-    # 每个进程的最大连接数
-    worker_connections 1024;
-}
-
-# http服务
-http {
-    # 日志格式
-    log_format  main  &#39;$remote_addr - $remote_user [$time_local] &amp;quot;$request&amp;quot; &#39;
-                      &#39;$status $body_bytes_sent &amp;quot;$http_referer&amp;quot; &#39;
-                      &#39;&amp;quot;$http_user_agent&amp;quot; &amp;quot;$http_x_forwarded_for&amp;quot;&#39;;
-    # 访问日志
-    access_log  /var/log/nginx/access.log  main;
-    # sendfile传输文件系统
-    # 传统方法：硬盘-&amp;gt;内核缓冲区-&amp;gt;用户缓冲区-&amp;gt;内核socket缓冲区-&amp;gt;协议引擎
-    # sendfile方法:硬盘-&amp;gt;内核缓冲区-&amp;gt;内核socket缓存区-&amp;gt;协议引擎 
-    # sendfile系统调用DMA引擎直接将文件数据从内核缓存区拷贝到内核socket缓冲区，提高了性能
-    sendfile            on;
-    tcp_nopush          on;
-    tcp_nodelay         on;
-    # 连接超时时间
-    keepalive_timeout   65;
-    types_hash_max_size 2048;
-
-    include             /etc/nginx/mime.types;
-    default_type        application/octet-stream;
-
-    # Load modular configuration files from the /etc/nginx/conf.d directory.
-    # See http://nginx.org/en/docs/ngx_core_module.html#include
-    # for more information.
-    include /etc/nginx/conf.d/*.conf;
-
-    server {
-        listen       80 default_server;
-        listen       [::]:80 default_server;
-        server_name  _;
-        root         /usr/share/nginx/html;
-
-        # Load configuration files for the default server block.
-        include /etc/nginx/default.d/*.conf;
-
-        location / {
-        }
-
-        error_page 404 /404.html;
-            location = /40x.html {
-        }
-
-        error_page 500 502 503 504 /50x.html;
-            location = /50x.html {
-        }
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>记录学习docker的过程 特性 标准化 加速开发和构建流程，方便测试。容器可以在开发环境构建，轻松的提交到测试环境，并最终进入生产环境 docke</description>
     </item>
     
     <item>
@@ -1716,25 +288,7 @@ http {
       <pubDate>Tue, 27 Nov 2018 18:39:26 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/vscode_c/</guid>
-      <description>&lt;p&gt;需要写一些关于C的实验报告，老师给的VC++6.0感觉很难用(字体小而且难看)，于是乎就想用我经常用的vscode编辑器来写C，上网百度了一些教程，搞了半天都没怎么搞懂里面的配置，于是自己就捣鼓了一哈。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;在vscode下载C/C++(Microsoft)扩展&lt;/li&gt;
-&lt;li&gt;下载编译器&lt;a href=&#34;http://tdm-gcc.tdragon.net/download&#34; target=&#34;_blank&#34;&gt;tdm-gcc&lt;/a&gt;(windows),其他编译器具体请看对应的官网，我觉得这个比较容易装就装了这个。
-安装成功会自动到将tdm-gcc的bin路径加入到windows的path变量中，如果没有则自己手动添加一下&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;基本上做完上面两步就可以了
-直接在终端输入gcc file.c -o file.exe就编译好了。
-&lt;br&gt;
-&lt;br&gt;还有一种简单的方法就是在VScode中安装一个扩展插件&amp;ndash;Code Runner,这是一个可以运行C，C++，java，JS，PHP，Python的一个插件,安装好了重新加载一下就会看到在VScode右边出现一个运行的按钮,不过默认是在输出下运行，不过输出是一个只读编辑器,所以如果有scanf需要输入的话就不能做了。这时候改下Code Runner的配置，使它运行在Terminal。
-&lt;br&gt;
-&lt;br&gt;文件&amp;ndash;&amp;gt;首选项&amp;ndash;&amp;gt;设置&amp;ndash;&amp;gt;用户设置&amp;ndash;&amp;gt;扩展&amp;ndash;&amp;gt;Code Runner Configuation&amp;ndash;&amp;gt;勾选✔Run in Terminal
-&lt;br&gt;
-&lt;br&gt;还有一个问题就是运行C的时候中文在Terminal中使会乱码的，这是因为cmd自身编码的问题,
-解决办法是终端或者在CMD.exe中进入到当前文件目录下输入&lt;code&gt;chcp&lt;/code&gt;(CHCP是一个计算机指令，能够显示或设置活动代码页编号),
-默认应该是936简体中文，所以需要改为utf-8，utf-8代码页编号是65001，输入&lt;code&gt;chcp 65001&lt;/code&gt;就好了&lt;/p&gt;
-</description>
+      <description>需要写一些关于C的实验报告，老师给的VC++6.0感觉很难用(字体小而且难看)，于是乎就想用我经常用的vscode编辑器来写C，上网百度了一</description>
     </item>
     
     <item>
@@ -1743,166 +297,115 @@ http {
       <pubDate>Tue, 27 Nov 2018 17:04:59 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/node/</guid>
-      <description>
-
-&lt;p&gt;开此篇记录下学习node的过程和一些笔记&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;事件驱动、非堵塞、单线程&lt;/li&gt;
-&lt;li&gt;Node.js是一个非阻塞的系统，当调用一些需要阻塞的等待或者事件，node会采用回调函数替代闲置等待，即事件驱动。就像我们在学校经常吃饭点餐的情况，点完餐之后店家会给个小票，上面有这此点餐的号码，到时候菜做好了就会叫号，这个号码相当于回调号码，这样就提高了效率，继续为下一个客人服务。&lt;/li&gt;
-&lt;li&gt;串行IO和并行IO，类似于同步和异步，前者的运行顺序是固定的，后者任何一个IO操作返回时间都是不确定的，如果IO操作有关联的话就要使用串行IO。按顺序的串行请求，无序的并行的请求&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;files&#34;&gt;files&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// ---------files---------
-// 引入模块
-var fs = require(&#39;fs&#39;);
-
-// 1.写文件，当前路径下没有就创建一个，如果存在就覆盖
-fs.writeFile(&#39;./test.txt&#39;, &#39;异步写入一些数据&#39;, &#39;utf8&#39;, function(err){
-    if(err){
-        console.log(&#39;写入失败&#39;)
-        throw err
-    }else{
-        console.log(&#39;写入成功&#39;)
-    }
-})
-
-fs.writeFileSync(&#39;./test.txt&#39;,&#39;同步写入一些数据&#39;,&#39;utf8&#39;)
-
-// 2.读文件，如果不加编码类型，则data返回的就是一个buffer缓冲区，里面存有二进制数据
-fs.readFile(&#39;./test.txt&#39;,&#39;utf8&#39;,function(err, data){
-    console.log(data)
-})
-
-// 3.追加文件，如果没有则创建一个
-fs.appendFileSync(&#39;./log.txt&#39;, &#39;同步追加，写入时间：&#39;+new Date().toLocaleString()+&#39;\n&#39;)
-
-fs.appendFile(&#39;./log.txt&#39;,&#39;异步追加，写入时间：&#39;+new Date().toLocaleString()+&#39;\n&#39;,function(err){
-    if(err){
-        console.log(&#39;添加失败&#39;)
-    }else{
-        console.log(&#39;添加成功&#39;)
-    }
-})
-
-// 4.监听文件，文件只要修改了就会执行回调函数
-fs.watchFile(&#39;./log.txt&#39;, function(cuur,prev) {
-    console.log(prev);
-})
-
-// 5.判断文件是否存在，存在返回true，不存在返回false
-var res = fs.existsSync(&#39;/a&#39;);
-console.log(res);
-
-fs.exists(&#39;./a&#39;,function(res){
-    if(res){
-        console.log(&#39;文件存在&#39;)
-    }else{
-        console.log(&#39;文件不存在&#39;)
-    }
-})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;http&#34;&gt;http&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// --------------http-----------------
-var http = require(&#39;http&#39;);
-var fs = require(&#39;fs&#39;)
-
-// 创建服务
-var myServer = http.createServer(function(req, res){
-    var reqUrl = req.url==&#39;/&#39;?&#39;./html/index.html&#39;:&#39;./html&#39;+req.url;
-    if(fs.existsSync(reqUrl)){
-        var html = fs.readFileSync(reqUrl);
-        res.write(html);
-    }else{
-        var errPage = fs.readFileSync(&#39;./html/404.html&#39;);
-        res.write(errPage);
-    }
-    res.end();
-})
-
-// 监听
-myServer.listen(&#39;1313&#39;, function(err){
-    if (err){
-        console.log(&#39;监听失败&#39;)
-        throw err
-    }else{
-        console.log(&#39;服务器已经开启，端口号为：1313&#39;)
-    }
-})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;path&#34;&gt;path&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// --------path------------
-var path = require(&#39;path&#39;);
-
-// 当前文件夹路径
-console.log(__dirname)
-
-// 当前文件路径
-console.log(__filename)
-
-// 路径的字符串拼接
-var url = path.join(&#39;html&#39;, &#39;index.html&#39;);
-console.log(url)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;express框架&#34;&gt;Express框架&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// --------express框架----------
-var express = require(&#39;express&#39;);
-var path = require(&#39;path&#39;);
-
-// 实例化对象
-var app = express();
-
-
-
-// 路由传参
-app.get(&#39;/student/:id&#39;, function(req,res){
-    var id = req.params.id;
-    console.log(id);
-})
-
-// 客户端所有请求
-app.all(&#39;/all&#39;, function(req, res){
-    res.send(&#39;所有的请求都接受了&#39;);
-})
-// 客户端get请求
-app.get(&#39;/account&#39;, function(req, res){
-    res.status(200).json({
-        code:0,
-        data:{
-            name:&#39;kzq&#39;,
-            age:20 
-        },
-        message:&#39;ok&#39;
-        
-    })
-})
-// 设置访问页面(默认index.html)
-app.use(express.static(path.join(__dirname,&#39;html&#39;)))
-app.use(&#39;/hello&#39;, function(req, res){
-    res.status(200).sendFile(path.join(__dirname, &#39;html&#39;, &#39;hello.html&#39;))
-})
-app.use(&#39;*&#39;, function(req, res){
-    res.status(404).sendFile(path.join(__dirname, &#39;html&#39;, &#39;404.html&#39;))
-})
-// 监听端口
-app.listen(3000, function(err){
-    if(err){
-        console.log(&#39;监听失败&#39;);
-        throw err;
-    }else{
-        console.log(&#39;express搭建的服务器已开启，端口号是3000&#39;)
-    }
-})
-&lt;/code&gt;&lt;/pre&gt;
-</description>
+      <description>开此篇记录下学习node的过程和一些笔记 事件驱动、非堵塞、单线程 Node.js是一个非阻塞的系统，当调用一些需要阻塞的等待或者事件，node</description>
+    </item>
+    
+    <item>
+      <title>学习过程记录</title>
+      <link>https://kangzhiqing.com/study/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Wed, 21 Nov 2018 08:20:03 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/study/%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95/</guid>
+      <description>2018年7月之前 暑假之前我就一直陆陆续续的接触后端的python语言，爬虫相关的知识 2018年7月 mysql数据库，scrapy爬虫 201</description>
+    </item>
+    
+    <item>
+      <title>Tween.js</title>
+      <link>https://kangzhiqing.com/post/tweenjs/</link>
+      <pubDate>Sun, 18 Nov 2018 11:22:48 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/tweenjs/</guid>
+      <description>tween.js - http://github.com/sole/tween.js JavaScript tweening engine for easy animations, incorporating optimised Robert Penner&amp;rsquo;s equations. JavaScript补间引擎，可轻松制作动画，并采用优化的Robert Penner方程。 1.基本用法(Usage</description>
+    </item>
+    
+    <item>
+      <title>Command</title>
+      <link>https://kangzhiqing.com/post/command/</link>
+      <pubDate>Sat, 17 Nov 2018 13:49:47 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/command/</guid>
+      <description>Linux基本操作 ls -ah 查看所有文件,包括隐藏文件 pwd print working directory 打印当前路径 mv oldname.js newname.js 重命名 cat 查看当前文件 cp: cp &amp;lt;file&amp;gt; &amp;lt;path&amp;gt; 复制file到path路径 cp &amp;lt;file&amp;gt; &amp;lt;copy_name&amp;gt; 复制f</description>
+    </item>
+    
+    <item>
+      <title>Three.js</title>
+      <link>https://kangzhiqing.com/post/threejs/</link>
+      <pubDate>Fri, 16 Nov 2018 23:43:52 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/threejs/</guid>
+      <description>1.scene 场景 scene就是一个可以放置物体、灯光的3D空间，和现实中的一个空间相似，可大可小 //创建一个场景 var scene = new THREE.Scene(); 2.camera 相机 camera决定看一个</description>
+    </item>
+    
+    <item>
+      <title>Q &amp;&amp; A</title>
+      <link>https://kangzhiqing.com/post/questions/</link>
+      <pubDate>Fri, 16 Nov 2018 10:01:19 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/questions/</guid>
+      <description>1. return !1 和 return false 以及 return 0! 和 return true写法有什么区别 tween.min.js的源码 update: function(c) { if (0 === a.length) return !1; for ( var b = 0, d = a.length, c = void 0 !== c ? c : Date.now(); b &amp;lt; d; )</description>
+    </item>
+    
+    <item>
+      <title>Css3Property</title>
+      <link>https://kangzhiqing.com/post/css3property/</link>
+      <pubDate>Thu, 01 Nov 2018 21:22:22 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/css3property/</guid>
+      <description>perspective 设置元素被查看位置的视图 div{ perspective:500px; }</description>
+    </item>
+    
+    <item>
+      <title>Typeof</title>
+      <link>https://kangzhiqing.com/post/typeof/</link>
+      <pubDate>Thu, 01 Nov 2018 17:52:19 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/typeof/</guid>
+      <description>typeof返回一个字符串,表示为经计算的操作数的类型 typeof(操作数)/typeof 操作数 ()是可以省略的 返回有五种基本类型:stri</description>
+    </item>
+    
+    <item>
+      <title>CSS3 Canvas</title>
+      <link>https://kangzhiqing.com/post/canvas/</link>
+      <pubDate>Wed, 31 Oct 2018 18:52:17 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/canvas/</guid>
+      <description>Canvas 是 HTML5 新增加的一个元素,它又称为&amp;rdquo;画布&amp;rdquo;,主要有以下四种功能 绘制图形 绘制图表 动画效果 游戏开发 在 chrome 浏览器中,canva</description>
+    </item>
+    
+    <item>
+      <title>Hugo主题sam</title>
+      <link>https://kangzhiqing.com/post/sam/</link>
+      <pubDate>Tue, 30 Oct 2018 22:22:27 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/sam/</guid>
+      <description>sam ├─archetypes ├─exampleSite │ ├─content │ │ ├─gallery │ │ │ └─images │ │ │ └─small │ │</description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>https://kangzhiqing.com/post/mysql/</link>
+      <pubDate>Tue, 30 Oct 2018 17:06:30 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/mysql/</guid>
+      <description>mysql数据库是我今年暑假在家学习，当时学习的时候写了一些笔记，现在把笔记整理到博客上。 事务(ACID规则) 原子性(Atomicity)：</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://kangzhiqing.com/post/hugo/</link>
+      <pubDate>Tue, 30 Oct 2018 09:11:33 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/hugo/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。我的博客网站就是通过Hugo来进行部署的,感谢Hugo,让我不</description>
+    </item>
+    
+    <item>
+      <title>HelloWorld</title>
+      <link>https://kangzhiqing.com/post/helloworld/</link>
+      <pubDate>Mon, 29 Oct 2018 21:59:40 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/helloworld/</guid>
+      <description>Hello World. This is my first blog.</description>
     </item>
     
   </channel>
