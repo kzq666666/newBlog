@@ -142,9 +142,11 @@ ALTER TABLE person CHANGE aaa aaa VARCHAR(25)
 ```
 
 #### 查
+
 ```sql
+----- 基本查询 ------
 -- 逻辑运算符 与and 或or 非not
--------- 基本查询 --------
+
 SELECT 字段1，字段2....FROM 表名 (WHERE 条件)
 SELECT stuName,stuClass,stuScore FROM mysqlScore;
 SELECT stuName FROM mysqlScore
@@ -157,8 +159,11 @@ SELECT stuName (AS passName) FROM mysqlScore WHERE stuScore>=60;
 SELECT * FROM mysqlScore ORDER BY stuScore DESC;
 -- 升序(ASC)
 SELECT * FROM mysqlScore ORDER BY stuScore ASC;
+```
 
--------- 聚合函数查询 --------
+
+```sql
+----- 聚合函数查询 -----
 SELECT 函数名（字段） FROM 表名
 -- 找出最大值：max(字段)
 SELECT MAX(stuScore) AS maxScore FROM mysqlScore;
@@ -185,7 +190,8 @@ SELECT RAND()     -- 返回0到1的随机数
 
 -- 时间格式函数
 SELECT DATE_FORMAT(DATE,'%Y年%m月%d日 %H:%i:%s') AS birthday FROM persons
-
+```
+```sql
 -------- 查询多条记录和分组查询 --------
 -- 多条查询
 SELECT * FROM users WHERE id IN (1,3)
@@ -200,7 +206,8 @@ SELECT goodCategory FROM goods GROUP BY goodCategory HAVING goodCategory='衣服
 SELECT * FROM goods LIMIT 0,3; -- 第一页
 SELECT * FROM goods LIMIT 3,3; -- 第二页
 SELECT * FROM goods LIMIT 6,3; -- 第三页
-
+```
+```sql
 --------- 多表查询 --------
 select * from 表1,表2....表n where 条件
 /* 多表查询方式：
@@ -222,7 +229,8 @@ dept d INNER JOIN emp e
 ON d.id = e.deptId WHERE d.dept = '开发部'
 -- 左外连接 left join 以左边的表为主，左边的表数据要显示出来
 -- 右外连接 right join 以右边的表为主，右边的表数据要显示出来
-
+```
+```sql
 -------- 模糊查询 --------
 LIKE 模糊查询
 a%  -- 以a开头，%为占位符
