@@ -32,14 +32,14 @@
   &lt;th&gt;专业方向&lt;/th&gt;
   &lt;th style=&#34;color:#F56C6C&#34;&gt;WEB 开发&lt;/th&gt;
 &lt;/tr&gt;
-&lt;tr&gt;
+&lt;!-- &lt;tr&gt;
   &lt;th&gt;目标院校&lt;/th&gt;
   &lt;th style=&#34;color:#F56C6C&#34;&gt;浙江大学&lt;/th&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
   &lt;th&gt;目标分数&lt;/th&gt;
   &lt;th  style=&#34;color:#67C23A&#34;&gt;380&lt;/th&gt;
-&lt;/tr&gt;
+&lt;/tr&gt; --&gt;
 &lt;/table&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;

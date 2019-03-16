@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mysql on 呼啦呼啦的根号二</title>
+    <title>MySQL on 呼啦呼啦的根号二</title>
     <link>https://kangzhiqing.com/tags/mysql/</link>
-    <description>Recent content in Mysql on 呼啦呼啦的根号二</description>
+    <description>Recent content in MySQL on 呼啦呼啦的根号二</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
     <lastBuildDate>Tue, 30 Oct 2018 17:06:30 +0800</lastBuildDate>
@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Mysql</title>
+      <title>MySQL</title>
       <link>https://kangzhiqing.com/post/mysql/</link>
       <pubDate>Tue, 30 Oct 2018 17:06:30 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/mysql/</guid>
-      <description>mysql数据库是我今年暑假在家学习，当时学习的时候写了一些笔记，现在把笔记整理到博客上。 事务(ACID规则) 原子性(Atomicity)：</description>
+      <description>mysql数据库是我今年暑假在家学习的，当时学习的时候写了一些笔记，现在把笔记整理到博客上。 Tips sql语句的语法Windows下是不区分大小写</description>
     </item>
     
   </channel>
