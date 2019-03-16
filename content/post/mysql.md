@@ -201,7 +201,7 @@ SELECT * FROM goods LIMIT 0,3; -- 第一页
 SELECT * FROM goods LIMIT 3,3; -- 第二页
 SELECT * FROM goods LIMIT 6,3; -- 第三页
 
--------- 多表查询 --------
+--------- 多表查询 --------
 select * from 表1,表2....表n where 条件
 /* 多表查询方式：
 	内连接
