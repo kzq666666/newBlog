@@ -28,3 +28,7 @@ tags: ["style"]
 
 ### Button
 <button style="background:rgb(233,104,107)">rgb(233,104,107)</button>
+<br>
+<br>
+### BackgroundColor
+<div style="background:indigo;heigth:300px;text-align:center">indigo</div>
