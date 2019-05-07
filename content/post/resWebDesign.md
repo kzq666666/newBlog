@@ -3,22 +3,8 @@ title = "ResWebDesign"
 date = 2019-04-02T16:26:09+08:00
 draft = false
 
-# Tags and categories
-# For example, use `tags = []` for no tags, or the form `tags = ["A Tag", "Another Tag"]` for one or more tags.
-tags = []
-categories = []
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-[image]
-  # Caption (optional)
-  caption = ""
-
-  # Focal point (optional)
-  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-  focal_point = ""
 +++
-- 媒体查询
+## 媒体查询
 ### meta标签
 针对视口的标签，告诉浏览器该如何渲染当前页面，是网页和移动浏览器的接口
 ```html
@@ -43,19 +29,20 @@ width为设备宽度
   - FlexBox方向是column，主轴就是纵轴，交叉轴就是横轴
 - 对齐
   - align-item:交叉轴对齐方式
-    - flex-start:从flexbox父元素起始边对齐
-    - flex-end:从flexbox父元素末尾对齐
-    - center:从flexbox父元素居中对齐
-    - baseline:沿基线对齐
-    - stretch:所有项拉伸至父元素一样大（默认）
+      - flex-start:从flexbox父元素起始边对齐
+      - flex-end:从flexbox父元素末尾对齐
+      - center:从flexbox父元素居中对齐
+      - baseline:沿基线对齐
+      - stretch:所有项拉伸至父元素一样大（默认）
+  - slign-self:单个元素的对齐方式
   - justify-content:主轴对齐方式
-    - flex-start(默认)
-    - flex-end
-    - center
-    - space-between:每个子元素的之间空白间距一样
-    - space-around:每个子元素的两端空白间距都一样
+      - flex-start(默认)
+      - flex-end
+      - center
+      - space-between:每个子元素的之间空白间距一样
+      - space-around:每个子元素的两端空白间距都一样
 - flex(flex-grow flex-shrink flex-basis)
-  - flex-grow:伸
-  - flex-shrink
-  - flex-basis
+  - flex-grow:相对于其他的项目的放大/伸张比例
+  - flex-shrink:相对于其他的项目的缩小/收缩比例
+  - flex-basis:项目占据的主轴空间，默认是auto 
 - 弹性

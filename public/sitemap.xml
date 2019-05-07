@@ -4,6 +4,54 @@
     
     <url>
     
+      <loc>https://kangzhiqing.com/post/jsalg/</loc>
+      <lastmod>2019-04-27T09:25:17+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://kangzhiqing.com/post/js/</loc>
+      <lastmod>2019-04-27T09:14:09+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://kangzhiqing.com/post/html5/</loc>
+      <lastmod>2019-04-12T09:43:04+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://kangzhiqing.com/post/recommend/</loc>
+      <lastmod>2019-04-11T17:06:48+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://kangzhiqing.com/post/svg/</loc>
+      <lastmod>2019-04-11T15:38:47+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://kangzhiqing.com/post/reswebdesign/</loc>
+      <lastmod>2019-04-02T16:26:09+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://kangzhiqing.com/study/%E8%80%83%E7%A0%94/</loc>
       <lastmod>2019-03-04T11:29:03+08:00</lastmod>
     </url>
@@ -94,14 +142,6 @@
     
       <loc>https://kangzhiqing.com/post/vue/</loc>
       <lastmod>2018-12-04T18:21:14+08:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://kangzhiqing.com/post/somestyle/</loc>
-      <lastmod>2018-12-04T17:08:26+08:00</lastmod>
     </url>
     
   
@@ -229,6 +269,13 @@
     <url>
     
       <loc>https://kangzhiqing.com/author/admin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://kangzhiqing.com/post/somestyle/</loc>
     </url>
     
   
@@ -478,7 +525,7 @@
     <url>
     
       <loc>https://kangzhiqing.com/post/</loc>
-      <lastmod>2019-02-15T14:29:05+08:00</lastmod>
+      <lastmod>2019-04-27T09:25:17+08:00</lastmod>
     </url>
     
   
@@ -505,15 +552,6 @@
     
       <loc>https://kangzhiqing.com/tags/structure/</loc>
       <lastmod>2018-12-26T09:20:11+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://kangzhiqing.com/tags/style/</loc>
-      <lastmod>2018-12-04T17:08:26+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -612,7 +650,7 @@
     <url>
     
       <loc>https://kangzhiqing.com/</loc>
-      <lastmod>2019-03-04T11:29:03+08:00</lastmod>
+      <lastmod>2019-04-27T09:25:17+08:00</lastmod>
       <priority>0</priority>
     </url>
     

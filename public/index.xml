@@ -6,8 +6,231 @@
     <description>Recent content in 呼啦呼啦的根号二 on 呼啦呼啦的根号二</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
-    <lastBuildDate>Mon, 04 Mar 2019 11:29:03 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Apr 2019 09:25:17 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JsAlg</title>
+      <link>https://kangzhiqing.com/post/jsalg/</link>
+      <pubDate>Sat, 27 Apr 2019 09:25:17 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/jsalg/</guid>
+      <description>
+
+&lt;h3 id=&#34;数组去重&#34;&gt;数组去重&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function noRepeat(arr){
+  return arr.filter((ele,index)=&amp;gt;{
+    return arr.indexOf(ele) == index;
+  })
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>JS</title>
+      <link>https://kangzhiqing.com/post/js/</link>
+      <pubDate>Sat, 27 Apr 2019 09:14:09 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/js/</guid>
+      <description>
+
+&lt;h3 id=&#34;console&#34;&gt;Console&lt;/h3&gt;
+
+&lt;p&gt;console.time和console.timeEnd统计一段代码运行时间&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;console.time(&#39;total time&#39;);
+for(let i = 0;i&amp;lt;1000;i++){};
+console.timeEnd(&#39;total time&#39;)
+// total time: 0.072ms
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HTML5</title>
+      <link>https://kangzhiqing.com/post/html5/</link>
+      <pubDate>Fri, 12 Apr 2019 09:43:04 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/html5/</guid>
+      <description>
+
+&lt;h3 id=&#34;object&#34;&gt;object&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;object&amp;gt;
+&amp;lt;!--装载非HTML内容的容器--&amp;gt;
+&amp;lt;/object&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>安利</title>
+      <link>https://kangzhiqing.com/post/recommend/</link>
+      <pubDate>Thu, 11 Apr 2019 17:06:48 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/recommend/</guid>
+      <description>
+
+&lt;h3 id=&#34;动画库&#34;&gt;动画库&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://greensock.com/tweenlite&#34; target=&#34;_blank&#34;&gt;TweenLite&lt;/a&gt;：轻量级别的缓动库
+
+&lt;ul&gt;
+&lt;li&gt;GreenLock&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SVG</title>
+      <link>https://kangzhiqing.com/post/svg/</link>
+      <pubDate>Thu, 11 Apr 2019 15:38:47 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/svg/</guid>
+      <description>
+
+&lt;h3 id=&#34;svg-scalable-vector-graphics-可伸缩矢量图&#34;&gt;SVG(Scalable Vector Graphics 可伸缩矢量图)&lt;/h3&gt;
+
+&lt;h3 id=&#34;历史&#34;&gt;历史&lt;/h3&gt;
+
+&lt;p&gt;2001年推出第一版，一直在发展，但直到高分辨率设备出现才得到广泛的关注和使用&lt;/p&gt;
+
+&lt;h3 id=&#34;定义&#34;&gt;定义&lt;/h3&gt;
+
+&lt;p&gt;SVG是XML中用于描述二维图形的语言，SVG支持三种图形对象&lt;code&gt;矢量图形形状&lt;/code&gt;、&lt;code&gt;图像&lt;/code&gt;、&lt;code&gt;文本&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;代码实例&#34;&gt;代码实例&lt;/h3&gt;
+
+&lt;h4 id=&#34;五角星&#34;&gt;五角星&lt;/h4&gt;
+
+&lt;p&gt;&lt;svg width=&#34;198px&#34; height=&#34;188px&#34; viewBox=&#34;0 0 198 188&#34; version=&#34;1.1&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; xmlns:sketch=&#34;http://www.bohemiancoding.com/sketch/ns&#34;&gt;
+    &lt;!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch --&gt;
+    &lt;title&gt;Star 1&lt;/title&gt;
+    &lt;desc&gt;Created with Sketch.&lt;/desc&gt;
+    &lt;defs&gt;&lt;/defs&gt;
+    &lt;g id=&#34;Page-1&#34; stroke=&#34;none&#34; stroke-width=&#34;1&#34; fill=&#34;none&#34; fill-rule=&#34;evenodd&#34; sketch:type=&#34;MSPage&#34;&gt;
+        &lt;polygon id=&#34;Star-1&#34; stroke=&#34;#979797&#34; stroke-width=&#34;3&#34; fill=&#34;#F8E81C&#34; sketch:type=&#34;MSShapeGroup&#34; points=&#34;99 154 40.2214748 184.901699 51.4471742 119.45085 3.89434837 73.0983006 69.6107374 63.5491503 99 4 128.389263 63.5491503 194.105652 73.0983006 146.552826 119.45085 157.778525 184.901699 &#34;&gt;&lt;/polygon&gt;
+    &lt;/g&gt;
+&lt;/svg&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!--
+  0 0 198 198
+  min-x min-y 宽度 高度
+--&amp;gt;
+&amp;lt;svg width=&amp;quot;198px&amp;quot; height=&amp;quot;188px&amp;quot; viewBox=&amp;quot;0 0 198 188&amp;quot; version=&amp;quot;1.1&amp;quot; xmlns=&amp;quot;http://www.w3.org/2000/svg&amp;quot; xmlns:xlink=&amp;quot;http://www.w3.org/1999/xlink&amp;quot; xmlns:sketch=&amp;quot;http://www.bohemiancoding.com/sketch/ns&amp;quot;&amp;gt;
+    &amp;lt;!--title和desc是在图片没有加载出来时候的展现出来的信息 --&amp;gt;
+    &amp;lt;title&amp;gt;Star 1&amp;lt;/title&amp;gt;
+    &amp;lt;desc&amp;gt;Created with Sketch.&amp;lt;/desc&amp;gt;
+    &amp;lt;!--defs用于存储所有可以复用的元素定义的地方，如梯度、符号、路径--&amp;gt;
+    &amp;lt;defs&amp;gt;&amp;lt;/defs&amp;gt;
+    &amp;lt;!--g标签是group的缩写，可以把其他元素捆绑在一起使用--&amp;gt;
+    &amp;lt;g id=&amp;quot;Page-1&amp;quot; stroke=&amp;quot;none&amp;quot; stroke-width=&amp;quot;1&amp;quot; fill=&amp;quot;none&amp;quot; fill-rule=&amp;quot;evenodd&amp;quot; sketch:type=&amp;quot;MSPage&amp;quot;&amp;gt;
+        &amp;lt;!--多边形节点（polygon），内置还有path、rect、circle、ellipse、--&amp;gt;
+        &amp;lt;polygon id=&amp;quot;Star-1&amp;quot; stroke=&amp;quot;#979797&amp;quot; stroke-width=&amp;quot;3&amp;quot; fill=&amp;quot;#F8E81C&amp;quot; sketch:type=&amp;quot;MSShapeGroup&amp;quot; points=&amp;quot;99 154 40.2214748 184.901699 51.4471742 119.45085 3.89434837 73.0983006 69.6107374 63.5491503 99 4 128.389263 63.5491503 194.105652 73.0983006 146.552826 119.45085 157.778525 184.901699 &amp;quot;&amp;gt;&amp;lt;/polygon&amp;gt;
+    &amp;lt;/g&amp;gt;
+&amp;lt;/svg&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;在页面上插入svg&#34;&gt;在页面上插入SVG&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;img
+&lt;code&gt;html
+&amp;lt;img src=&amp;quot;1.svg&amp;quot; alt=&amp;quot;a svg&amp;quot;/&amp;gt;
+&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;object
+&lt;code&gt;html
+&amp;lt;object type=&amp;quot;image/svg+xml&amp;quot; data=&amp;quot;1.svg&amp;quot;&amp;gt;
+&amp;lt;span&amp;gt;your browser donot support svg&amp;lt;/span&amp;gt;
+&amp;lt;/object
+&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;背景图片插入&lt;/li&gt;
+&lt;li&gt;内联&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ResWebDesign</title>
+      <link>https://kangzhiqing.com/post/reswebdesign/</link>
+      <pubDate>Tue, 02 Apr 2019 16:26:09 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/reswebdesign/</guid>
+      <description>
+
+&lt;h2 id=&#34;媒体查询&#34;&gt;媒体查询&lt;/h2&gt;
+
+&lt;h3 id=&#34;meta标签&#34;&gt;meta标签&lt;/h3&gt;
+
+&lt;p&gt;针对视口的标签，告诉浏览器该如何渲染当前页面，是网页和移动浏览器的接口&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!--
+viewport:视口 
+width为设备宽度 
+初始化页面大小为实际大小的1.0倍 
+禁止用户缩放
+--&amp;gt;
+&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width,initial-scale=1.0,user-scalable=no&amp;quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;弹性布局与响应式图片&#34;&gt;弹性布局与响应式图片&lt;/h3&gt;
+
+&lt;h4 id=&#34;flexbox&#34;&gt;Flexbox&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;方向
+
+&lt;ul&gt;
+&lt;li&gt;flex-direction&lt;/li&gt;
+&lt;li&gt;row:水平方向（起点是最左端）&lt;/li&gt;
+&lt;li&gt;row-reverse:水平反方向（起点是最右端）&lt;/li&gt;
+&lt;li&gt;column:垂直方向（起点是最上方）&lt;/li&gt;
+&lt;li&gt;column-reverse:垂直反方向（起点是最下方）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;主轴和交叉轴
+
+&lt;ul&gt;
+&lt;li&gt;FlexBox方向是row，主轴就是横轴，交叉轴就是与之垂直的纵轴&lt;/li&gt;
+&lt;li&gt;FlexBox方向是column，主轴就是纵轴，交叉轴就是横轴&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;对齐
+
+&lt;ul&gt;
+&lt;li&gt;align-item:交叉轴对齐方式
+
+&lt;ul&gt;
+&lt;li&gt;flex-start:从flexbox父元素起始边对齐&lt;/li&gt;
+&lt;li&gt;flex-end:从flexbox父元素末尾对齐&lt;/li&gt;
+&lt;li&gt;center:从flexbox父元素居中对齐&lt;/li&gt;
+&lt;li&gt;baseline:沿基线对齐&lt;/li&gt;
+&lt;li&gt;stretch:所有项拉伸至父元素一样大（默认）&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;slign-self:单个元素的对齐方式&lt;/li&gt;
+&lt;li&gt;justify-content:主轴对齐方式
+
+&lt;ul&gt;
+&lt;li&gt;flex-start(默认)&lt;/li&gt;
+&lt;li&gt;flex-end&lt;/li&gt;
+&lt;li&gt;center&lt;/li&gt;
+&lt;li&gt;space-between:每个子元素的之间空白间距一样&lt;/li&gt;
+&lt;li&gt;space-around:每个子元素的两端空白间距都一样&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;flex(flex-grow flex-shrink flex-basis)
+
+&lt;ul&gt;
+&lt;li&gt;flex-grow:相对于其他的项目的放大/伸张比例&lt;/li&gt;
+&lt;li&gt;flex-shrink:相对于其他的项目的缩小/收缩比例&lt;/li&gt;
+&lt;li&gt;flex-basis:项目占据的主轴空间，默认是auto&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;弹性&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>考研</title>
@@ -1447,393 +1670,6 @@ function BinaryTree() {
 &lt;div style=&#34;text-indent:2rem&#34;&gt;故乡飘已远，往意浩无边。这句诗描绘的东坡二十左右一家进京任职的时候他的心境，故乡虽已远去，但去意浩瀚无边，此时的他满腹才华、自信以及对于仕途的向往和憧憬。在二十岁出头这个年纪，东坡可以说是文名日胜。&lt;/div&gt;
 &lt;div style=&#34;text-indent:2rem&#34;&gt;在描写苏夫人警惕东坡要提防那些过于坦白直率的泛泛之交，提放丈夫认为“天下无坏人”的大前提之下所照顾的那些朋友。林语堂先生觉得苏夫人的智慧是自“君子之交淡如水”得来的，水没有刺激的味道，但是人永远不会对之生厌。真诚的友谊永远不会特别表白的，真正的好朋友彼此不必通信，因为既是对彼此的友情信而不疑，谁也不需要写什么。一年分别后，再度相遇，友情如故。我觉得很多我和我高中的两个朋友之间就是如此，高中之后，大家各自分别，去了不同的学校上学，虽然在学校这些时间我们之间聊的天不多，但每每寒暑假回家，我们都会有聚一聚，友情如故，大家一起聊聊大学的一些事和感受,我觉得这样挺好的。&lt;/div&gt;
 &lt;div style=&#34;text-indent:2rem&#34;&gt;讲真，王安石变法那一段关于政治和经济局势的部分，看不太懂....&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mongodb</title>
-      <link>https://kangzhiqing.com/post/mongodb/</link>
-      <pubDate>Tue, 11 Dec 2018 16:06:49 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/mongodb/</guid>
-      <description>
-
-&lt;p&gt;在学习node的时候，进行连接数据库相关操作，于是就学习了一下mongodb非关系型数据库。
-&lt;br&gt;mongodb操作的都是对象&lt;/p&gt;
-
-&lt;h3 id=&#34;基本命令汇总&#34;&gt;基本命令汇总&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;show dbs    显示所有的数据库
-show tables 显示当前数据库下的所有表
-db          显示当前数据库
-use mydb    切换到mydb数据库，如果没有则创建mydb数据库
-db.stu.insert({})   向stu表中插入数据，如果没有stu则创建一个stu表
-db.stu.find()   显示stu表下的所有数据
-db.stu.find({条件1},{条件2})  查找满足条件1且条件2的数据
-db.stu.find({$or:[{条件1},{条件2}]})  查找满足条件1或条件2的数据
-db.stu.find({age:{$gte:10,$lte:20}})    查询stu表中age大于等于10并且小于等于20的数据
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Element Ui</title>
-      <link>https://kangzhiqing.com/post/element-ui/</link>
-      <pubDate>Tue, 04 Dec 2018 21:47:47 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/element-ui/</guid>
-      <description>
-
-&lt;p&gt;之所以用别人造好的轮子，就是觉得自己的设计水平很差，脑子也没有很多的样式储备，写出来的样式有点丑，于是乎就想用一用类似BootStrap、uiket等轮子库，借鉴一下。这里就先学习了一下element-ui，，看！别人的轮子又大圆~&lt;/p&gt;
-
-&lt;h3 id=&#34;基本介绍&#34;&gt;基本介绍&lt;/h3&gt;
-
-&lt;p&gt;Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库
-现在是vue3.0，估计一段时间之后就会变成3.0了，相应的改动也会更新&lt;/p&gt;
-
-&lt;h3 id=&#34;vue-cli-3-0使用element-ui&#34;&gt;Vue-cli@3.0使用element-ui&lt;/h3&gt;
-
-&lt;p&gt;作为一个插件添加到vue-cli中&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;vue create el
-cd el
-vue add element
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;安装element插件过程中会有交互，是全部导入，还是按需求导入，我是选择按需求导入，这样比较方便，也比较轻。
-&lt;br&gt;成功之后就可以看到你的vue-cli初始页面就会有一个element-button&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-vue&#34;&gt;element.js
-import Vue from &#39;vue&#39;
-import { Button } from &#39;element-ui&#39;
-import &#39;element-ui/lib/theme-chalk/index.css&#39;
-Vue.use(Button)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;div style=&#34;color:red;font-size:16px&#34;&gt;tip：一定要导入对应你需要的css样式，这样才有用,index.css是theme-chalk下所有的css入口文件，如果只想单独使用某个css，找到那个css导入就好了&lt;/div&gt;
-
-&lt;h3 id=&#34;选择你需要的轮子&#34;&gt;选择你需要的轮子&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://element.eleme.io/#/zh-CN/component/installation&#34; target=&#34;_blank&#34;&gt;官网&lt;/a&gt;有很详细的介绍和样式预览，选择需要的，然后使用就好了，对于很好的样式可以看一看具体css怎么实现的，增加一些自己写css的能力&lt;/p&gt;
-
-&lt;h3 id=&#34;faq&#34;&gt;FAQ&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;vue使用element-ui的el-input监听不了回车事件解决
-&lt;br&gt;在后面加个native
-&lt;br&gt;@keydown.enter.native&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Vue</title>
-      <link>https://kangzhiqing.com/post/vue/</link>
-      <pubDate>Tue, 04 Dec 2018 18:21:14 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/vue/</guid>
-      <description>
-
-&lt;h3 id=&#34;坑&#34;&gt;坑&lt;/h3&gt;
-
-&lt;p&gt;在使用axios拦截器的时候，在vue-router的钩子函数created是不会触发的&lt;/p&gt;
-
-&lt;h3 id=&#34;scroll&#34;&gt;scroll&lt;/h3&gt;
-
-&lt;p&gt;在写websocket网页版聊天时，有个需求时每次发消息，scroll都要定位在最下面，刚开始我是监听一个data里message数据的变化，每次有消息的时候，元素的scrollTop=元素的scrollHeight，但每次都是滚动条都定位在最底下的上一条消息上，因为每有一个消息，我就push到message的数组里面，然后页面自动渲染，也就是在最后一条消息渲染完成前就完成了滚动条的移动，所以导致每次都差一条消息的位置。解决办法就是监听dom的变化，
-使用this.$nextTick()，dom变化后再进行滚动条的移动&lt;/p&gt;
-
-&lt;h3 id=&#34;只能点击一次事件&#34;&gt;只能点击一次事件&lt;/h3&gt;
-
-&lt;p&gt;v-click.once=&amp;ldquo;clickOnce&amp;rdquo;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>SomeStyle</title>
-      <link>https://kangzhiqing.com/post/somestyle/</link>
-      <pubDate>Tue, 04 Dec 2018 17:08:26 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/somestyle/</guid>
-      <description>
-
-&lt;h3 id=&#34;header&#34;&gt;Header&lt;/h3&gt;
-
-&lt;div style=&#34;height:40px;background:#fbfbfb;color:black;font-size:16px;line-height:40px;text-align:center&#34;&gt;Header #fbfbfb&lt;/div&gt;
-
-&lt;h3 id=&#34;table&#34;&gt;Table&lt;/h3&gt;
-
-&lt;div style=&#34;height:40px;background:#ddd;color:black;font-size:16px;line-height:40px;text-align:center&#34;&gt;偶数行：#ddd;&lt;/div&gt;
-&lt;div style=&#34;height:40px;background:#fff;color:black;font-size:16px;line-height:40px;text-align:center&#34;&gt;单行: #fff;&lt;/div&gt;
-
-&lt;h3 id=&#34;font&#34;&gt;Font&lt;/h3&gt;
-
-&lt;h3 id=&#34;border&#34;&gt;Border&lt;/h3&gt;
-
-&lt;div style=&#34;height:40px;color:black;font-size:16px;border:2px solid #f4f4f4;line-height:40px;text-align:center&#34;&gt;Border 很淡的那种 #f4f4f4&lt;/div&gt;
-
-&lt;h3 id=&#34;a&#34;&gt;a&lt;/h3&gt;
-
-&lt;p&gt;&lt;a style=&#34;border:none;color:#42b983;cursor:pointer&#34;&gt;#42b983&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;box-shadow&#34;&gt;box-shadow&lt;/h3&gt;
-
-&lt;div style=&#34;box-shadow:rgba(0, 0, 0, 0.12) 0px 2px 6px, rgba(0, 0, 0, 0.24) 0px 1px 2px;width:200px;padding:2px&#34;&gt;rgba(0, 0, 0, 0.12/0.24)&lt;/div&gt;
-
-&lt;h3 id=&#34;button&#34;&gt;Button&lt;/h3&gt;
-
-&lt;p&gt;&lt;button style=&#34;background:rgb(233,104,107)&#34;&gt;rgb(233,104,107)&lt;/button&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://kangzhiqing.com/post/docker/</link>
-      <pubDate>Thu, 29 Nov 2018 16:25:34 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/docker/</guid>
-      <description>
-
-&lt;p&gt;记录学习docker的过程&lt;/p&gt;
-
-&lt;h3 id=&#34;特性&#34;&gt;特性&lt;/h3&gt;
-
-&lt;p&gt;标准化
-加速开发和构建流程，方便测试。容器可以在开发环境构建，轻松的提交到测试环境，并最终进入生产环境&lt;/p&gt;
-
-&lt;h3 id=&#34;docker核心组件&#34;&gt;docker核心组件&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;docker客户端和服务器（C/S）：docker引擎&lt;/li&gt;
-&lt;li&gt;docker镜像&lt;/li&gt;
-&lt;li&gt;仓库Registry&lt;/li&gt;
-&lt;li&gt;docker容器&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;安装&#34;&gt;安装&lt;/h3&gt;
-
-&lt;p&gt;按照官网给的步骤一步一步来就好了
-&lt;br&gt;&lt;a href=&#34;https://docs.docker.com/install/&#34; target=&#34;_blank&#34;&gt;https://docs.docker.com/install/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;启动&#34;&gt;启动&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ systemctl start docker
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;运行一个容器&#34;&gt;运行一个容器&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker run -i -t centos /bin/bash
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;-i 开启标准输入(STDIN)
-&lt;br&gt;-t 分配伪tty终端
-设置了这两个参数就创建了一个我们可以交互的容器&lt;/p&gt;
-
-&lt;h3 id=&#34;附着到正在运行的容器&#34;&gt;附着到正在运行的容器&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker attach containerId/Name
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;删除容器&#34;&gt;删除容器&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;删除一个容器
-$ docker rm containerId/Name
-
-删除所有容器(-q是只显示容器id)
-$ docker rm `docker ps -a -q`
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;镜像&#34;&gt;镜像&lt;/h3&gt;
-
-&lt;p&gt;拉取镜像&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker pull imageName:version
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;删除镜像&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker rmi imageName:version/id
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;查看镜像详细信息&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker inspect repositoryName/imageId
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;将镜像推送到docker-hub&#34;&gt;将镜像推送到Docker Hub&lt;/h3&gt;
-
-&lt;p&gt;登录&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker login
-Username:~
-Password:~
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;推送&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker push Username/~:tag
-push到远程仓库的镜像名必须是用户名开头的镜像，如果不是会被拒绝，改下镜像名字就好了
-$ docker tag imageId Username/~:tag 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;创建镜像&#34;&gt;创建镜像&lt;/h3&gt;
-
-&lt;p&gt;commit命令创建镜像&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ docker commit containerId/Name respositoryPath
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Dockerfile创建镜像&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ mkdir buildEnv
-$ cd buildEnv
-$ touch Dockerfile
-$ vim Dockerfile
-# Dockerfile
-# 指定基础镜像(base image)
-FROM ubuntu:latest
-# 申明作者以及邮箱
-MAINTAINER Name &amp;quot;Email&amp;quot;
-# 执行RUN指令
-RUN apt-get update &amp;amp;&amp;amp; apt-get install -y nginx 
-RUN echo &#39;hello world&#39; &amp;gt;/usr/share/nginx/html/index.html
-# 暴露端口
-EXPOSE 80
-
-$ docker build -t=&amp;quot;kzq/nginx&amp;quot; .
-
-启动镜像
-$ docker run -d -p 80 &amp;quot;kzq/nginx&amp;quot; nginx -g &amp;quot;daemon off;&amp;quot;
-// -d以分离（detached）的方式在后台运行 -p公开端口给宿主机
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;自动化工具docker-compose&#34;&gt;自动化工具docker-compose&lt;/h3&gt;
-
-&lt;p&gt;Compose is a tool for defining and running multi-container Docker applications
-&lt;br&gt;Compose是一个用于定义和运行多容器Docker应用程序的工具&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;安装
-&lt;br&gt;话不多说，官网文档大法好
-&lt;br&gt;&lt;a href=&#34;https://docs.docker.com/compose/install/&#34; target=&#34;_blank&#34;&gt;https://docs.docker.com/compose/install/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;三步走
-&lt;br&gt;(1)创建Dockerfile搭建环境
-&lt;br&gt;(2)创建docker-compose.yml配置服务
-&lt;br&gt;(3)运行&lt;code&gt;docker-compose up&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;docker-compose.yml格式(注意空格)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;  version: &#39;3&#39;
-    services:
-        web:
-            ports:
-            - &amp;quot;5000:5000&amp;quot;
-            volumes:
-            - .:/code
-            - logvolume01:/var/log
-            links:
-            - redis
-        redis:
-            image: redis
-    
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;nginx配置&#34;&gt;nginx配置&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;# 用户名
-user nginx;
-# 工作进程数
-worker_processes auto;
-# 错误日志
-error_log /var/log/nginx/error.log;
-# 进程管理
-pid /run/nginx.pid;
-
-# Load dynamic modules. 加载动态模块
-include /usr/share/nginx/modules/*.conf;
-
-# events模块，处理连接的设置
-events {
-    # 每个进程的最大连接数
-    worker_connections 1024;
-}
-
-# http服务
-http {
-    # 日志格式
-    log_format  main  &#39;$remote_addr - $remote_user [$time_local] &amp;quot;$request&amp;quot; &#39;
-                      &#39;$status $body_bytes_sent &amp;quot;$http_referer&amp;quot; &#39;
-                      &#39;&amp;quot;$http_user_agent&amp;quot; &amp;quot;$http_x_forwarded_for&amp;quot;&#39;;
-    # 访问日志
-    access_log  /var/log/nginx/access.log  main;
-    # sendfile传输文件系统
-    # 传统方法：硬盘-&amp;gt;内核缓冲区-&amp;gt;用户缓冲区-&amp;gt;内核socket缓冲区-&amp;gt;协议引擎
-    # sendfile方法:硬盘-&amp;gt;内核缓冲区-&amp;gt;内核socket缓存区-&amp;gt;协议引擎 
-    # sendfile系统调用DMA引擎直接将文件数据从内核缓存区拷贝到内核socket缓冲区，提高了性能
-    sendfile            on;
-    tcp_nopush          on;
-    tcp_nodelay         on;
-    # 连接超时时间
-    keepalive_timeout   65;
-    types_hash_max_size 2048;
-
-    include             /etc/nginx/mime.types;
-    default_type        application/octet-stream;
-
-    # Load modular configuration files from the /etc/nginx/conf.d directory.
-    # See http://nginx.org/en/docs/ngx_core_module.html#include
-    # for more information.
-    include /etc/nginx/conf.d/*.conf;
-
-    server {
-        listen       80 default_server;
-        listen       [::]:80 default_server;
-        server_name  _;
-        root         /usr/share/nginx/html;
-
-        # Load configuration files for the default server block.
-        include /etc/nginx/default.d/*.conf;
-
-        location / {
-        }
-
-        error_page 404 /404.html;
-            location = /40x.html {
-        }
-
-        error_page 500 502 503 504 /50x.html;
-            location = /50x.html {
-        }
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>VScode配置C环境</title>
-      <link>https://kangzhiqing.com/post/vscode_c/</link>
-      <pubDate>Tue, 27 Nov 2018 18:39:26 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/vscode_c/</guid>
-      <description>&lt;p&gt;需要写一些关于C的实验报告，老师给的VC++6.0感觉很难用(字体小而且难看)，于是乎就想用我经常用的vscode编辑器来写C，上网百度了一些教程，搞了半天都没怎么搞懂里面的配置，于是自己就捣鼓了一哈。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;在vscode下载C/C++(Microsoft)扩展&lt;/li&gt;
-&lt;li&gt;下载编译器&lt;a href=&#34;http://tdm-gcc.tdragon.net/download&#34; target=&#34;_blank&#34;&gt;tdm-gcc&lt;/a&gt;(windows),其他编译器具体请看对应的官网，我觉得这个比较容易装就装了这个。
-安装成功会自动到将tdm-gcc的bin路径加入到windows的path变量中，如果没有则自己手动添加一下&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;基本上做完上面两步就可以了
-直接在终端输入gcc file.c -o file.exe就编译好了。
-&lt;br&gt;
-&lt;br&gt;还有一种简单的方法就是在VScode中安装一个扩展插件&amp;ndash;Code Runner,这是一个可以运行C，C++，java，JS，PHP，Python的一个插件,安装好了重新加载一下就会看到在VScode右边出现一个运行的按钮,不过默认是在输出下运行，不过输出是一个只读编辑器,所以如果有scanf需要输入的话就不能做了。这时候改下Code Runner的配置，使它运行在Terminal。
-&lt;br&gt;
-&lt;br&gt;文件&amp;ndash;&amp;gt;首选项&amp;ndash;&amp;gt;设置&amp;ndash;&amp;gt;用户设置&amp;ndash;&amp;gt;扩展&amp;ndash;&amp;gt;Code Runner Configuation&amp;ndash;&amp;gt;勾选✔Run in Terminal
-&lt;br&gt;
-&lt;br&gt;还有一个问题就是运行C的时候中文在Terminal中使会乱码的，这是因为cmd自身编码的问题,
-解决办法是终端或者在CMD.exe中进入到当前文件目录下输入&lt;code&gt;chcp&lt;/code&gt;(CHCP是一个计算机指令，能够显示或设置活动代码页编号),
-默认应该是936简体中文，所以需要改为utf-8，utf-8代码页编号是65001，输入&lt;code&gt;chcp 65001&lt;/code&gt;就好了&lt;/p&gt;
 </description>
     </item>
     

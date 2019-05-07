@@ -6,10 +6,64 @@
     <description>Recent content in posts on 呼啦呼啦的根号二</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
-    <lastBuildDate>Fri, 15 Feb 2019 14:29:05 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Apr 2019 09:25:17 +0800</lastBuildDate>
     
 	<atom:link href="https://kangzhiqing.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JsAlg</title>
+      <link>https://kangzhiqing.com/post/jsalg/</link>
+      <pubDate>Sat, 27 Apr 2019 09:25:17 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/jsalg/</guid>
+      <description>数组去重 function noRepeat(arr){ return arr.filter((ele,index)=&amp;gt;{ return arr.indexOf(ele) == index; }) }</description>
+    </item>
+    
+    <item>
+      <title>JS</title>
+      <link>https://kangzhiqing.com/post/js/</link>
+      <pubDate>Sat, 27 Apr 2019 09:14:09 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/js/</guid>
+      <description>Console console.time和console.timeEnd统计一段代码运行时间 console.time(&#39;total time&#39;); for(let i = 0;i&amp;lt;1000;i++){}; console.timeEnd(&#39;total time&#39;) // total time: 0.072ms</description>
+    </item>
+    
+    <item>
+      <title>HTML5</title>
+      <link>https://kangzhiqing.com/post/html5/</link>
+      <pubDate>Fri, 12 Apr 2019 09:43:04 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/html5/</guid>
+      <description>object &amp;lt;object&amp;gt; &amp;lt;!--装载非HTML内容的容器--&amp;gt; &amp;lt;/object&amp;gt;</description>
+    </item>
+    
+    <item>
+      <title>安利</title>
+      <link>https://kangzhiqing.com/post/recommend/</link>
+      <pubDate>Thu, 11 Apr 2019 17:06:48 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/recommend/</guid>
+      <description>动画库 TweenLite：轻量级别的缓动库 GreenLock</description>
+    </item>
+    
+    <item>
+      <title>SVG</title>
+      <link>https://kangzhiqing.com/post/svg/</link>
+      <pubDate>Thu, 11 Apr 2019 15:38:47 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/svg/</guid>
+      <description>SVG(Scalable Vector Graphics 可伸缩矢量图) 历史 2001年推出第一版，一直在发展，但直到高分辨率设备出现才得到广泛的关注和使用 定义 SVG是XML中用于描述二维图形的</description>
+    </item>
+    
+    <item>
+      <title>ResWebDesign</title>
+      <link>https://kangzhiqing.com/post/reswebdesign/</link>
+      <pubDate>Tue, 02 Apr 2019 16:26:09 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/reswebdesign/</guid>
+      <description>媒体查询 meta标签 针对视口的标签，告诉浏览器该如何渲染当前页面，是网页和移动浏览器的接口 &amp;lt;!-- viewport:视口 width为设备宽度 初始化</description>
+    </item>
     
     <item>
       <title>Webpack</title>
@@ -84,15 +138,6 @@
     </item>
     
     <item>
-      <title>SomeStyle</title>
-      <link>https://kangzhiqing.com/post/somestyle/</link>
-      <pubDate>Tue, 04 Dec 2018 17:08:26 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/somestyle/</guid>
-      <description>Header Header #fbfbfb Table 偶数行：#ddd; 单行: #fff; Font Border Border 很淡的那种 #f4f4f4 a #42b983 box-shadow rgba(0, 0, 0, 0.12/0.24) Button rgb(233,104,107)</description>
-    </item>
-    
-    <item>
       <title>Docker</title>
       <link>https://kangzhiqing.com/post/docker/</link>
       <pubDate>Thu, 29 Nov 2018 16:25:34 +0800</pubDate>
@@ -116,7 +161,7 @@
       <pubDate>Tue, 27 Nov 2018 17:04:59 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/node/</guid>
-      <description>开此篇记录下学习node的过程和一些笔记 事件驱动、非堵塞、单线程 Node.js是一个非阻塞的系统，当调用一些需要阻塞的等待或者事件，node</description>
+      <description>开此篇记录下学习node的过程和一些笔记 Node.js的一些特性 基于Chrome的V8引擎 事件驱动、非堵塞、单线程 Node.js是一个非阻塞</description>
     </item>
     
     <item>
@@ -161,7 +206,7 @@
       <pubDate>Thu, 01 Nov 2018 21:22:22 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/css3property/</guid>
-      <description>perspective 设置元素被查看位置的视图 div{ perspective:500px; }</description>
+      <description>perspective 设置元素被查看位置的视图 div{ perspective:500px; } column main{ column-count:4; /*固定列数*/ column-width:12em; /*列宽*/ column-gap:2em; /*每列的间距*/ column-rule:thin dotted #999; /*列之间样式*/ } word-wrap 吗， - normal 默认 break-word 长的url</description>
     </item>
     
     <item>
@@ -216,6 +261,15 @@
       
       <guid>https://kangzhiqing.com/post/helloworld/</guid>
       <description>Hello World. This is my first blog.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kangzhiqing.com/post/somestyle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/somestyle/</guid>
+      <description>·</description>
     </item>
     
   </channel>

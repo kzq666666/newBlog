@@ -13,3 +13,21 @@ div{
     perspective:500px;
 }
 ```
+
+#### column
+```css
+
+main{
+    column-count:4; /*固定列数*/
+    column-width:12em; /*列宽*/
+    column-gap:2em; /*每列的间距*/
+    column-rule:thin dotted #999; /*列之间样式*/
+}
+```
+#### word-wrap
+ 吗，
+ -  normal 默认 
+
+- break-word 长的url或者链接内部换行
+
+#### 水平滚动（比如图片很多）

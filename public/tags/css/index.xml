@@ -17,7 +17,7 @@
       <pubDate>Thu, 01 Nov 2018 21:22:22 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/css3property/</guid>
-      <description>perspective 设置元素被查看位置的视图 div{ perspective:500px; }</description>
+      <description>perspective 设置元素被查看位置的视图 div{ perspective:500px; } column main{ column-count:4; /*固定列数*/ column-width:12em; /*列宽*/ column-gap:2em; /*每列的间距*/ column-rule:thin dotted #999; /*列之间样式*/ } word-wrap 吗， - normal 默认 break-word 长的url</description>
     </item>
     
     <item>
