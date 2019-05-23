@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>demo on 呼啦呼啦的根号二</title>
+    <link>https://kangzhiqing.com/tags/demo/</link>
+    <description>Recent content in demo on 呼啦呼啦的根号二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-zh</language>
+    <lastBuildDate>Thu, 23 May 2019 16:11:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://kangzhiqing.com/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSSDemo</title>
+      <link>https://kangzhiqing.com/post/cssdemo/</link>
+      <pubDate>Thu, 23 May 2019 16:11:03 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/cssdemo/</guid>
+      <description>水波效果 .waterWaves{ position: relative; width: 200px; height: 200px; border: 1px solid #999; border-radius: 50%; text-align: center; line-height: 100px; margin: 100px auto; animation: wave linear infinite; overflow:hidden; } .wave1{ position: absolute; width: 200%; height: 200%; background:skyblue; opacity: 0.4; left: -50%; top: 50%; border-radius: 180px; animation: inherit; animation-duration: 7s; } .wave2{ position: absolute; width: 200%; height: 200%; background:skyblue; opacity: 0.6; left: -30%; top: 60%; border-radius: 45%; animation: inherit; animation-duration:</description>
+    </item>
+    
+  </channel>
+</rss>

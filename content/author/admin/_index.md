@@ -6,7 +6,7 @@ name = "SquareRootTwo"
 superuser = true
 
 # Role/position
-role = "猪头少年要冲呀！"
+role = "加油"
 
 # Organizations/Affiliations
 # Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.

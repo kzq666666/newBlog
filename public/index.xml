@@ -6,8 +6,152 @@
     <description>Recent content in 呼啦呼啦的根号二 on 呼啦呼啦的根号二</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
-    <lastBuildDate>Sat, 27 Apr 2019 09:25:17 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 May 2019 16:11:03 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CSSDemo</title>
+      <link>https://kangzhiqing.com/post/cssdemo/</link>
+      <pubDate>Thu, 23 May 2019 16:11:03 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/cssdemo/</guid>
+      <description>
+
+&lt;h3 id=&#34;水波效果&#34;&gt;水波效果&lt;/h3&gt;
+
+&lt;p&gt;&lt;style&gt;
+        .waterWaves{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border: 1px solid #999;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 100px;
+            margin: 100px auto;
+            animation: wave linear infinite;
+            overflow:hidden;
+        }
+        .wave1{
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background:skyblue;
+            opacity: 0.4;
+            left: -50%;
+            top: 50%;
+            border-radius: 180px;
+            animation: inherit;
+            animation-duration: 7s;
+        }
+        .wave2{
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background:skyblue;
+            opacity: 0.6;
+            left: -30%;
+            top: 60%;
+            border-radius: 45%;
+            animation: inherit;
+            animation-duration: 10s;
+        }
+        .wave3{
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background:skyblue;
+            opacity: 0.8;
+            left: -50%;
+            top: 55%;
+            border-radius: 45%;
+            animation: inherit;
+            animation-duration: 7s;
+        }
+        @keyframes wave{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+    &lt;/style&gt;
+&lt;div class=&#34;waterWaves&#34; &gt;
+  &lt;div class=&#34;wave1&#34; &gt;&lt;/div&gt;
+  &lt;div class=&#34;wave2&#34;&gt;&lt;/div&gt;
+  &lt;div class=&#34;wave3&#34;&gt;&lt;/div&gt;
+  WaterWave
+&lt;/div&gt;
+主要利用子元素的旋转实现，具体代码如下&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;waterWaves&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;wave1&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;wave2&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;wave3&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+  WaterWave
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.waterWaves {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  margin: 100px auto;
+  animation: wave linear infinite;
+  overflow: hidden;
+}
+.wave1 {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: skyblue;
+  opacity: 0.4;
+  left: -50%;
+  top: 50%;
+  border-radius: 180px;
+  animation: inherit;
+  animation-duration: 7s;
+}
+.wave2 {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: skyblue;
+  opacity: 0.6;
+  left: -30%;
+  top: 60%;
+  border-radius: 45%;
+  animation: inherit;
+  animation-duration: 10s;
+}
+.wave3 {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: skyblue;
+  opacity: 0.8;
+  left: -50%;
+  top: 55%;
+  border-radius: 45%;
+  animation: inherit;
+  animation-duration: 13s;
+}
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>JsAlg</title>
@@ -304,11 +448,15 @@ width为设备宽度
 
 &lt;h3 id=&#34;数学&#34;&gt;数学&lt;/h3&gt;
 
-&lt;p&gt;2019年3月4日  =&amp;gt; 复习完线代行列式和矩阵基本知识&lt;/p&gt;
+&lt;p&gt;2019年3月4日  =&amp;gt; 复习完线代行列式和矩阵基本知识
+&lt;br&gt;
+2019年5月23日 =&amp;gt; 复习完线代，高数才复习到第二讲（有点慢）&lt;/p&gt;
 
 &lt;h3 id=&#34;英语&#34;&gt;英语&lt;/h3&gt;
 
-&lt;p&gt;2019年3月4日  =&amp;gt; 考研单词已背1000个&lt;/p&gt;
+&lt;p&gt;2019年3月4日  =&amp;gt; 考研单词已背1000
+&lt;br&gt;
+2019年5月23日 =&amp;gt; 考研单词已背4000&lt;/p&gt;
 
 &lt;h3 id=&#34;政治&#34;&gt;政治&lt;/h3&gt;
 
@@ -320,7 +468,11 @@ width为设备宽度
 
 &lt;h4 id=&#34;计算机组成和原理&#34;&gt;计算机组成和原理&lt;/h4&gt;
 
+&lt;p&gt;2019年5月23日 =&amp;gt; 看完一遍王道（里面题目还没做完），自我感觉计组还是比较难的&lt;/p&gt;
+
 &lt;h4 id=&#34;计算机网络&#34;&gt;计算机网络&lt;/h4&gt;
+
+&lt;p&gt;2019年5月23日 =&amp;gt; 复习到第三章数据链路层&lt;/p&gt;
 
 &lt;h3 id=&#34;2019-年-2-月&#34;&gt;2019 年 2 月&lt;/h3&gt;
 
@@ -329,6 +481,14 @@ width为设备宽度
 &lt;h3 id=&#34;2019-年-3-月-4-日&#34;&gt;2019 年 3 月 4 日&lt;/h3&gt;
 
 &lt;p&gt;这个学期已经过去一个星期了，这个学期课还算是比较多的，加上双学位的课，确实有些忙碌。考研的路刚刚开始，但感觉自己的效率还是比较低，可能是太久没有这样准备考试了，总而言之，路是要慢慢的走的，踏踏实实的完成每日的复习任务。&lt;/p&gt;
+
+&lt;h3 id=&#34;2019-年-5-月-23-日&#34;&gt;2019 年 5 月 23 日&lt;/h3&gt;
+
+&lt;p&gt;考研呢，是一件短期收益较低的事情，贵在坚持，我觉得这个过程真的是和自己对抗更多，大多时候还是要对自己狠点，不然惰性一上来效率什么的就没了
+&lt;br&gt;
+还有执行力有待提高，说做一件事还是要立马去做，拖一下就基本不做了
+&lt;br&gt;
+最后呢，加油呢~&lt;/p&gt;
 </description>
     </item>
     
@@ -1657,19 +1817,6 @@ function BinaryTree() {
 &lt;li&gt;满二叉树：一颗深度为 k 且有 2^k-1 个结点的二叉数称为满二叉树&lt;/li&gt;
 &lt;li&gt;完全二叉树：深度为 k，有 n 个结点的二叉树，当且仅当其每一个结点都与深度为 k 的满二叉树中编号从 1 至 n 的结点一一对应&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>林语堂《苏东坡传》读后感</title>
-      <link>https://kangzhiqing.com/life/dongpo/</link>
-      <pubDate>Fri, 14 Dec 2018 09:46:57 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/life/dongpo/</guid>
-      <description>&lt;div style=&#34;text-indent:2rem&#34;&gt;和林语堂先生在《苏东坡传》开篇写的那样，我写这篇读后感并没有什么特别的理由，只是以此为乐而已，且此篇读后感和以往写的不同，算是一篇读书笔记吧，边读边写，有所感悟便写下来。也是希望自己能在这个忙碌和大多数事情追求快的时代偶尔能够慢下来~&lt;/div&gt;
-&lt;div style=&#34;text-indent:2rem&#34;&gt;故乡飘已远，往意浩无边。这句诗描绘的东坡二十左右一家进京任职的时候他的心境，故乡虽已远去，但去意浩瀚无边，此时的他满腹才华、自信以及对于仕途的向往和憧憬。在二十岁出头这个年纪，东坡可以说是文名日胜。&lt;/div&gt;
-&lt;div style=&#34;text-indent:2rem&#34;&gt;在描写苏夫人警惕东坡要提防那些过于坦白直率的泛泛之交，提放丈夫认为“天下无坏人”的大前提之下所照顾的那些朋友。林语堂先生觉得苏夫人的智慧是自“君子之交淡如水”得来的，水没有刺激的味道，但是人永远不会对之生厌。真诚的友谊永远不会特别表白的，真正的好朋友彼此不必通信，因为既是对彼此的友情信而不疑，谁也不需要写什么。一年分别后，再度相遇，友情如故。我觉得很多我和我高中的两个朋友之间就是如此，高中之后，大家各自分别，去了不同的学校上学，虽然在学校这些时间我们之间聊的天不多，但每每寒暑假回家，我们都会有聚一聚，友情如故，大家一起聊聊大学的一些事和感受,我觉得这样挺好的。&lt;/div&gt;
-&lt;div style=&#34;text-indent:2rem&#34;&gt;讲真，王安石变法那一段关于政治和经济局势的部分，看不太懂....&lt;/div&gt;
 </description>
     </item>
     
