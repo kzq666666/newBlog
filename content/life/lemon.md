@@ -22,7 +22,7 @@ tags = []
 那些未对他人提及过的黑暗往事
 ##### あなたがいなきゃ <ruby>永远   <rt style="font-size:0.8rem;">えいえん</rt></ruby>に <ruby>昏   <rt style="font-size:0.8rem;">くら</rt></ruby>いまま
 如果不曾有你的话 它们将永远沉睡在黑暗中
-##### きっともうこれ以上  <ruby>伤   <rt style="font-size:0.8rem;">きず</rt></ruby>つくことなど
+##### きっともうこれ <ruby>以上  <rt style="font-size:0.8rem;">いじょう</rt></ruby><ruby>伤<rt style="font-size:0.8rem;">きず</rt></ruby>つくことなど
 比这更令人难过的事情
 ##### ありはしないとわかっている
 我知道不可能存在
