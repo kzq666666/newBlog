@@ -18,7 +18,7 @@ tags = []
 这世间亦有无法挽回的幸福
 #####  <ruby>最後   <rt style="font-size:0.8rem;">さいご</rt></ruby>にあなたが <ruby>教   <rt style="font-size:0.8rem;">おし</rt></ruby>えてくれた
 最终是你让我懂得这一点
-#####  <ruby>言   <rt style="font-size:0.8rem;">い</rt></ruby>えずに <ruby>隠   <rt style="font-size:0.8rem;">かくし</rt></ruby>してた <ruby>昏   <rt style="font-size:0.8rem;">くら</rt></ruby>い<ruby>过去   <rt style="font-size:0.8rem;">かこ</rt></ruby>も
+#####  <ruby>言   <rt style="font-size:0.8rem;">い</rt></ruby>えずに <ruby>隠   <rt style="font-size:0.8rem;">かく</rt></ruby>してた <ruby>昏   <rt style="font-size:0.8rem;">くら</rt></ruby>い<ruby>过去   <rt style="font-size:0.8rem;">かこ</rt></ruby>も
 那些未对他人提及过的黑暗往事
 ##### あなたがいなきゃ <ruby>永远   <rt style="font-size:0.8rem;">えいえん</rt></ruby>に <ruby>昏   <rt style="font-size:0.8rem;">くら</rt></ruby>いまま
 如果不曾有你的话 它们将永远沉睡在黑暗中
@@ -30,7 +30,7 @@ tags = []
 那日的悲伤
 ##### あの <ruby>日   <rt style="font-size:0.8rem;">ひ</rt></ruby>の <ruby>苦   <rt style="font-size:0.8rem;">くる</rt></ruby>しみさえ
 与那日的痛苦
-##### そのすべてを <ruby>爱   <rt style="font-size:0.8rem;">あい</rt></ruby>してた あなたとともに
+##### そのすべてを <ruby>爱   <rt style="font-size:0.8rem;">あい</rt></ruby>してた&emsp;あなたとともに
 连同深爱着这一切的你
 #####  <ruby>胸   <rt style="font-size:0.8rem;">むね</rt></ruby>に <ruby>残   <rt style="font-size:0.8rem;">のこ</rt></ruby>り <ruby>离   <rt style="font-size:0.8rem;">はな</rt></ruby>れない
 化作了深深烙印在我心中的
@@ -74,13 +74,13 @@ tags = []
 <br>
 <br>
 <br>
-##### <ruby>自分<rt style="font-size:0.8rem;">じぶん</rt></ruby>が <ruby>思   <rt style="font-size:0.8rem;">おも</rt></ruby>うより  <ruby>恋   <rt style="font-size:0.8rem;">こい</rt></ruby>をしていたあなたに
+##### <ruby>自分<rt style="font-size:0.8rem;">じぶん</rt></ruby>が <ruby>思   <rt style="font-size:0.8rem;">おも</rt></ruby>うより  &emsp;<ruby>恋   <rt style="font-size:0.8rem;">こい</rt></ruby>をしていたあなたに
 我深深地恋慕着你 甚至超出了我自己的想象
-##### あれから <ruby>思   <rt style="font-size:0.8rem;">おも</rt></ruby>うように  <ruby>息   <rt style="font-size:0.8rem;">いき</rt></ruby>ができない
+##### あれから <ruby>思   <rt style="font-size:0.8rem;">おも</rt></ruby>うように   &emsp;<ruby>息   <rt style="font-size:0.8rem;">いき</rt></ruby>ができない
 自此每当想起你 都如同窒息般痛苦
-##### あんなに <ruby>侧   <rt style="font-size:0.8rem;">そば</rt></ruby>にいたのにまるで <ruby>嘘   <rt style="font-size:0.8rem;">うそ</rt></ruby>みたい
+##### あんなに <ruby>侧   <rt style="font-size:0.8rem;">そば</rt></ruby>にいたのに &emsp;まるで <ruby>嘘   <rt style="font-size:0.8rem;">うそ</rt></ruby>みたい
 你曾亲密伴我身旁 如今却如烟云般消散
-##### とても <ruby>忘   <rt style="font-size:0.8rem;">わす</rt></ruby>れられないそれだけが <ruby>确   <rt style="font-size:0.8rem;">たし</rt></ruby>か
+##### とても <ruby>忘   <rt style="font-size:0.8rem;">わす</rt></ruby>れられない &emsp;それだけが <ruby>确   <rt style="font-size:0.8rem;">たし</rt></ruby>か
 唯一能确定的是 我永远都不会将你遗忘
 ##### あの <ruby>日   <rt style="font-size:0.8rem;">ひ</rt></ruby>の <ruby>悲   <rt style="font-size:0.8rem;">かな</rt></ruby>しみさえ
 那日的悲伤
