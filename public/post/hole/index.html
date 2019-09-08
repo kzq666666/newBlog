@@ -396,7 +396,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-      84 words
+      279 words
     
   </span>
   
@@ -448,6 +448,16 @@
 2.找到HKEY_LOCAL_MACHINE\SOFTWARE\Classes.js
 <br>
 3.把content Type : text/plain =&gt; application/javascript</p>
+
+<h3 id="electron-builder打包过程的错误">electron-builder打包过程的错误</h3>
+
+<p><img src="/img/electron-builder-error.png" alt="报错截图" />
+在可以科学上网的情况还是出现了该bug，只能选择手动下载对应的包了
+，这里报错是要下载winCodeSign-2.4.0，之后也会报错相应的包，就手动去下载对应的包
+<br><a href="https://github.com/electron-userland/electron-builder-binaries/releases" target="_blank">下载传送门</a>
+<br>之后解压到 =&gt; C:\Users\KZQ\AppData\Local\electron-builder\Cache
+<br><div style="color:red">切记，一定要在上面路径下先创建一个叫做winCodeSign的路径，然后将winCodeSign-2.4.0解压到winCodeSign路径。其他的包也是如此</div>
+<img src="/img/electron-builder-path.png" alt="解压对应包路径图" /></p>
 
     </div>
 
