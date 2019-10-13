@@ -6,8 +6,90 @@
     <description>Recent content in 呼啦呼啦的根号二 on 呼啦呼啦的根号二</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
-    <lastBuildDate>Sat, 08 Jun 2019 09:42:17 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 Oct 2019 15:43:28 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>前端常用知识点复习</title>
+      <link>https://kangzhiqing.com/study/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%8D%E4%B9%A0/</link>
+      <pubDate>Sat, 12 Oct 2019 15:43:28 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/study/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%8D%E4%B9%A0/</guid>
+      <description>
+
+&lt;h2 id=&#34;html&#34;&gt;HTML&lt;/h2&gt;
+
+&lt;h4 id=&#34;html5特性&#34;&gt;html5特性&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;增加了canvus画布&lt;/li&gt;
+&lt;li&gt;增加了用于视频播放的video和音频的audio，可以直接在页面播放视频和音频而不需要任何的插件&lt;/li&gt;
+&lt;li&gt;增加了许多语义化的标签，header、article、footer等等&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;增加了用于本地离线存储的localStorage和sessionStorage&lt;/p&gt;
+
+&lt;h2 id=&#34;css&#34;&gt;CSS&lt;/h2&gt;
+
+&lt;h4 id=&#34;盒模型&#34;&gt;盒模型&lt;/h4&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;标准盒模型(content-box):height = content&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;IE合模型(border-box):height = content +  padding + border&lt;/p&gt;
+
+&lt;h4 id=&#34;水平居中和垂直居中一些方式&#34;&gt;水平居中和垂直居中一些方式&lt;/h4&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(水平)行内元素：text-align：center;line-height:父元素高度&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(水平)块级元素：margin：0 auto;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(垂直)：display:table-cell;vertical-align:middle;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(水平垂直)已知高度：position:absolute;left:50%;top:50%;margin-left:自身宽度的一半;margin-top:-50%;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(水平垂直)未知高度：position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(水平垂直)未知高度position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(水平垂直)未知高度display:flex;justify:center(水平居中);align-items:center;(垂直居中)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;什么是bfc-怎么理解&#34;&gt;什么是BFC？怎么理解&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BFC(Block Formatting Context):块级格式上下文；它规定块级元素内部如何布局&lt;/li&gt;
+&lt;li&gt;内部定位方案：
+
+&lt;ul&gt;
+&lt;li&gt;内部的盒子按垂直方向一个接一个&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;js&#34;&gt;JS&lt;/h2&gt;
+
+&lt;h2 id=&#34;vue&#34;&gt;VUE&lt;/h2&gt;
+
+&lt;h2 id=&#34;网络&#34;&gt;网络&lt;/h2&gt;
+
+&lt;h4 id=&#34;tcp和udp的区别和优缺点&#34;&gt;TCP和UDP的区别和优缺点&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TCP和UPD都是传输层的TCP/IP网络协议的，作用都是用来传输和接受数据&lt;/li&gt;
+&lt;li&gt;TCP面向连接的，通讯之前必须保证双方连接上，三次握手。UDP面向无连接的，通讯之前不需要连接&lt;/li&gt;
+&lt;li&gt;TCP能保证数据可靠和顺序性。UDP则不能保证，传输过程会出现丢包现象&lt;/li&gt;
+&lt;li&gt;TCP复杂些，报文字节数多。UPD简单快速，报文字节少&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;浏览器&#34;&gt;浏览器&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Chrome：webkit/blink&lt;/li&gt;
+&lt;li&gt;Safari: webkit&lt;/li&gt;
+&lt;li&gt;IE：Trident&lt;/li&gt;
+&lt;li&gt;FireFox：Gecko&lt;/li&gt;
+&lt;li&gt;Opera：Presto&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Lemon</title>
@@ -385,63 +467,6 @@
   })
 }
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>JS</title>
-      <link>https://kangzhiqing.com/post/js/</link>
-      <pubDate>Sat, 27 Apr 2019 09:14:09 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/js/</guid>
-      <description>
-
-&lt;h3 id=&#34;console&#34;&gt;Console&lt;/h3&gt;
-
-&lt;p&gt;console.time和console.timeEnd统计一段代码运行时间&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;console.time(&#39;total time&#39;);
-for(let i = 0;i&amp;lt;1000;i++){};
-console.timeEnd(&#39;total time&#39;)
-// total time: 0.072ms
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>HTML5</title>
-      <link>https://kangzhiqing.com/post/html5/</link>
-      <pubDate>Fri, 12 Apr 2019 09:43:04 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/html5/</guid>
-      <description>
-
-&lt;h3 id=&#34;object&#34;&gt;object&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;object&amp;gt;
-&amp;lt;!--装载非HTML内容的容器--&amp;gt;
-&amp;lt;/object&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>安利</title>
-      <link>https://kangzhiqing.com/post/recommend/</link>
-      <pubDate>Thu, 11 Apr 2019 17:06:48 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/recommend/</guid>
-      <description>
-
-&lt;h3 id=&#34;动画库&#34;&gt;动画库&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://greensock.com/tweenlite&#34; target=&#34;_blank&#34;&gt;TweenLite&lt;/a&gt;：轻量级别的缓动库
-
-&lt;ul&gt;
-&lt;li&gt;GreenLock&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -1255,6 +1280,681 @@ console.log(remainName); // {name3:&amp;quot;wq&amp;quot;, name4:&amp;quot;xx&am
 &lt;div style=&#34;text-indent:2em&#34;&gt;
 再见，2018。你好，2019，加油~
 &lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>数据结构</title>
+      <link>https://kangzhiqing.com/post/datastructure/</link>
+      <pubDate>Wed, 26 Dec 2018 09:20:11 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/datastructure/</guid>
+      <description>
+
+&lt;p&gt;感谢邱老师这一个学期的数据结构课的教导，让我了解到什么是数据结构和其重要性，以及相关的算法和实现。
+&lt;br&gt;这是一篇关于数据结构的复习。&lt;/p&gt;
+
+&lt;h3 id=&#34;基本概念&#34;&gt;基本概念&lt;/h3&gt;
+
+&lt;p&gt;1.程序 = 算法 + 数据结构 &amp;emsp; &amp;mdash;&amp;mdash; Nicklaus Wirth
+&lt;br&gt;一个程序就是通过具体的某种计算机语言将算法进行实现&lt;/p&gt;
+
+&lt;p&gt;2.数据结构：相互之间存在一种或多种特定关系的数据元素的集合
+具体什么是数据结构，包含下面三个部分=&amp;gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;逻辑关系：线性关系、非线性关系&lt;/li&gt;
+&lt;li&gt;存储方式：顺序存储、链接存储、散列存储
+&lt;br&gt;（存储存的除了要存数据，还要存它们之间的关系，这一点是邱老师在刚上数据结构讲这些基本概念的时候特别强调的，我印象挺深的）&lt;/li&gt;
+&lt;li&gt;运算集合：查找和排序（插入=&amp;gt;直接法，二分法、交换=&amp;gt;冒泡排序，快速排序、选择=&amp;gt;堆排序）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3.算法：对特定问题求解步骤的一种描述。
+  &lt;br&gt;一个算法还具有下列 5 个重要特性&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;有穷性&amp;emsp;一个算法必须在执行有穷步之后结束，但一个程序则可以无穷，比如说无限死循环&lt;/li&gt;
+&lt;li&gt;确定性&amp;emsp;算法的每一条指令必须有确切的含义&lt;/li&gt;
+&lt;li&gt;可行性&amp;emsp;一个算法是能行的&lt;/li&gt;
+&lt;li&gt;输入&amp;emsp;一个算法有零个或多个输入&lt;/li&gt;
+&lt;li&gt;输出&amp;emsp;一个算法有一个或多个输出&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;一个好的算法需要达到的目标&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;正确性&lt;/li&gt;
+&lt;li&gt;可读性&lt;/li&gt;
+&lt;li&gt;健壮性&amp;emsp;当输入数据非法时，算法也能做出反应或进行处理，即要可以处理一些特殊和极端情况&lt;/li&gt;
+&lt;li&gt;效率和低存储量需求&amp;emsp;时间复杂度低，算法执行时间短。满足需求的同时尽可能使用低的存储量消耗&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4.时间复杂度：&amp;nbsp;算法中基本操作重复执行的次数是问题规模 n 的某个函数 f(n)，即
+  T(n) = O(f(n))
+  &lt;br&gt;5.空间复杂度：&amp;nbsp;算法所需存储空间的量度，即 S(n)=O(f(n))&lt;/p&gt;
+
+&lt;h3 id=&#34;线性表&#34;&gt;线性表&lt;/h3&gt;
+
+&lt;p&gt;1.逻辑关系：线性关系/结构&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;存在唯一一个被称作&amp;rdquo;第一个&amp;rdquo;的数据元素&lt;/li&gt;
+&lt;li&gt;存在唯一一个被称作&amp;rdquo;最后一个&amp;rdquo;的数据元素&lt;/li&gt;
+&lt;li&gt;除第一个之外，集合中每个数据元素均只有一个前驱&lt;/li&gt;
+&lt;li&gt;除最后一个之外，集合中每个数据元素均只有一个后继&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;总的来说就是只有第一个元素有直接后继，没有前驱，只有最后一个元素有直接前驱，没有后继，在这两个元素之间的元素既有一个直接前驱也有一个直接后继&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;2.存储方式和运算
+&lt;br&gt;（1）顺序存储：用一组地址连续的存储单元依此存储线性表中的数据元素&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 在JavaScript中，数组就是一种隐式的存储关系
+
+// 初始化数组
+function listInit() {
+  return new Array();
+}
+
+// 插入=&amp;gt;第i-1个位置和第i个位置之间插入元素,i从1开始
+function listInsert(list, i, data) {
+  let len = list.length;
+  if (i &amp;lt; 1 || i &amp;gt;= len + 1) {
+    throw new Error(&amp;quot;i的位置有误&amp;quot;);
+  }
+  for (let j = len - 1; j &amp;gt;= i - 1; j--) {
+    list[j + 1] = list[j];
+  }
+  list[i - 1] = data;
+}
+
+// 删除=&amp;gt;删除第i个位置的元素
+function listDelete(list, i) {
+  let len = list.length;
+  if (i &amp;lt; 1 || i &amp;gt; len) {
+    throw new Error(&amp;quot;i的位置有误&amp;quot;);
+  }
+  for (let j = i - 1; j &amp;lt;= len - 1; j++) {
+    list[j] = list[j + 1];
+  }
+  // 切记不能用len--，因为是原始值，len改变并不会改变list.length
+  list.length--;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;（2）链式存储：用一组任意的存储单元存储线性表的数据元素（这组存储单元可以是连续的，也可以是不连续的）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;一个结点包含两个域，一个是数据域，一个是指针域，此链表的每个结点中只包含一个指针域，故又称为线性链表或单链表&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 单链表
+function LinkListNode(data) {
+  this.data = data;
+  this.next = null;
+}
+
+var headNode = new LinkListNode(null);
+var len = 0;
+// 获取第i个元素
+function getElem(i) {
+  var p = headNode.next;
+  var j = 1;
+  while (p &amp;amp;&amp;amp; j &amp;lt; i) {
+    p = p.next;
+    j++;
+  }
+  return p ? p.data : null;
+}
+
+// 插入，在第i个位置之前插入元素e
+function linkListInsert(LinkListNode, i, e) {
+  let newNode = new LinkListNode(e);
+  var j = 1;
+  p = headNode;
+  if (i &amp;lt; 1 || i &amp;gt; len + 1) {
+    return new Error(&amp;quot;i的范围有误&amp;quot;);
+  }
+  while (j &amp;lt;= i - 1 &amp;amp;&amp;amp; p.next) {
+    p = p.next;
+    j++;
+  }
+  newNode.next = p.next;
+  p.next = newNode;
+  len++;
+}
+// 删除，删除第i个位置的结点
+function linkListDelete(i) {
+  var j = 1;
+  pre = headNode;
+  p = pre.next;
+  while (j &amp;lt; i &amp;amp;&amp;amp; p.next) {
+    pre = p;
+    p = pre.next;
+    j++;
+  }
+  if (j == i) {
+    return new Error(&amp;quot;超出链表范围&amp;quot;);
+  }
+  pre.next = p.next;
+  len--;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;双向链表：结点有两个指针域，其一指向直接后继，另一指向直接前驱&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 双链表
+function DuListNode(data, prior, next) {
+  this.data = data || null;
+  this.prior = prior || null;
+  this.next = next || null;
+}
+var headNode = new DuListNode();
+
+// 获取第i个位置的结点（i从1开始）
+function getDuList(i) {
+  var p = headNode;
+  var j = 1;
+  while (j &amp;lt;= i &amp;amp;&amp;amp; p.next) {
+    p = p.next;
+    j++;
+  }
+  return p.data ? p.data : null;
+}
+
+// 获取表长
+function getDuListLen() {
+  var j = 0;
+  var p = headNode;
+  while (p.next) {
+    p = p.next;
+    j++;
+  }
+  return j;
+}
+
+// 在带头结点的双链表的第i个位置之前插入元素e
+function insertDuList(i, e) {
+  if (i &amp;lt; 1 || i &amp;gt; getDuListLen() + 1) {
+    return new Error(
+      &amp;quot;i的范围应该不小于1且不大于表长加1,即len&amp;gt;=1 &amp;amp;&amp;amp; len&amp;lt;=&amp;quot; +
+        (getDuListLen() + 1)
+    );
+  }
+  var j = 1;
+  var p = headNode;
+  var newNode = new DuListNode(e);
+  while (p.next &amp;amp;&amp;amp; j &amp;lt; i) {
+    p = p.next;
+    j++;
+  }
+  if (p.next) {
+    newNode.next = p.next;
+    p.next.prior = newNode;
+    p.next = newNode;
+    newNode.prior = p;
+  } else {
+    p.next = newNode;
+    newNode.prior = p;
+  }
+}
+
+// 删除第i个位置的结点
+function delDuListNode(i) {
+  var j = 1;
+  var p = headNode;
+  if (getDuList(i) !== null) {
+    while (j &amp;lt;= i) {
+      p = p.next;
+      j++;
+    }
+  } else {
+    return new Error(&amp;quot;不存在第&amp;quot; + i + &amp;quot;个结点&amp;quot;);
+  }
+  p.prior.next = p.next;
+}
+
+// 打印每个结点(包含头结点)
+function printDuList() {
+  p = headNode;
+  while (p || (p &amp;amp;&amp;amp; !p.prior &amp;amp;&amp;amp; !p.next)) {
+    console.log(p);
+    p = p.next;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;循环链表：表中最后一个结点的指针域指向头结点，整个链表形成一个环，从表中任一结点出发均可找到表中其他结点
+&lt;br&gt;其操作和单链表和双链表的操作差不多，只不过算法的循环条件变成了 p.next 是否为头指针或者 p 是否为头指针&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;栈和队列&#34;&gt;栈和队列&lt;/h3&gt;
+
+&lt;h4 id=&#34;栈&#34;&gt;栈&lt;/h4&gt;
+
+&lt;p&gt;1.&amp;nbsp;逻辑结构：运算受限的线性表（限定仅在表尾进行插入或删除操作的线性表）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;FILO（First In Last Out）先进后出&lt;/li&gt;
+&lt;li&gt;LIFO（Last In First Out）后进先出&lt;/li&gt;
+&lt;li&gt;栈顶：表尾端&lt;/li&gt;
+&lt;li&gt;栈底：表头端&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2.&amp;nbsp;存储和运算:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;顺序栈&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 栈
+function Stack() {
+  // 数据
+  this.data = [];
+  // 栈顶
+  this.top = 0;
+  // 栈底
+  this.base = 0;
+  // 入栈
+  this.entryStack = entryStack;
+  // 出栈
+  this.exitStack = exitStack;
+  // 返回栈顶元素
+  this.getTop = getTop;
+  // 长度
+  this.length = getLength;
+}
+
+function entryStack(e) {
+  this.data[this.top++] = e;
+}
+
+function exitStack() {
+  return this.data[--this.top];
+}
+
+function getTop() {
+  return this.data[top - 1];
+}
+
+function getLength() {
+  return this.top - this.base;
+}
+
+// 利用栈进行数制转换
+var s = new Stack();
+var n = prompt(&amp;quot;请输入数字&amp;quot;);
+var d = prompt(&amp;quot;请输入要转换的进制&amp;quot;);
+console.log(n, d);
+while (n) {
+  s.entryStack(n % d);
+  n = parseInt(n / d);
+}
+while (s.length()) {
+  console.log(s.exitStack());
+}
+
+// 利用栈计算一个数的阶乘
+var s = new Stack();
+var n = prompt(&amp;quot;请输入你要计算的数：&amp;quot;);
+var result = 1;
+while (n &amp;gt; 1) {
+  s.entryStack(n--);
+}
+while (s.length()) {
+  result *= s.exitStack();
+}
+console.log(result);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;链栈&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;栈的链式表示
+&lt;img src=&#34;https://kangzhiqing.com/linkStack.png&#34; style=&#34;height:60%&#34;&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;队列&#34;&gt;队列&lt;/h4&gt;
+
+&lt;p&gt;1.逻辑结构&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;FIFO（first in first out）&lt;/li&gt;
+&lt;li&gt;LILO（last in last out）&lt;/li&gt;
+&lt;li&gt;一端进行插入，另一端删除元素&lt;/li&gt;
+&lt;li&gt;允许插入的一端叫做队尾（rear）&lt;/li&gt;
+&lt;li&gt;允许删除的一端叫做队头 （front）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2.存储和运算&lt;/p&gt;
+
+&lt;p&gt;（1） 顺序存储&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 队列
+function Queue() {
+  // 数据
+  this.data = [];
+  // 队头
+  this.front = 0;
+  // 队尾
+  this.rear = 0;
+  // 获取队头
+  this.getFront = getFront;
+  // 获取队尾元素
+  this.getRear = getRear;
+  // 入队
+  this.entryQueue = entryQueue;
+  // 出队
+  this.exitQueue = exitQueue;
+  // 获取队列长度
+  this.length = getLength;
+  // 队列是否为空
+  this.isQueueEmpty = isQueueEmpty;
+}
+
+function getFront() {
+  return this.data[this.front];
+}
+
+function getRear() {
+  return this.data[this.rear - 1];
+}
+
+function entryQueue(e) {
+  this.data[this.rear++] = e;
+}
+
+function exitQueue() {
+  return this.data[this.front++];
+}
+
+function getLength() {
+  return this.rear - this.front;
+}
+
+function isQueueEmpty() {
+  return this.front == this.rear ? true : false;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;（2） 链式存储&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 单链队列（不引入头结点）
+function linkQueue() {
+  this.front = null;
+  this.rear = null;
+  this.length = 0;
+}
+
+linkQueue.prototype.qNode = function(e) {
+  this.data = e;
+  this.next = null;
+};
+
+// 判断队是否为空
+linkQueue.prototype.isQueueEmpty = function() {
+  return this.front == this.rear &amp;amp;&amp;amp; this.front == null ? true : false;
+};
+
+// 入队
+linkQueue.prototype.entryQueue = function(e) {
+  var newNode = new this.qNode(e);
+  if (this.length == 0) {
+    this.front = this.rear = newNode;
+  } else {
+    this.rear.next = newNode;
+    this.rear = newNode;
+  }
+  this.length++;
+  return true;
+};
+
+// 出队
+linkQueue.prototype.exitQueue = function() {
+  if (!this.isQueueEmpty()) {
+    var p = this.front;
+    this.front = this.front.next;
+    // 当队列最后一个元素出队后，队列的尾指针也丢失，则需要从新复制
+    if (this.rear == p) {
+      this.rear = this.front;
+    }
+    this.length--;
+    return p;
+  } else {
+    return new Error(&amp;quot;当前队列为空&amp;quot;);
+  }
+};
+
+// 打印当前队列
+linkQueue.prototype.printQueue = function() {
+  var str = &amp;quot;&amp;quot;;
+  var p = this.front;
+  while (p) {
+    str += p.data + &amp;quot; &amp;quot;;
+    p = p.next;
+  }
+  console.log(&amp;quot;当前队列为：&amp;quot; + str);
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;（3）循环存储
+设顺序存储队列用一维数组 q[m]表示，其中 m 为队列中元素个数，队列中元素在向量中的下标从 0 到 m-1。
+&lt;br&gt;
+在出队的时候，front 头指针向右移动，如果队尾指针指向 m-1，队列中仍有空闲单元，所以队列不是真的满了，
+这时候入队操作，就会出现假溢现象。为了避免多余的空闲单元浪费（假溢出现），则引入循环队列，仅仅用 front==rear 无法判断队列空间是空还是满，有两种处理方法，一种是另外设置一个标志位来区别队空和队满的区别，另一种是少用一个元素空间，约定以“头指针在队尾指针的下一位置上”作为队列呈“满”状态的标志，这里是第二种&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 循环队列
+function CQueue(maxLength) {
+  this.maxLength = maxLength;
+  this.data = new Array(maxLength);
+  // 初始化的时候头指针和尾指针都为0，每入队，rear指针加一，指向下一个位置
+  this.front = 0;
+  this.rear = 0;
+  this.length = 0;
+
+  // 获取队列长度
+  this.getLength = function() {
+    return (this.rear - this.front + this.maxLength) % this.maxLength;
+  };
+
+  // 入队
+  this.entryQueue = function(e) {
+    if ((this.rear + 1) % this.maxLength == this.front) {
+      return new Error(&amp;quot;队列已满&amp;quot;);
+    }
+    this.data[this.rear] = e;
+    this.rear = (this.rear + 1) % this.maxLength;
+    this.length++;
+  };
+
+  // 出队
+  this.exitQueue = function() {
+    if (this.front == this.rear) {
+      return new Error(&amp;quot;队列为空&amp;quot;);
+    }
+    var p = this.data[this.front];
+    this.front = (this.front + 1) % this.maxLength;
+    return p;
+  };
+
+  // 打印当前队列元素
+  this.printQueue = function() {
+    var str = &amp;quot;&amp;quot;;
+    var p = this.front;
+    while (p % this.maxLength &amp;lt; this.rear) {
+      str += this.data[p] + &amp;quot; &amp;quot;;
+      p = (p + 1) % this.maxLength;
+    }
+    console.log(str);
+  };
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;树和二叉树&#34;&gt;树和二叉树&lt;/h3&gt;
+
+&lt;p&gt;1.逻辑结构：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;树：n（n &amp;gt; 0）个节点的有限集&lt;/li&gt;
+&lt;li&gt;二叉数：每个结点的度最多为二（最多有两个子树）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2.存储和运算（二叉树）&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;顺序存储：用一组地址连续的存储单元依次自上而下，自左向右存储完全二叉数的结点元素，以‘0’表示不存在此结点。&lt;/li&gt;
+&lt;li&gt;链式存储&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// 创建二叉树（这里实现二叉排序树）
+// 二叉排序树（Binary Sort Tree）BST：左子树上结点的值小于ta的根结点的值，而右子树上结点的值大于ta的根结点的值，没有键值相等的节点
+function BinaryTree() {
+  // 根节点
+  this.root = null;
+
+  // 节点
+  this.Node = function(data) {
+    this.data = data;
+    // 左指针
+    this.left = null;
+    // 右指针
+    this.right = null;
+  };
+
+  // 插入
+  this.insert = function(data) {
+    let newNode = new this.Node(data);
+    if (this.root === null) {
+      this.root = newNode;
+    } else {
+      this.insertNode(this.root, newNode);
+    }
+  };
+  this.insertNode = function(root, newNode) {
+    if (newNode.data &amp;lt; root.data) {
+      if (root.left === null) {
+        root.left = newNode;
+      } else {
+        this.insertNode(root.left, newNode);
+      }
+    } else {
+      if (root.right === null) {
+        root.right = newNode;
+      } else {
+        this.insertNode(root.right, newNode);
+      }
+    }
+  };
+
+  // 先序遍历
+  this.preOrderTraversal = function(callback) {
+    this.preOrderTraversalNode(this.root, callback);
+  };
+  this.preOrderTraversalNode = function(node, callback) {
+    if (node !== null) {
+      callback(node.data);
+      this.preOrderTraversalNode(node.left, callback);
+      this.preOrderTraversalNode(node.right, callback);
+    }
+  };
+
+  // 中序遍历（中序遍历二叉排序树得到的就是按从小到大的顺序访问所有节点）
+  this.inOrderTraversal = function(callback) {
+    this.inOrderTraversalNode(this.root, callback);
+  };
+  this.inOrderTraversalNode = function(node, callback) {
+    if (node !== null) {
+      this.inOrderTraversalNode(node.left, callback);
+      callback(node.data);
+      this.inOrderTraversalNode(node.right, callback);
+    }
+  };
+
+  // 后序遍历
+  this.postOrderTraversal = function(callback) {
+    this.postOrderTraversalNode(this.root, callback);
+  };
+  this.postOrderTraversalNode = function(node, callback) {
+    if (node !== null) {
+      this.postOrderTraversalNode(node.left, callback);
+      this.postOrderTraversalNode(node.right, callback);
+      callback(node.data);
+    }
+  };
+  this.printNode = function(value) {
+    console.log(value);
+  };
+
+  // 获取BST中的最小值
+  this.minData = function(){
+    let p = this.root;
+    while(p &amp;amp;&amp;amp; p.left){
+      p = p.left;
+    }
+    return p.data;
+  }
+
+  // 获取BST中的最大值
+  this.maxData = function(){
+    let p = this.root;
+    while(p &amp;amp;&amp;amp; p.right){
+      p = p.right;
+    }
+    return p.data;
+  }
+
+  // 查询一个节点
+  this.findNode = function(key,node=this.root){
+    if(node !== null){
+      if(key &amp;lt; node.key){
+        this.findNode(key,node.left);
+      }else if(key &amp;gt; node.key){
+        this.findNode(key, node.right);
+      }else{
+        return node;
+      }
+    }else{
+      return null;
+    }
+  }
+  // 移除一个节点
+  this.removeNode = function(key){
+    let p = root;
+    while(p.data)
+    if(node==null){
+      return null;
+    }
+
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;3.二叉树的性质&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在二叉数的第 i 层上至多有 2^(i-1)个结点（i&amp;gt;=1）&lt;/li&gt;
+&lt;li&gt;深度（树中结点 最大的层次）为 k 的二叉树至多有 2^k-1 个结点
+&lt;br&gt;2^0+2^1+&amp;hellip;+2^k-1 = 2^0(1-2^k)/1-2 = 2^k - 1&lt;/li&gt;
+&lt;li&gt;对任何一颗二叉数 T，如果度为 0 的结点树为 n0，度为 2 的结点数为 n2，则 n2 = n0 + 1&lt;/li&gt;
+&lt;li&gt;满二叉树：一颗深度为 k 且有 2^k-1 个结点的二叉数称为满二叉树&lt;/li&gt;
+&lt;li&gt;完全二叉树：深度为 k，有 n 个结点的二叉树，当且仅当其每一个结点都与深度为 k 的满二叉树中编号从 1 至 n 的结点一一对应&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>林语堂《苏东坡传》读后感</title>
+      <link>https://kangzhiqing.com/life/dongpo/</link>
+      <pubDate>Fri, 14 Dec 2018 09:46:57 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/life/dongpo/</guid>
+      <description>&lt;div style=&#34;text-indent:2rem&#34;&gt;和林语堂先生在《苏东坡传》开篇写的那样，我写这篇读后感并没有什么特别的理由，只是以此为乐而已，且此篇读后感和以往写的不同，算是一篇读书笔记吧，边读边写，有所感悟便写下来。也是希望自己能在这个忙碌和大多数事情追求快的时代偶尔能够慢下来~&lt;/div&gt;
+&lt;div style=&#34;text-indent:2rem&#34;&gt;故乡飘已远，往意浩无边。这句诗描绘的东坡二十左右一家进京任职的时候他的心境，故乡虽已远去，但去意浩瀚无边，此时的他满腹才华、自信以及对于仕途的向往和憧憬。在二十岁出头这个年纪，东坡可以说是文名日胜。&lt;/div&gt;
+&lt;div style=&#34;text-indent:2rem&#34;&gt;在描写苏夫人警惕东坡要提防那些过于坦白直率的泛泛之交，提放丈夫认为“天下无坏人”的大前提之下所照顾的那些朋友。林语堂先生觉得苏夫人的智慧是自“君子之交淡如水”得来的，水没有刺激的味道，但是人永远不会对之生厌。真诚的友谊永远不会特别表白的，真正的好朋友彼此不必通信，因为既是对彼此的友情信而不疑，谁也不需要写什么。一年分别后，再度相遇，友情如故。我觉得很多我和我高中的两个朋友之间就是如此，高中之后，大家各自分别，去了不同的学校上学，虽然在学校这些时间我们之间聊的天不多，但每每寒暑假回家，我们都会有聚一聚，友情如故，大家一起聊聊大学的一些事和感受,我觉得这样挺好的。&lt;/div&gt;
+&lt;div style=&#34;text-indent:2rem&#34;&gt;讲真，王安石变法那一段关于政治和经济局势的部分，看不太懂....&lt;/div&gt;
 </description>
     </item>
     

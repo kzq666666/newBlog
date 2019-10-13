@@ -6,10 +6,19 @@
     <description>Recent content in Study on 呼啦呼啦的根号二</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
-    <lastBuildDate>Sat, 19 Jan 2019 16:56:01 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 Oct 2019 15:43:28 +0800</lastBuildDate>
     
 	<atom:link href="https://kangzhiqing.com/study/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>前端常用知识点复习</title>
+      <link>https://kangzhiqing.com/study/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%8D%E4%B9%A0/</link>
+      <pubDate>Sat, 12 Oct 2019 15:43:28 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/study/%E5%89%8D%E7%AB%AF%E5%B8%B8%E7%94%A8%E7%9F%A5%E8%AF%86%E7%82%B9%E5%A4%8D%E4%B9%A0/</guid>
+      <description>HTML html5特性 增加了canvus画布 增加了用于视频播放的video和音频的audio，可以直接在页面播放视频和音频而不需要任何的插件 增加了</description>
+    </item>
     
     <item>
       <title>寒假计划</title>
