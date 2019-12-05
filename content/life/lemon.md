@@ -48,7 +48,7 @@ tags = []
 在黑暗中追寻着你的身影
 ##### その <ruby>轮郭   <rt style="font-size:0.8rem;">りんかく</rt></ruby>を <ruby>鲜明   <rt style="font-size:0.8rem;">せんめい</rt></ruby>に <ruby>覚   <rt style="font-size:0.8rem;">おぼ</rt></ruby>えている
 那轮廓至今仍鲜明地刻印于心
-#####  <ruby>受   <rt style="font-size:0.8rem;">う</rt></ruby>け <ruby>止   <rt style="font-size:0.8rem;">と</rt></ruby>めきれないものと出 <ruby>会   <rt style="font-size:0.8rem;">であ</rt></ruby>うたび
+#####  <ruby>受   <rt style="font-size:0.8rem;">う</rt></ruby>け <ruby>止   <rt style="font-size:0.8rem;">と</rt></ruby>めきれないものと <ruby>出会   <rt style="font-size:0.8rem;">であ</rt></ruby>うたび
 每当遇到无法承受的苦痛时
 #####  <ruby>溢   <rt style="font-size:0.8rem;">あふ</rt></ruby>れてやまないのは<ruby>涙   <rt style="font-size:0.8rem;">なみだ</rt></ruby>だけ
 总不禁泪如泉涌
@@ -66,7 +66,7 @@ tags = []
 终日过着以泪洗面的寂寞生活的话
 ##### わたしのことなどどうか  <ruby>忘   <rt style="font-size:0.8rem;">わす</rt></ruby>れてください
 就请你将我的一切全部遗忘吧
-##### そんなことを <ruby>心   <rt style="font-size:0.8rem;">こころ</rt></ruby>から <ruby>愿   <rt style="font-size:0.8rem;">ねが</rt></ruby>うほどに
+##### そんなことを <ruby>心   <rt style="font-size:0.8rem;">こころ</rt></ruby>から <ruby>願   <rt style="font-size:0.8rem;">ねが</rt></ruby>うほどに
 这是我发自内深处唯一的祈愿
 #####  <ruby>今   <rt style="font-size:0.8rem;">いま</rt></ruby>&emsp;でも&emsp;あなたは&emsp;わたしの <ruby>光   <rt style="font-size:0.8rem;">ひかり</rt></ruby>
 时至今日 你仍是我的光芒

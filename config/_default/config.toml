@@ -15,7 +15,7 @@ baseurl = "https://kangzhiqing.com"
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`.
 # 网页最下方的版权
-copyright = ""
+copyright = "Copyright ©2019 <a href=\"http://www.beian.miit.gov.cn\">赣ICP备18016687号</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>"
 
 # Enable analytics by entering your Google Analytics tracking ID
 # 谷歌分析ID
@@ -70,3 +70,4 @@ preserveTaxonomyNames = true
 
 [permalinks]
   study = '/study/:slug'
+
