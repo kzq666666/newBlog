@@ -1,6 +1,6 @@
 +++
 # Display name
-name = "SquareRootTwo"
+name = "ゆき"
 
 # Is this the primary user of the site?
 superuser = true

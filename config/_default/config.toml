@@ -6,7 +6,7 @@
 
 # Title of your site
 # 网站标题
-title = "呼啦呼啦的根号二"
+title = "左上的猫"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -15,7 +15,7 @@ baseurl = "https://kangzhiqing.com"
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`.
 # 网页最下方的版权
-copyright = "Copyright ©2019 <a href=\"http://www.beian.miit.gov.cn\">赣ICP备18016687号-1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>"
+copyright = "Copyright ©2020 <a href=\"http://www.beian.miit.gov.cn\">赣ICP备18016687号-1</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>"
 
 # Enable analytics by entering your Google Analytics tracking ID
 # 谷歌分析ID
