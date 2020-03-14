@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
     <copyright>Copyright ©2020 &lt;a href=&#34;http://www.beian.miit.gov.cn&#34;&gt;赣ICP备18016687号-1&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;</copyright>
-    <lastBuildDate>Fri, 21 Feb 2020 10:59:35 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2020 15:10:48 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Test</title>
+      <link>https://kangzhiqing.com/post/test/</link>
+      <pubDate>Sat, 14 Mar 2020 15:10:48 +0800</pubDate>
+      
+      <guid>https://kangzhiqing.com/post/test/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>暨南大学攻坚战</title>
@@ -18,19 +27,74 @@
       <guid>https://kangzhiqing.com/study/%E6%9A%A8%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%94%BB%E5%9D%9A%E6%88%98/</guid>
       <description>
 
-&lt;h3 id=&#34;初试成绩分析&#34;&gt;初试成绩分析&lt;/h3&gt;
+&lt;h2 id=&#34;初试成绩分析&#34;&gt;初试成绩分析&lt;/h2&gt;
 
 &lt;p&gt;政治70，英语73，数学92，专业课117
 &lt;br&gt;总分352 &amp;nbsp;排名80/90
 &lt;br&gt;不清楚招90个有多少推免，复试还是先准备起来。搜集相关的信息，做好准备&lt;/p&gt;
 
-&lt;h3 id=&#34;复试科目&#34;&gt;复试科目&lt;/h3&gt;
+&lt;h2 id=&#34;复试&#34;&gt;复试&lt;/h2&gt;
 
-&lt;h4 id=&#34;c语言程序设计&#34;&gt;C语言程序设计&lt;/h4&gt;
+&lt;h3 id=&#34;英语面试&#34;&gt;英语面试&lt;/h3&gt;
 
-&lt;p&gt;C语言我自己就不太会，最近开始要开始刷题了，把C语言熟悉熟悉，练起来.
-- 下载Dev-C++。听说机考的编辑器是这个，先下载熟悉下
-- 购买王道的机考&lt;/p&gt;
+&lt;h4 id=&#34;自我介绍&#34;&gt;自我介绍&lt;/h4&gt;
+
+&lt;p&gt;&lt;br&gt;上午好，各位导师，我很荣幸能够在这里参加面试。
+&lt;br&gt;我叫康志清，今年21岁，出生于江西赣州，本科院校是南昌大学生物工程系，在校期间还选修了计算机科学与技术的双学位。大学期间,四年的学习让我更加知道该如何去学习，怎样去学习，我的学习能力也得到了提高，特别是自学能力，我经常会去图书馆找一些技术的书学习，比如计算机语言、算法之类的书籍。
+&lt;br&gt;我是一个乐观向上活泼的人，对于未知的技术充满着好奇，这让我更加有动力去学习。在我业余时间，我喜欢看看动漫，尤其是日本动漫，因此我一直都在学习日语。我经常听歌和游泳来放松自己。我喜欢codeing，和室友一起合作写过几个项目，每个人各自负责相应的板块。
+我对计算机专业的相关知识非常感兴趣，特别是web前端方面，但自己的很多知识还有很多欠缺，研究生相对于本科生知识面更广，学术更专业，眼界更广阔，因此想要考研，提高自己的能力和水平。之所以选择暨南大学，一是暨南大学的计算机专业好，二、学术环境和条件好 。希望能够在暨南大学完成自己的学习愿望,在研究生阶段深入学习。
+我的介绍到此结束，谢谢。&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;1、Good Morning,dear professors.It &amp;rsquo;s my honor to be here for this interview.
+&lt;br&gt;2、My name is Kang ZhiQing. I am 21 years old,born in Ganzhou, Jiangxi Province. And my undergraduate college is Nanchang University.My marjor is biological engineering.While I also take a double degree in computer science and technology. During the college, four-years learning taught me  how to learn and how to learn better. My learning ability has  been improved, especially my self-study ability. I often go to the library to find some technical books to learn, such as computer language, algorithm and so on.
+&lt;br&gt;3、I am an optimistic and positive person and curious about the unknown technologies，which makes me more motivated to learn.In my spare time, I like anime , especially Japanese anime, so I have been learning Japanese since last year.Listening to the music and going to the swimming pool are my common ways to relax myself. I love coding. I have worked with my roommates on several projects. Each of us is responsible for different parts.
+&lt;br&gt;4、I am very interested in computer related knowledge, especially in the front-end of web, however I still have a lot of knowleage to learn. Compared with undergraduates, postgraduates have  wider knowledge, more professional academic, broader eyes,  Therefore, I want to take the postgraduate entrance examination to improve my ability and level, and Jinan University&amp;rsquo;s computer major  is good, I really admire the  strong academic environment and conditions. I hope I can fulfill my study wish in Jinan University and  own a further study in the postgraduate stage.
+That is all of my introduction. Thanks for your listening.&lt;/p&gt;
+
+&lt;h4 id=&#34;问题&#34;&gt;问题&lt;/h4&gt;
+
+&lt;h5 id=&#34;1-你的家乡&#34;&gt;1.你的家乡&lt;/h5&gt;
+
+&lt;p&gt;I come from GanZhou,a very beautiful city with  pleasant environment and  climate in jiangxi.  It is a city characterized by many mountains.So,Climbing mountains becomes a daily life of the people in GanZhou.And Ganzhou is famous for Gannan navel orange,which is very sweet and delicious.The house here is very special,such as Hakka Round House,beautiful and impressive.There are many dialects here,and people are very friendly.If you have free time,I am highly recommend you to come to my hometown to enjoy the beautiful scenery and delicious food of Ganzhou.&lt;/p&gt;
+
+&lt;h5 id=&#34;2-你的本科学校&#34;&gt;2.你的本科学校&lt;/h5&gt;
+
+&lt;p&gt;I will graduate from NanChang University of biological engineering,which is  a comprehensive university filled with acacademic atmosphere.Also,it is a good platform to study and make progress.Through the platform,I have learned how to study and how to improve myself.I really appreciate it.During my colleage life,I usually go to the library to find some books to read.There are many different books in the library to meet the needs of teachers and students here.I am very happy to study  and live in such a good learning and academic environment.&lt;/p&gt;
+
+&lt;h5 id=&#34;3-你的本科学校所在的城市-南昌&#34;&gt;3.你的本科学校所在的城市（南昌）&lt;/h5&gt;
+
+&lt;p&gt;Nanchang  is the capital of Jiangxi Province in southeastern China. Nanchang is famous for its scenic lakes, mountains, rich history and cultural sites.NanChang rice noodle is a popular tradition local snack which people often eat at breakfast or dinner.There are many lakes in NanChang.Almostly you can catch the sight of lakes in this city.And NanChang has many places of Interest like Tengwang Pavilion, one of the three famous buildings in the south.If you come to NanChang,you can go to see the historical building.And  I am highly welcome you to NanChang to enjoy the beautifule scenery and delicious food.&lt;/p&gt;
+
+&lt;h5 id=&#34;4-介绍一下你的本科专业-生物工程&#34;&gt;4.介绍一下你的本科专业（生物工程）&lt;/h5&gt;
+
+&lt;p&gt;Biological engineering refers to design and operation of biological organisms at the cell or individual level through certain technical means, in order to achieve the purpose and needs, to improve the quality of species.&lt;/p&gt;
+
+&lt;h5 id=&#34;5-介绍一下你的双学位专业-计算机科学与技术&#34;&gt;5.介绍一下你的双学位专业（计算机科学与技术）&lt;/h5&gt;
+
+&lt;p&gt;I love my profession,espically font-end of web direction.I am very satisfied each time to design a program or website in my style.The number zero and one in computer is so beautiful that I am addicted in it.The profession let me know the world in computer and how to coding.I love it.&lt;/p&gt;
+
+&lt;h5 id=&#34;6-为什么选修计算机双学位-为什么跨考计算机而不是本专业&#34;&gt;6.为什么选修计算机双学位（为什么跨考计算机而不是本专业）&lt;/h5&gt;
+
+&lt;p&gt;在学习生物工程一年之后，我明白这个一个比较注重科学研究，注重实验的学科，我自己感觉自己不太适合做这方面的工作，没有很大的兴趣，而后面偶然机会接触了编程语言，了解了计算机的世界，发现自己对这方面感兴趣，自己慢慢开始喜欢这个学科，它给我带来的成就感很多，有时写出一个程序或者一个算法甚至会开心一整天，因此就转专业了。
+&lt;br&gt;
+After studying biological engineering for a year, I understand that this subject need to pay more attention to scientific research and experimentation, I feel that I am not suitable for this work, and I don&amp;rsquo;t have much interest, and one summer vocation I came across a programming language by chance. I learned about the computer world and found that I was interested in this area. I slowly started to like this subject. It brought me a lot of sense of accomplishment. Sometimes I  finish a program or an algorithm and I will be happy even the all day, so I take my double degree of CS/ I take the CS of postgraduate entrance examination.&lt;/p&gt;
+
+&lt;h5 id=&#34;7-为什么考研&#34;&gt;7.为什么考研&lt;/h5&gt;
+
+&lt;p&gt;I am very interested in computer related knowledge, especially in the front-end of web, however I still have a lot of knowleage to learn. Compared with undergraduates, postgraduates have  wider knowledge, more professional academic, broader eyes,  Therefore, I want to take the postgraduate entrance examination to improve my ability and level&lt;/p&gt;
+
+&lt;h5 id=&#34;8-为什么选择暨南大学&#34;&gt;8.为什么选择暨南大学&lt;/h5&gt;
+
+&lt;p&gt;之所以选择暨南大学，一是暨南大学的计算机专业好，二、学术环境和条件好
+First Jinan University&amp;rsquo;s computer major  is good,and I really admire the strong academic environment and conditions.In my eyes,as one of the most famous university in guangdong province,it will be a good platform for me to study and improve myself.So I choose jinan University.&lt;/p&gt;
+
+&lt;h5 id=&#34;9-评价一下你的性格&#34;&gt;9.评价一下你的性格&lt;/h5&gt;
+
+&lt;p&gt;I am an optimistic and positive person.When I meet some difficulties,I choose to find ways to solve it ranther than giving up. And my learning ability is great.I can learn or accept a new thing quickly.Besides,I am also a persistent boy.I will try my best to deal with the porblem and difficulies.&lt;/p&gt;
+
+&lt;h5 id=&#34;10-英语的重要性&#34;&gt;10.英语的重要性&lt;/h5&gt;
+
+&lt;p&gt;I think English is very important at all times.I have learning English for many years.English,as the most common language in the world,plays a significant part in my daily life.Many documents about a new technology are in English.I am supposed to learn it well to understand the meaning of the docs.So do the books and journals.&lt;/p&gt;
 </description>
     </item>
     
@@ -1249,143 +1313,6 @@ width为设备宽度
 &lt;p&gt;好久没有更新博客了，去年下半年的考研生涯也没记录下来，昨天出成绩了，没想到我这辈子和52这个数字这么有缘分，352，数学只考了92分，也在意料之中，确实是自己的问题，到最后对线代放松警惕了，以为线代稳了，没想到考试的时候，线代一个大题都不会做，gg。现在排名是80，不知道能不能进入复试，现在开始先准备起来，另开一个新博客。
 &lt;br&gt;
 &lt;a href=&#34;../暨南大学攻坚战&#34;&gt;传送门:暨南大学攻坚战&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Webpack</title>
-      <link>https://kangzhiqing.com/post/webpack/</link>
-      <pubDate>Fri, 15 Feb 2019 14:29:05 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/webpack/</guid>
-      <description>
-
-&lt;p&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 600 600&#34; style=&#34;width:2rem;height:2rem&#34;&gt;&lt;path fill=&#34;#FFF&#34; d=&#34;M300 .1L565 150v299.9L300 599.8 35 449.9V150z&#34;/&gt;&lt;path fill=&#34;#8ED6FB&#34; d=&#34;M517.7 439.5L308.8 557.8v-92L439 394.1l78.7 45.4zm14.3-12.9V179.4l-76.4 44.1v159l76.4 44.1zM81.5 439.5l208.9 118.2v-92l-130.2-71.6-78.7 45.4zm-14.3-12.9V179.4l76.4 44.1v159l-76.4 44.1zm8.9-263.2L290.4 42.2v89l-137.3 75.5-1.1.6-75.9-43.9zm446.9 0L308.8 42.2v89L446 206.8l1.1.6 75.9-44z&#34;/&gt;&lt;path fill=&#34;#1C78C0&#34; d=&#34;M290.4 444.8L162 374.1V234.2l128.4 74.1v136.5zm18.4 0l128.4-70.6v-140l-128.4 74.1v136.5zM299.6 303zm-129-85l129-70.9L428.5 218l-128.9 74.4-129-74.4z&#34;/&gt;&lt;/svg&gt;
-&lt;a href=&#34;https://webpack.js.org/&#34; target=&#34;_blank&#34;&gt;官网&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;a href=&#34;https://webpack.js.org/concepts&#34; target=&#34;_blank&#34;&gt;文档&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;entry&#34;&gt;Entry&lt;/h3&gt;
-
-&lt;p&gt;Webpack的入口，通过入口文件，webpack开始搭建内部依赖网&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;// webpack.config.js
-module.exports = {
-  entry: &#39;./path/to/my/entry/file.js&#39;
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;output&#34;&gt;Output&lt;/h3&gt;
-
-&lt;p&gt;输出配置&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.exports = {
-  output: {
-    filename: &#39;bundle.js&#39;,
-  }
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;mode&#34;&gt;Mode&lt;/h3&gt;
-
-&lt;p&gt;主要是两种环境，开发环境（development）和生产环境（production），相应的环境，webpack会做出具体的优化方案。
-&lt;br&gt;（default：production）&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.exports = {
-  mode: &#39;production&#39; // &#39;development&#39;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;loaders-https-webpack-js-org-loaders&#34;&gt;&lt;a href=&#34;https://webpack.js.org/loaders/&#34; target=&#34;_blank&#34;&gt;Loaders&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;加载器，用于加载资源，如scss文件或者将一些拓展语言（TypeScript,Scss）转换成合适的格式。
-&lt;br&gt;webpack内置可以处理的文件类型：&lt;code&gt;JSON&lt;/code&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.exports = {
-  module: {
-    rules: [
-      { test: /\.css$/, use: &#39;css-loader&#39; },
-      { test: /\.ts$/, use: &#39;ts-loader&#39; }
-    ]
-  }
-};
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;css-loader&lt;/code&gt; =&amp;gt; 处理.css文件&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;style-loader&lt;/code&gt; =&amp;gt; 通过&amp;lt;style&amp;gt;标签将css-loader内部样式注入到html中&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Less-loader&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Sass-loader&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;post-css-loader&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;plugins-https-webpack-js-org-plugins&#34;&gt;&lt;a href=&#34;https://webpack.js.org/plugins/&#34; target=&#34;_blank&#34;&gt;Plugins&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;插件，webpack的支柱，webpack本身就是建立在类似的插件系统上的。
-* banner-pulgin:&lt;/p&gt;
-
-&lt;h3 id=&#34;webpack-dev-server&#34;&gt;Webpack-dev-server&lt;/h3&gt;
-
-&lt;h5 id=&#34;安装依赖&#34;&gt;安装依赖&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-npm&#34;&gt;npm install --save-dev webpack-dev-server
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&#34;配置&#34;&gt;配置&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;module.export = {
-  plugin:[
-    new webpack.HotModuleReplacementPlugin()  // HMR功能插件
-  ]
-  devServe:{
-    contentBase:&#39;./public&#39;, // 本地服务器加载的页面所在目录
-    historyApiFallback:true, // true为不跳转，所有的跳转都会指向index.html
-    inline:true // 为入口页面添加&amp;quot;热加载&amp;quot;功能
-    hot:true // 开启&amp;quot;热替换&amp;quot;（Hot Module Replacement HMR）功能
-  },
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&#34;开启服务&#34;&gt;开启服务&lt;/h5&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;直接在terminal中输入&lt;code&gt;node_modules/.bin/webpack-dev-server&lt;/code&gt;,node_modeules下的.bin目录有许多执行文件可以直接运行&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;在package.json中的script对象中添加&lt;code&gt;&amp;quot;server&amp;quot;:&amp;quot;webpack-dev-server&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br&gt;在terminal中输入&lt;code&gt;npm run server&lt;/code&gt;就可以了~&lt;/p&gt;
-
-&lt;h3 id=&#34;babel&#34;&gt;Babel&lt;/h3&gt;
-
-&lt;p&gt;编译Javascript的工具，使代码变得风骚，使用最新的javascript代码（ES6，ES7）并使用像react的JSX的扩展语言。
-&lt;br&gt;babel核心包 =&amp;gt; &lt;code&gt;babel-core&lt;/code&gt;
-&lt;br&gt;解析ES6的包 =&amp;gt; &lt;code&gt;babel-env-preset&lt;/code&gt;
-&lt;br&gt;解析JSX的包 =&amp;gt; &lt;code&gt;babel-preset-react&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;css模块化&#34;&gt;CSS模块化&lt;/h3&gt;
-
-&lt;p&gt;利用css-loader和style-loader容易使全局样式遭到污染，css模块化通过将css的class名传递到具体的组件中，就可以有效的避免全局样式被污染&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;modules.export = {
-  loader:{
-    rules:[
-      {
-        test:/\.css$/,
-        use:[
-          {
-            loader:&amp;quot;style-loader&amp;quot;
-          },
-          {
-            loader:&amp;quot;css-loader&amp;quot;,
-            options:{
-            modules:true,
-            localIdentName:&#39;[name]__[local]--[hash:base64:5]&#39; // css的类名格式
-          }
-        ]
-      }
-    ]
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
