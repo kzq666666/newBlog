@@ -7,18 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
     <copyright>Copyright ©2020 &lt;a href=&#34;http://www.beian.miit.gov.cn&#34;&gt;赣ICP备18016687号-1&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;</copyright>
-    <lastBuildDate>Sat, 14 Mar 2020 15:10:48 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 23:43:52 +0800</lastBuildDate>
     
 	<atom:link href="https://kangzhiqing.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test</title>
-      <link>https://kangzhiqing.com/post/test/</link>
-      <pubDate>Sat, 14 Mar 2020 15:10:48 +0800</pubDate>
+      <title>Three.js</title>
+      <link>https://kangzhiqing.com/post/threejs/</link>
+      <pubDate>Thu, 16 Apr 2020 23:43:52 +0800</pubDate>
       
-      <guid>https://kangzhiqing.com/post/test/</guid>
-      <description></description>
+      <guid>https://kangzhiqing.com/post/threejs/</guid>
+      <description>1.scene 场景 scene就是一个可以放置物体、灯光的3D空间，和现实中的一个空间相似，可大可小 //创建一个场景 var scene = new THREE.Scene(); 2.camera 相机 camera决定看一个</description>
     </item>
     
     <item>
@@ -181,15 +181,6 @@
       
       <guid>https://kangzhiqing.com/post/command/</guid>
       <description>Linux基本操作 ls -ah 查看所有文件,包括隐藏文件 pwd print working directory 打印当前路径 mv oldname.js newname.js 重命名 cat 查看当前文件 cp: cp &amp;lt;file&amp;gt; &amp;lt;path&amp;gt; 复制file到path路径 cp &amp;lt;file&amp;gt; &amp;lt;copy_name&amp;gt; 复制f</description>
-    </item>
-    
-    <item>
-      <title>Three.js</title>
-      <link>https://kangzhiqing.com/post/threejs/</link>
-      <pubDate>Fri, 16 Nov 2018 23:43:52 +0800</pubDate>
-      
-      <guid>https://kangzhiqing.com/post/threejs/</guid>
-      <description>1.scene 场景 scene就是一个可以放置物体、灯光的3D空间，和现实中的一个空间相似，可大可小 //创建一个场景 var scene = new THREE.Scene(); 2.camera 相机 camera决定看一个</description>
     </item>
     
     <item>

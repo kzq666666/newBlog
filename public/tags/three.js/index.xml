@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-zh</language>
     <copyright>Copyright ©2020 &lt;a href=&#34;http://www.beian.miit.gov.cn&#34;&gt;赣ICP备18016687号-1&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;</copyright>
-    <lastBuildDate>Fri, 16 Nov 2018 23:43:52 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2020 23:43:52 +0800</lastBuildDate>
     
 	<atom:link href="https://kangzhiqing.com/tags/three.js/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Three.js</title>
       <link>https://kangzhiqing.com/post/threejs/</link>
-      <pubDate>Fri, 16 Nov 2018 23:43:52 +0800</pubDate>
+      <pubDate>Thu, 16 Apr 2020 23:43:52 +0800</pubDate>
       
       <guid>https://kangzhiqing.com/post/threejs/</guid>
       <description>1.scene 场景 scene就是一个可以放置物体、灯光的3D空间，和现实中的一个空间相似，可大可小 //创建一个场景 var scene = new THREE.Scene(); 2.camera 相机 camera决定看一个</description>
